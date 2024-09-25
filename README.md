@@ -45,4 +45,5 @@ In case of further queries, post in the Recruitment WhatsApp group or contact:
 * Hariharan [+91 8050030224](https://wa.me/918050030224)
 
 ### Connect
-Make sure to join the chapter [here]() to never miss any updates and event notifications from GDG-On Campus NITK.
+Make sure to join the chapter [here](https://gdg.community.dev/gdg-on-campus-national-institute-of-technology-karnataka-india/
+) to never miss any updates and event notifications from GDG-On Campus NITK.
