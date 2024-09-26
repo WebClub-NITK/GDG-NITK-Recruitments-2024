@@ -11,7 +11,9 @@
 
 | Task                                                        | Difficulty |
 | ----------------------------------------------------------- |------------|
-| [Example](#task-id-example-task)                       | Medium     |
+| [Example Task](#task-id-example-task)            | Medium     |
+| [Emoji Translator](#task-id-emoji-translator)            | Easy     |
+
 
 ## Task ID: Example Task
 
@@ -42,5 +44,36 @@ Follow the steps below to complete this challenge:
 1. Start by focusing on a specific domain or set of tasks for your assistant
 2. Use pre-trained models and APIs to accelerate development
 3. Pay attention to the user experience and make interactions feel natural
+
+
+## Task ID: Emoji Translator
+
+#### `Web Application`
+
+Mentors: [Apoorva Agrawal](https://github.com/imApoorva36) ([+91 8197404580](https://wa.me/8197404580)), [Mardav Gandhi](https://github.com/marcdhi) ([+91 9033398366](https://wa.me/9033398366))
+
+Difficulty: `Easy`
+
+### Description
+
+Develop a fun and interactive app where users input text, and it automatically translates the message into emoji-based sentences. The app will primarily use a predefined dictionary to map words or phrases to corresponding emojis. Users will also have the ability to tweak the emoji translations manually by selecting from a list of alternative emojis.
+
+Follow the steps below to complete this challenge:
+
+1. Develop a simple user interface (UI) that allows users to input text (e.g., a sentence or phrase)
+2. Create a predefined dictionary that maps common words or phrases to emojis
+3. Once the user enters a sentence, break it down into individual words and replace the words that have corresponding emojis with the emojis
+
+### Useful resources:
+
+- [Emojipedia](https://emojipedia.org/)
+- [Unicode Emoji List](https://unicode.org/emoji/charts/emoji-list.html)
+
+### Tips
+
+1. Start by focusing on a basic set of words for translation and expand the emoji dictionary over time.
+2. Make the UI fun and interactive with features like live emoji preview as the user types.
+3. Consider using libraries or frameworks like React, Vue.js, or plain HTML/CSS/JavaScript for building the interface.
+4. Allow flexibility in how emojis are displayed and edited, making the user experience more enjoyable.
 
 <!-- add more here -->
