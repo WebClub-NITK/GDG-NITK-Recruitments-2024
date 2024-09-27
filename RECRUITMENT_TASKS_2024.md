@@ -141,12 +141,14 @@ This isn’t just about building a platform—it’s about creating a future whe
 
 ---
 
-### Optional Feature (Hard Level Task):
+### Optional Feature (implementing this would make this task a hard level task):
 
 **Push Notifications:**  
 Add that extra touch by integrating **Push Protocol** to notify farmers in real-time when their crops are certified. Keep them excited and informed with instant updates!
 
 ---
+**Note**: You can team up with others to complete this task, but remember, the interview will be conducted individually.
+
 
 ### Useful Resources:
 - [Ethereum Smart Contracts Documentation](https://ethereum.org/en/developers/docs/smart-contracts/)
