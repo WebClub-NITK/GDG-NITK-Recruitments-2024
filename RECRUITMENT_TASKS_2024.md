@@ -9,11 +9,11 @@
 
 ### Table of contents
 
-| Task                                                        | Difficulty |
-| ----------------------------------------------------------- |------------|
-| [Example Task](#task-id-example-task)                    | Medium     |
-| [Emojify](#task-id-emojify)                            | Easy/Medium     |
-
+| Task                                                                | Difficulty  |
+| ------------------------------------------------------------------- | ----------- |
+| [Example Task](#task-id-example-task)                               | Medium      |
+| [Emojify](#task-id-emojify)                                         | Easy/Medium |
+| [Web-Based Diagram Generator](#task-id-web-based-diagram-generator) | Medium      |
 
 ## Task ID: Example Task
 
@@ -45,7 +45,6 @@ Follow the steps below to complete this challenge:
 2. Use pre-trained models and APIs to accelerate development
 3. Pay attention to the user experience and make interactions feel natural
 
-
 ## Task ID: Emojify
 
 #### `Web Application`, `Natural Language Processing`
@@ -71,6 +70,7 @@ Follow the steps below to complete this challenge:
 Bonus Feature ( Optional ):
 
 _Implementing the bonus feature will make the task count as `Medium`, otherwise it will be `Easy`_
+
 1. Emoji Sentiment Analysis having an implementation of sentiment analysis using simple NLP models (like VADER or TextBlob) to adjust emoji suggestions based on the emotional tone of the text. This can help ensure the emoji translation better reflects the mood of the original message
 
 ### Expected Input and Output Examples:
@@ -100,4 +100,44 @@ Output: "🐶 😃"
 3. Consider using libraries or frameworks like React, Vue.js, or plain HTML/CSS/JavaScript for building the interface.
 4. Allow flexibility in how emojis are displayed and edited, making the user experience more enjoyable.
 
+## Task ID: Web-Based Diagram Generator
+
+#### `Full-Stack Development`, `Diagram Generation`, `Graphviz`
+
+Mentors: [Shubham Subodh Rasal](https://github.com/Shubham-Rasal) ([+91 7349784770](https://wa.me/917349784770)), [Udit Jain](https://github.com/UditJain2622004) ([+91 8708596606](https://wa.me/918708596606))
+
+Difficulty: `Medium`
+
+### Description
+
+Develop a web application inspired by _Mermaid.js_ that enables users to generate various types of diagrams based on user input. Users can enter data or upload relevant files, and the system will produce the desired diagram. Focus on letting users generate diagrams with minimal input. The application should also provide the option to export the generated diagram in popular formats like PNG and PDF.
+
+#### Popular Diagrams:
+
+- Flowcharts
+- ER Diagrams
+- Class Diagrams
+- Dependency Diagrams (for Node.js and React projects)
+
+#### Steps:
+
+1. **Input Mechanism**: Design a simple input system that is intuitive and allows for diagram creation, whether through form-based inputs or file uploads.
+2. **Diagram Generation**:
+   - Implement support for creating diagram using **Graphviz** or **D3.js**.
+   - For Dependency Diagrams for Node.js/React projects, allow users to upload a zip file of the project. The tool should parse the project’s dependencies and visualize the relationship between files and external packages.
+3. **Export Functionality**: Provide an option for users to export their diagrams in popular formats like PNG or PDF.
+
+### Useful Resources:
+
+- [Graphviz](https://graphviz.org)
+- [D3.js](https://d3js.org/)
+- [Mermaid.js Documentation](https://mermaid.js.org/)
+- [Dependency Graphs in Software Projects](https://docs.npmjs.com/cli/v6/commands/npm-ls)
+
+### Tips
+
+1. Build support for different types of diagrams one by one.
+2. Use project analysis tools like npm, yarn, or Webpack to generate dependency graphs for Node.js and React projects. These tools can help map out the project structure automatically.
+3. Leverage libraries like Graphviz or D3.js for creating clean and user-friendly visualizations. These libraries are flexible and can handle a wide range of diagram types.
+4. Focus on the user experience by ensuring that users can generate diagrams with the least amount of manual effort. Implement features like pre-filled options where possible.
 <!-- add more here -->
