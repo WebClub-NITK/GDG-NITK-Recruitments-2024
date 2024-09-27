@@ -13,6 +13,7 @@
 | ----------------------------------------------------------- |------------|
 | [Example Task](#task-id-example-task)                    | Medium     |
 | [Emojify](#task-id-emojify)                            | Easy/Medium     |
+| [Competitive Programming Portal](#task-id-competitive-programming-portal) | Medium     |
 
 
 ## Task ID: Example Task
@@ -143,4 +144,4 @@ Follow the steps below to complete this challenge:
 1. Any Mobile App Developement Technology can be used, either Native or Cross-Platform.
 2. Start by exploring the different platform APIs and the information they deliver.
 3. In case you find platforms that don't provide API endpoints for contests, display other information available.
-4. You can also use Unofficial Platform APIs, if official alternaties don't exist.
+4. You can also use Unofficial Platform APIs, if official alternatives don't exist.
