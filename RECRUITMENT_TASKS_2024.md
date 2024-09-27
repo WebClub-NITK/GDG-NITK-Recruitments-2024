@@ -87,6 +87,11 @@ Output: "🐶 😃"
 
 - [Emojipedia](https://emojipedia.org/)
 - [Unicode Emoji List](https://unicode.org/emoji/charts/emoji-list.html)
+- [Python Speech Recognition Library](https://pypi.org/project/SpeechRecognition/)
+- [Sentiment Analysis Tool VADER](https://github.com/cjhutto/vaderSentiment)
+- [Sentiment Analysis NLP Library](https://textblob.readthedocs.io/en/dev/)
+- [ReactJS](https://react.dev/)
+- [NodeJS](https://nodejs.org/en)
 
 ### Tips
 
