@@ -13,6 +13,9 @@
 | ----------------------------------------------------------- |------------|
 | [Example Task](#task-id-example-task)                    | Medium     |
 | [Emojify](#task-id-emojify)                            | Easy/Medium     |
+| [AgriVerify](#task-id-agriverify)                            | Medium/Hard  |
+
+
 
 
 ## Task ID: Example Task
@@ -101,3 +104,61 @@ Output: "🐶 😃"
 4. Allow flexibility in how emojis are displayed and edited, making the user experience more enjoyable.
 
 <!-- add more here -->
+
+
+
+
+## Task ID: AgriVerify
+
+#### `Web Application`, `Blockchain`, `Smart Contracts`
+
+Mentors: [Mardav Gandhi](https://github.com/marcdhi) ([+91 9033398366](https://wa.me/9033398366)), [Krishna Tulsyan](https://github.com/krishna) ([+91 9506221135](https://wa.me/9506221135))
+
+Difficulty: `Medium`
+
+### Description
+
+Welcome to **AgriVerify**, where we blend blockchain technology with organic farming to bring trust and transparency to every crop grown! In this task, you’ll be creating a decentralized platform that empowers farmers to easily certify their organic produce and generate QR codes that consumers can scan for instant verification.
+
+Imagine walking through a market, scanning a QR code on an apple, and instantly seeing its certification, the farm it came from, and the people behind it—all with the power of blockchain!
+
+This task will take you through the exciting world of Web3, where you’ll learn how to create and deploy smart contracts, integrate them into a sleek frontend, and give farmers the tools they need to show the world the purity of their crops. 🌱✨
+
+This isn’t just about building a platform—it’s about creating a future where people can truly trust the food they eat. You’re making the world a little more transparent, one QR code at a time! 🌍🌾
+
+---
+
+### Steps to Complete the Challenge:
+
+1. **Farmer Onboarding:**  
+   Build a welcoming system where farmers can easily sign up using wallet authentication and request certification for their crops. The process should be seamless, ensuring the user experience is as simple as organic farming itself.
+
+2. **Certification Process:**  
+   Dive into smart contracts! Implement a contract where farmers submit their crops for certification. For simplicity, assume the certifications are auto-approved. The goal is transparency and accessibility.
+
+3. **QR Code Generation:**  
+   Generate QR codes for certified crops. These codes should link to a beautifully simple page showing the certification details stored on the blockchain, enabling consumers to instantly trust their food.
+
+---
+
+### Optional Feature (Hard Level Task):
+
+**Push Notifications:**  
+Add that extra touch by integrating **Push Protocol** to notify farmers in real-time when their crops are certified. Keep them excited and informed with instant updates!
+
+---
+
+### Useful Resources:
+- [Ethereum Smart Contracts Documentation](https://ethereum.org/en/developers/docs/smart-contracts/)
+- [Hardhat Documentation](https://hardhat.org/getting-started/)
+- [QR Code Generation with JavaScript](https://www.npmjs.com/package/qrcode)
+- [Push Protocol Integration Guide (optional)](https://docs.push.org/developers/developer-guides/protocol/overview)
+
+---
+
+### Tips:
+- Focus on creating an easy-to-use platform where farmers feel confident certifying their crops.
+- Use smart contract libraries like **OpenZeppelin** to ensure security and accelerate development.
+- Keep the frontend user-friendly, ensuring a fun and smooth experience for both farmers and consumers.
+
+---
