@@ -11,8 +11,8 @@
 
 | Task                                                        | Difficulty |
 | ----------------------------------------------------------- |------------|
-| [Example Task](#task-id-example-task)            | Medium     |
-| [Emoji Translator](#task-id-emoji-translator)            | Easy     |
+| [Example Task](#task-id-example-task)                    | Medium     |
+| [Emojify](#task-id-emojify)                            | Easy/Medium     |
 
 
 ## Task ID: Example Task
@@ -46,23 +46,42 @@ Follow the steps below to complete this challenge:
 3. Pay attention to the user experience and make interactions feel natural
 
 
-## Task ID: Emoji Translator
+## Task ID: Emojify
 
-#### `Web Application`
+#### `Web Application`, `Natural Language Processing`
 
 Mentors: [Apoorva Agrawal](https://github.com/imApoorva36) ([+91 8197404580](https://wa.me/8197404580)), [Mardav Gandhi](https://github.com/marcdhi) ([+91 9033398366](https://wa.me/9033398366))
 
-Difficulty: `Easy`
+Difficulty: `Easy/Medium`
 
 ### Description
 
 Develop a fun and interactive app where users input text, and it automatically translates the message into emoji-based sentences. The app will primarily use a predefined dictionary to map words or phrases to corresponding emojis. Users will also have the ability to tweak the emoji translations manually by selecting from a list of alternative emojis.
+
+_Because sometimes, the right emoji speaks louder than words!_
 
 Follow the steps below to complete this challenge:
 
 1. Develop a simple user interface (UI) that allows users to input text (e.g., a sentence or phrase)
 2. Create a predefined dictionary that maps common words or phrases to emojis
 3. Once the user enters a sentence, break it down into individual words and replace the words that have corresponding emojis with the emojis
+4. After the initial translation, allow users to manually tweak the suggested emojis by selecting from a list of alternative options
+5. Also add a Voice-to-Emoji Translation with integrated voice recognition so that users can speak their sentences, and the app translates them into emojis in real-time. This will add a fun element to the app
+
+Bonus Feature ( Optional ):
+
+_Implementing the bonus feature will make the task count as `Medium`, otherwise it will be `Easy`_
+1. Emoji Sentiment Analysis having an implementation of sentiment analysis using simple NLP models (like VADER or TextBlob) to adjust emoji suggestions based on the emotional tone of the text. This can help ensure the emoji translation better reflects the mood of the original message
+
+### Expected Input and Output Examples:
+
+`Input: "I love pizza"`
+
+Output: "❤️ 🍕"
+
+`Input: "The dog is happy"`
+
+Output: "🐶 😃"
 
 ### Useful resources:
 
