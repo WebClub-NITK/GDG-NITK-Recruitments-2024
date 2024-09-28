@@ -14,6 +14,7 @@
 | [Example Task](#task-id-example-task)                               | Medium      |
 | [Emojify](#task-id-emojify)                                         | Easy/Medium |
 | [Web-Based Diagram Generator](#task-id-web-based-diagram-generator) | Medium      |
+| [Fast-Type](#task-id-fast-type)                                     | Medium      |
 
 ## Task ID: Example Task
 
@@ -102,30 +103,32 @@ Output: "🐶 😃"
 
 ## Task ID: Web-Based Diagram Generator
 
-#### `Full-Stack Development`, `Diagram Generation`, `Graphviz`
+#### Full-Stack Development, Diagram Generation, Graphviz
 
 Mentors: [Shubham Subodh Rasal](https://github.com/Shubham-Rasal) ([+91 7349784770](https://wa.me/917349784770)), [Udit Jain](https://github.com/UditJain2622004) ([+91 8708596606](https://wa.me/918708596606))
 
-Difficulty: `Medium`
+Difficulty: Medium
 
 ### Description
 
-Develop a web application inspired by _Mermaid.js_ that enables users to generate various types of diagrams based on user input. Users can enter data or upload relevant files, and the system will produce the desired diagram. Focus on letting users generate diagrams with minimal input. The application should also provide the option to export the generated diagram in popular formats like PNG and PDF.
+Develop a web application inspired by Mermaid.js that enables users to generate various types of diagrams based on user input. Users can enter data or upload relevant files, and the system will produce the desired diagram. Focus on letting users generate diagrams with minimal input. The application should also provide the option to export the generated diagram in popular formats like PNG and PDF.
 
-#### Popular Diagrams:
+Some Popular Diagram Types your application _May_ Support:
 
 - Flowcharts
 - ER Diagrams
 - Class Diagrams
 - Dependency Diagrams (for Node.js and React projects)
 
+_Note :_ The type and number of diagram(s) your application support is not fixed. You are free to implement support for any type and number of diagram(s). The diagrams given above are just some examples.
+
 #### Steps:
 
-1. **Input Mechanism**: Design a simple input system that is intuitive and allows for diagram creation, whether through form-based inputs or file uploads.
-2. **Diagram Generation**:
-   - Implement support for creating diagram using **Graphviz** or **D3.js**.
+1. _Input Mechanism_: Design a simple input system that is intuitive and allows for diagram creation, whether through form-based inputs or file uploads.
+2. _Diagram Generation_:
+   - Implement support for creating diagram using _Graphviz_ or _D3.js_.
    - For Dependency Diagrams for Node.js/React projects, allow users to upload a zip file of the project. The tool should parse the project’s dependencies and visualize the relationship between files and external packages.
-3. **Export Functionality**: Provide an option for users to export their diagrams in popular formats like PNG or PDF.
+3. _Export Functionality_: Provide an option for users to export their diagrams in popular formats like PNG or PDF.
 
 ### Useful Resources:
 
@@ -141,3 +144,38 @@ Develop a web application inspired by _Mermaid.js_ that enables users to generat
 3. Leverage libraries like Graphviz or D3.js for creating clean and user-friendly visualizations. These libraries are flexible and can handle a wide range of diagram types.
 4. Focus on the user experience by ensuring that users can generate diagrams with the least amount of manual effort. Implement features like pre-filled options where possible.
 <!-- add more here -->
+
+### Task ID: Fast-Type
+
+#### `Web Development`,`Frontend`,`Backend`,`WebSockets`
+
+Mentors: [Aahil Rafiq](https://github.com/AahilRafiq) ([+91 7975657621](https://wa.me/917975657621)), [Shree Harsha Bhat](https://github.com/mshreeharsha) ([+91 9739835034](https://wa.me/919739835034))
+
+Difficulty: `Medium`
+
+### Description
+
+Build a typing speed test app like [Monkeytype](https://monkeytype.com/). The app should let users take a typing test based on either time (e.g., 60 seconds) or a fixed number of words (e.g., 50 words).
+
+Include the following features:
+
+1. Show the typing speed (words per minute) and accuracy after the test.
+2. Provide analytics on the user's typing:
+   - Speed and accuracy stats
+   - A graph showing how typing speed changes over time during the test
+3. Create a daily leaderboard and an all-time leaderboard to display the top typers.
+4. See that frontend provides a good user experience, including real-time updating of letters typed , correct marking of letters and good looking UI.
+5. **Bonus:** Show how a user's typing speed improves over time.
+6. **Bonus:** Add a multiplayer mode where users can race with 5 random people online.
+
+### Useful resources:
+
+- [Chart.js](https://www.chartjs.org/)
+- [SpeedTypingOnline (How to calculate WPM and accuracy)](https://www.speedtypingonline.com/typing-equations)
+- [Socket.io](https://socket.io/)
+
+### Tips
+
+1. Start with a basic typing test that records speed and accuracy.
+2. For leaderboards, use a simple database to store results and calculate rankings.
+3. For the graph, use Chart.js to visualize typing speed over time.
