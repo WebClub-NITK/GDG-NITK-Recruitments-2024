@@ -107,28 +107,28 @@ Output: "🐶 😃"
 
 Mentors: [Shubham Subodh Rasal](https://github.com/Shubham-Rasal) ([+91 7349784770](https://wa.me/917349784770)), [Udit Jain](https://github.com/UditJain2622004) ([+91 8708596606](https://wa.me/918708596606))
 
-Difficulty: Medium
+Difficulty: `Medium`
 
 ### Description
 
 Develop a web application inspired by Mermaid.js that enables users to generate various types of diagrams based on user input. Users can enter data or upload relevant files, and the system will produce the desired diagram. Focus on letting users generate diagrams with minimal input. The application should also provide the option to export the generated diagram in popular formats like PNG and PDF.
 
-Some Popular Diagram Types your application _May_ Support:
+Some Popular Diagram Types your application _May_ support:
 
 - Flowcharts
 - ER Diagrams
 - Class Diagrams
 - Dependency Diagrams (for Node.js and React projects)
 
-_Note :_ The type and number of diagram(s) your application support is not fixed. You are free to implement support for any type and number of diagram(s). The diagrams given above are just some examples.
+**Note :** The type and number of diagram(s) your application support is not fixed. You are free to implement support for any type and number of diagram(s). The diagrams given above are just some examples.
 
 #### Steps:
 
-1. _Input Mechanism_: Design a simple input system that is intuitive and allows for diagram creation, whether through form-based inputs or file uploads.
-2. _Diagram Generation_:
-   - Implement support for creating diagram using _Graphviz_ or _D3.js_.
+1. **Input Mechanism**: Design a simple input system that is intuitive and allows for diagram creation, whether through form-based inputs or file uploads.
+2. **Diagram Generation**:
+   - Implement support for creating diagram using **Graphviz** or **D3.js**.
    - For Dependency Diagrams for Node.js/React projects, allow users to upload a zip file of the project. The tool should parse the project’s dependencies and visualize the relationship between files and external packages.
-3. _Export Functionality_: Provide an option for users to export their diagrams in popular formats like PNG or PDF.
+3. **Export Functionality**: Provide an option for users to export their diagrams in popular formats like PNG or PDF.
 
 ### Useful Resources:
 
