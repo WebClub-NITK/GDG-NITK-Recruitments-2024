@@ -57,7 +57,7 @@ Difficulty: `Medium/Hard
 
 ### Description
 
-Develop a comprehensive web and mobile application that enables users to create travel groups with friends, where the group owner selects a destination city or country. The app will utilize Gen AI APIs (such as the Gemini free tier) to generate customized travel itineraries based on user inputs, including travel dates and group preferences. It will allow group members to collaboratively modify the generated itinerary in real time, and once finalized, it will sync with all group members' Google Calendars. Additionally, the application will include an expense management feature to track individual contributions, outstanding balances, and amounts owed among group members. 
+Develop a comprehensive web or mobile application that enables users to create travel groups with friends, where the group owner selects a destination city or country. The app will utilize Gen AI APIs (such as the Gemini free tier) to generate customized travel itineraries based on user inputs, including travel dates and preferences(assume necessary details). It will allow group members to collaboratively modify the generated itinerary, and once finalized, it will sync with all group members' Google Calendars.
 
 _Connect, Plan, and Go!_
 
@@ -65,7 +65,7 @@ Follow the steps below to complete this challenge:
 
 1. Creation of an app or website with Authentication and Login of users.
 2. Allow users to form groups.
-3. Use any Gen AI API preferably gemini to generate an itinerary based on the inputs like destination and dates of travel.
+3. Use any Gen AI API preferably Gemini to generate an itinerary based on the inputs like destination and dates of travel.
 4. Allow the group members to Edit the Itinerary.
 5. Update the Itinerary to the Google Calendars of the members.
 
@@ -73,7 +73,8 @@ Bonus Feature ( Optional ):
 
 _Implementing the bonus features will make the task count as `Hard`, otherwise it will be `Medium`_
 1. Allow for editing itinerary in realtime.
-2. Expense management feature which tracks expenses and calculates the debt/credit of each group member.
+2. Expense management feature which tracks expenses during the travel and calculates the debt/credit of each group member.
+
 
 ### Useful resources:
 
@@ -85,14 +86,14 @@ _Implementing the bonus features will make the task count as `Hard`, otherwise i
 - [Google Calendar in Python](https://medium.com/@ayushbhatnagarmit/supercharge-your-scheduling-automating-google-calendar-with-python-87f752010375)
 - [Gemini in Flutter](https://medium.com/@blshashank59/integrating-the-gemini-api-in-your-flutter-application-9e767d578a5e)
 - [Groups on Flutter](https://www.cometchat.com/docs/ui-kit/flutter/groups)
+- [Google AI Studio](https://ai.google.dev/aistudio)
 
 ### Tips
 
 1. Build the basic website/app with the Login using React.js/Flutter.
-2. Have a neat UI where users have to input their details like destination, dates of travel and any other relevant details.
-3. Integrate the Gemini API/any other Gen AI and the Google Calendar API to make it work for a non-group application.
-4. Create a feature to allow users to make groups among themselves.
-5. The owner of the group must be able to input the details of travel. All group members must be allowed to edit the itinerary that was created by the Gen AI.
+2. Have a neat UI where the owner can input details like start location, destination, dates of travel, duration and any other relevant details.
+3. Integrate the Gemini API/any other Gen AI to create itinerary.
+4. Add feature that allows users to make groups and allow members to edit the itinerary.
 6. Explore about the realtime editing feature.
 7. Then after things are decided by the group members update the itinerary to the google calendars of all group members.
 8. Work on the expense management feature in case of the groups.
