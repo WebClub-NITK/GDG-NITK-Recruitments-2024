@@ -104,7 +104,7 @@ Output: "🐶 😃"
 <!-- add more here -->
 ### Task ID: Fast-Type
 
-#### `Web Development`
+#### `Web Development`,`Frontend`,`Backend`,`WebSockets`
 
 Mentors: [Aahil Rafiq](https://github.com/AahilRafiq) ([+91 7975657621](https://wa.me/917975657621)), [Shree Harsha Bhat](https://github.com/mshreeharsha) ([+91 9739835034](https://wa.me/919739835034))
 
@@ -112,7 +112,7 @@ Difficulty: `Medium`
 
 ### Description
 
-Build a typing speed test app like Monkeytype. The app should let users take a typing test based on either time (e.g., 60 seconds) or a fixed number of words (e.g., 50 words).
+Build a typing speed test app like [Monkeytype](https://monkeytype.com/). The app should let users take a typing test based on either time (e.g., 60 seconds) or a fixed number of words (e.g., 50 words).
 
 Include the following features:
 
@@ -120,9 +120,10 @@ Include the following features:
 2. Provide analytics on the user's typing:
    - Speed and accuracy stats
    - A graph showing how typing speed changes over time during the test
-3. Create a daily leaderboard and an all-time leaderboard to track the top typers.
-4. **Bonus:** Show how a user's typing speed improves over time.
-5. **Bonus:** Add a multiplayer mode where users can race with 5 random people online.
+3. Create a daily leaderboard and an all-time leaderboard to display the top typers.
+4. See that frontend provides a good user experience, including real-time updating of letters typed , correct marking of letters and good looking UI.
+5. **Bonus:** Show how a user's typing speed improves over time.
+6. **Bonus:** Add a multiplayer mode where users can race with 5 random people online.
 
 ### Useful resources:
 
