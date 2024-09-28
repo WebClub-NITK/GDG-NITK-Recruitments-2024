@@ -11,7 +11,9 @@
 
 | Task                                                        | Difficulty |
 | ----------------------------------------------------------- |------------|
-| [Example](#task-id-example-task)                       | Medium     |
+| [Example Task](#task-id-example-task)                    | Medium     |
+| [Emojify](#task-id-emojify)                            | Easy/Medium     |
+| [Fast-Type](#task-id-fast-type)                        | Medium          |  
 | [Discord QuizBot](#task-id-discord-quizbot)            | Medium     |
 
 
@@ -45,8 +47,97 @@ Follow the steps below to complete this challenge:
 2. Use pre-trained models and APIs to accelerate development
 3. Pay attention to the user experience and make interactions feel natural
 
-<!-- add more here -->
 
+
+## Task ID: Emojify
+
+#### `Web Application`, `Natural Language Processing`
+
+Mentors: [Apoorva Agrawal](https://github.com/imApoorva36) ([+91 8197404580](https://wa.me/8197404580)), [Mardav Gandhi](https://github.com/marcdhi) ([+91 9033398366](https://wa.me/9033398366))
+
+Difficulty: `Easy/Medium`
+
+### Description
+
+Develop a fun and interactive app where users input text, and it automatically translates the message into emoji-based sentences. The app will primarily use a predefined dictionary to map words or phrases to corresponding emojis. Users will also have the ability to tweak the emoji translations manually by selecting from a list of alternative emojis.
+
+_Because sometimes, the right emoji speaks louder than words!_
+
+Follow the steps below to complete this challenge:
+
+1. Develop a simple user interface (UI) that allows users to input text (e.g., a sentence or phrase)
+2. Create a predefined dictionary that maps common words or phrases to emojis
+3. Once the user enters a sentence, break it down into individual words and replace the words that have corresponding emojis with the emojis
+4. After the initial translation, allow users to manually tweak the suggested emojis by selecting from a list of alternative options
+5. Also add a Voice-to-Emoji Translation with integrated voice recognition so that users can speak their sentences, and the app translates them into emojis in real-time. This will add a fun element to the app
+
+Bonus Feature ( Optional ):
+
+_Implementing the bonus feature will make the task count as `Medium`, otherwise it will be `Easy`_
+1. Emoji Sentiment Analysis having an implementation of sentiment analysis using simple NLP models (like VADER or TextBlob) to adjust emoji suggestions based on the emotional tone of the text. This can help ensure the emoji translation better reflects the mood of the original message
+
+### Expected Input and Output Examples:
+
+`Input: "I love pizza"`
+
+Output: "❤️ 🍕"
+
+`Input: "The dog is happy"`
+
+Output: "🐶 😃"
+
+### Useful resources:
+
+- [Emojipedia](https://emojipedia.org/)
+- [Unicode Emoji List](https://unicode.org/emoji/charts/emoji-list.html)
+- [Python Speech Recognition Library](https://pypi.org/project/SpeechRecognition/)
+- [Sentiment Analysis Tool VADER](https://github.com/cjhutto/vaderSentiment)
+- [Sentiment Analysis NLP Library](https://textblob.readthedocs.io/en/dev/)
+- [ReactJS](https://react.dev/)
+- [NodeJS](https://nodejs.org/en)
+
+### Tips
+
+1. Start by focusing on a basic set of words for translation and expand the emoji dictionary over time.
+2. Make the UI fun and interactive with features like live emoji preview as the user types.
+3. Consider using libraries or frameworks like React, Vue.js, or plain HTML/CSS/JavaScript for building the interface.
+4. Allow flexibility in how emojis are displayed and edited, making the user experience more enjoyable.
+
+<!-- add more here -->
+### Task ID: Fast-Type
+
+#### `Web Development`,`Frontend`,`Backend`,`WebSockets`
+
+Mentors: [Aahil Rafiq](https://github.com/AahilRafiq) ([+91 7975657621](https://wa.me/917975657621)), [Shree Harsha Bhat](https://github.com/mshreeharsha) ([+91 9739835034](https://wa.me/919739835034))
+
+Difficulty: `Medium`
+
+### Description
+
+Build a typing speed test app like [Monkeytype](https://monkeytype.com/). The app should let users take a typing test based on either time (e.g., 60 seconds) or a fixed number of words (e.g., 50 words).
+
+Include the following features:
+
+1. Show the typing speed (words per minute) and accuracy after the test.
+2. Provide analytics on the user's typing:
+   - Speed and accuracy stats
+   - A graph showing how typing speed changes over time during the test
+3. Create a daily leaderboard and an all-time leaderboard to display the top typers.
+4. See that frontend provides a good user experience, including real-time updating of letters typed , correct marking of letters and good looking UI.
+5. **Bonus:** Show how a user's typing speed improves over time.
+6. **Bonus:** Add a multiplayer mode where users can race with 5 random people online.
+
+### Useful resources:
+
+- [Chart.js](https://www.chartjs.org/)
+- [SpeedTypingOnline (How to calculate WPM and accuracy)](https://www.speedtypingonline.com/typing-equations)
+- [Socket.io](https://socket.io/)
+
+### Tips
+
+1. Start with a basic typing test that records speed and accuracy.
+2. For leaderboards, use a simple database to store results and calculate rankings.
+3. For the graph, use Chart.js to visualize typing speed over time.
 
 
 ## Task ID: Discord QuizBot
@@ -55,9 +146,6 @@ Follow the steps below to complete this challenge:
 
 Mentors: [Anush Revankar ](https://github.com/anushrevankar24) ([+91 9482597386](https://wa.me/9482597386)), [Ayush Kumar Singh](https://github.com/Ayush4345) ([+91 9334352548](https://wa.me/9334352548))
 
-Difficulty: `Medium`
-
-### Description
 Discord is a popular communication platform used for communities, and Discord bots can automate tasks within these servers, enhancing server functionality. In this task, you are expected to build a Discord quiz bot that allows users to select from a set of 10-20 available quizzes, answer timed questions, and view their results on a leaderboard ranked by both points and time taken. In cases where multiple users have the same points, the ranking should be determined based on the time taken per question. After completing a quiz, users should be able to view the top 10 players and their overall rank.
 
 The task also includes building a CRUD (Create, Read, Update, Delete) application for managing quiz sets and individual questions.
@@ -96,3 +184,4 @@ The task also includes building a CRUD (Create, Read, Update, Delete) applicatio
 3. Use Gemini API for integrating LLMs for making questions ,as its API is free to use.
 4. Ensure intuitive commands, similar to MEE6, and add slash commands for easy interaction.
 5. Any useful additional/interesting feature will have bonus points.
+
