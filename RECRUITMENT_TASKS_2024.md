@@ -12,7 +12,6 @@
 | Task                                                        | Difficulty |
 | ----------------------------------------------------------- |------------|
 | [Example Task](#task-id-example-task)                    | Medium     |
-| [Emojify](#task-id-emojify)                            | Easy/Medium     |
 | [TravelTribe](#task-id-traveltribe)                            | Medium/Hard     |
 | [Fast-Type](#task-id-fast-type)                        | Medium          |  
 
@@ -50,7 +49,7 @@ Follow the steps below to complete this challenge:
 
 ## Task ID: TravelTribe
 
-#### `Web/Mobile/Desktop Application`, `Google Cloud Platform`
+#### `Mobile/Desktop Application`, `Google Cloud Platform`
 
 Mentors: [Shreesha M](https://github.com/ShreeshaM07) ([+91 8310992995](https://wa.me/8310992995)), [Abhishek Satpathy](https://github.com/AbhishekSatpathy4848) ([+91 7619503901](https://wa.me/7619503901))
 
@@ -58,13 +57,13 @@ Difficulty: `Medium/Hard
 
 ### Description
 
-Develop a comprehensive web or mobile application that enables users to create travel groups with friends, where the group owner selects a destination city or country. The app will utilize Gen AI APIs (such as the Gemini free tier) to generate customized travel itineraries based on user inputs, including travel dates and preferences(assume necessary details). It will allow group members to collaboratively modify the generated itinerary, and once finalized, it will sync with all group members' Google Calendars.
+Develop a comprehensive mobile application that enables users to create travel groups with friends, where the group owner selects a destination city or country. The app will utilize Gen AI APIs (such as the Gemini free tier) to generate customized travel itineraries based on user inputs, including travel dates and preferences(assume necessary details). It will allow group members to collaboratively modify the generated itinerary, and once finalized, it will sync with all group members' Google Calendars.
 
 _Connect, Plan, and Go!_
 
 Follow the steps below to complete this challenge:
 
-1. Creation of an app or website with Authentication and Login of users.
+1. Creation of an app with Authentication and Login of users.
 2. Allow users to form groups.
 3. Use any Gen AI API preferably Gemini to generate an itinerary based on the inputs like destination and dates of travel.
 4. Allow the group members to Edit the Itinerary.
@@ -79,8 +78,6 @@ _Implementing the bonus features will make the task count as `Hard`, otherwise i
 
 ### Useful resources:
 
-- [ReactJS](https://react.dev/)
-- [NodeJS](https://nodejs.org/en)
 - [Flutter](https://docs.flutter.dev/)
 - [Flask](https://python-adv-web-apps.readthedocs.io/en/latest/flask.html)
 - [Firebase Auth](https://www.freecodecamp.org/news/use-firebase-authentication-in-a-react-app/)
@@ -91,7 +88,7 @@ _Implementing the bonus features will make the task count as `Hard`, otherwise i
 
 ### Tips
 
-1. Build the basic website/app with the Login using React.js/Flutter.
+1. Build the basic app with the Login using Flutter.
 2. Have a neat UI where the owner can input details like start location, destination, dates of travel, duration and any other relevant details.
 3. Integrate the Gemini API/any other Gen AI to create itinerary.
 4. Add feature that allows users to make groups and allow members to edit the itinerary.
