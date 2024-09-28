@@ -13,7 +13,8 @@
 | ----------------------------------------------------------- |------------|
 | [Example Task](#task-id-example-task)                    | Medium     |
 | [Emojify](#task-id-emojify)                            | Easy/Medium     |
-| [Fast-Type](#task-id-fast-type)                        | Medium          |  
+| [Fast-Type](#task-id-fast-type)                        | Medium          | 
+| [News Feed Generation](#task-id-News-Feed-Generation)  | Medium          | 
 
 
 ## Task ID: Example Task
@@ -136,3 +137,51 @@ Include the following features:
 1. Start with a basic typing test that records speed and accuracy.
 2. For leaderboards, use a simple database to store results and calculate rankings.
 3. For the graph, use Chart.js to visualize typing speed over time.
+
+
+
+## Task ID: News Feed Generation
+
+#### `Full Stack`, `NLP`,`API`,`Cache`
+
+Mentors: [G Vishwas](https://github.com/Vishwas1687) ([+91 9606278892](https://wa.me/9606278892)), [Anshuman Upadhyay](https://github.com/anshumanNitk) ([+91 9175954118](https://wa.me/9175954118))
+
+Difficulty: `Medium`
+
+### Description
+
+Task is to build a news feed application whose core focus is to better able to understand what the user likes to read without the help of pre built filters. The Website should let people search for news using simple keywords and keeps track of which full articles they choose to read.
+
+You have to use this API https://newsapi.org/docs/get-started ( NewsAPI) to extract articles and display them on your website. It is recommended to be a one page website showing only news articles in a card ( title, description, image, author/ source etc) on clicking the card should take you to the actual article page. The API provides each article with a URL in the response.
+
+The NewsAPI provides an endpoint for advanced search to search articles (title, content, description fields) based on a keyword.
+
+
+Task requirements:
+
+1. Login and Signup 
+2. Maintain personalization details like list of keywords.
+3. Provide a search functionality for the articles. ( Not required to provide support for phrase search. Key word search is sufficient). (Eg: science, Elon musk, crypto, technology, business etc) 
+4. Track when a user clicks to view the full news article, indicating interest in that article. 
+5. Apply NLP techniques (e.g., TF-IDF, BERT) to extract key words that represent the article’s information.
+6. Store the extracted keywords in a datastore or cache (e.g., Redis), associated with the user's profile.
+7. Continuously update the user's interest profile based on their click history.
+8. Use the stored keywords to filter or rank future news articles that align with the user's interests.
+
+
+### Useful resources:
+
+- [API (Mandatory Use) ](https://newsapi.org/docs/get-started)
+- [React ](https://react.dev/learn)
+- [Postman for API testing](https://www.youtube.com/watch?v=VywxIQ2ZXw4)
+NLP techniques
+- [NLTK](ttps://www.nltk.org/)
+- [Spacy](https://spacy.io/4)
+- [Youtube Tutoria](https://www.youtube.com/playlist?list=PLeo1K3hjS3uuvuAXhYjV2lMEShq2UYSwX)
+Cache
+-[Redis Cache](https://redis.io/)
+
+### Tips
+
+1. Start off with a minimum viable solution. You could submit a solution using the most basic NLP technique ( TF - IDF) and the most basic parameter like title or author to understand user interest to optimal techniques for keyword extraction and higher content coverage.
+2. Start of with using a database to store user interests ( use FIFO with max size of list of keywords) to store keywords in a cache with the most suitable eviction policy for the keywords.
