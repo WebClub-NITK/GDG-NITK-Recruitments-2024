@@ -14,6 +14,7 @@
 | [Example Task](#task-id-example-task)                    | Medium     |
 | [Emojify](#task-id-emojify)                            | Easy/Medium     |
 | [Hogwarts Q&A](#task-id-hogwarts)                  | Hard     | 
+| [Fast-Type](#task-id-fast-type)                        | Medium          |  
 
 
 ## Task ID: Example Task
@@ -174,3 +175,37 @@ Bonus Feature ( Optional ):
 
 
 <!-- add more here -->
+### Task ID: Fast-Type
+
+#### `Web Development`,`Frontend`,`Backend`,`WebSockets`
+
+Mentors: [Aahil Rafiq](https://github.com/AahilRafiq) ([+91 7975657621](https://wa.me/917975657621)), [Shree Harsha Bhat](https://github.com/mshreeharsha) ([+91 9739835034](https://wa.me/919739835034))
+
+Difficulty: `Medium`
+
+### Description
+
+Build a typing speed test app like [Monkeytype](https://monkeytype.com/). The app should let users take a typing test based on either time (e.g., 60 seconds) or a fixed number of words (e.g., 50 words).
+
+Include the following features:
+
+1. Show the typing speed (words per minute) and accuracy after the test.
+2. Provide analytics on the user's typing:
+   - Speed and accuracy stats
+   - A graph showing how typing speed changes over time during the test
+3. Create a daily leaderboard and an all-time leaderboard to display the top typers.
+4. See that frontend provides a good user experience, including real-time updating of letters typed , correct marking of letters and good looking UI.
+5. **Bonus:** Show how a user's typing speed improves over time.
+6. **Bonus:** Add a multiplayer mode where users can race with 5 random people online.
+
+### Useful resources:
+
+- [Chart.js](https://www.chartjs.org/)
+- [SpeedTypingOnline (How to calculate WPM and accuracy)](https://www.speedtypingonline.com/typing-equations)
+- [Socket.io](https://socket.io/)
+
+### Tips
+
+1. Start with a basic typing test that records speed and accuracy.
+2. For leaderboards, use a simple database to store results and calculate rankings.
+3. For the graph, use Chart.js to visualize typing speed over time.
