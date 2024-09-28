@@ -13,6 +13,7 @@
 | ----------------------------------------------------------- |------------|
 | [Example Task](#task-id-example-task)                    | Medium     |
 | [Emojify](#task-id-emojify)                            | Easy/Medium     |
+| [TravelTribe](#task-id-traveltribe)                            | Medium/Hard     |
 | [Fast-Type](#task-id-fast-type)                        | Medium          |  
 
 
