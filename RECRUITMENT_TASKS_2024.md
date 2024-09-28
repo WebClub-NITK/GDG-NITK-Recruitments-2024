@@ -70,12 +70,7 @@ The task also includes building a CRUD (Create, Read, Update, Delete) applicatio
         - After the quiz, display a leaderboard ranking players.The leaderboard should display users ranked by their points (total number of correct answers). If 
           multiple users have the same points, the ranking should be decided based on time taken per question (faster users rank higher). 
         - The leaderboard should show the top 10 players and the user’s rank, even if not in the top 10.
-        - The leaderboard should be persistent. This means it should not display ranks based solely on users who gave the quiz at the same time. Instead, the 
-         leaderboard should reflect all users who have completed that quiz at any time. If a user takes the quiz at a later date, they should be shown their rank 
-          relative to all 
-           users who have ever taken the same quiz, not just the current batch of users.
-        - The leaderboard should automatically update when a new user completes the quiz, adjusting the ranks of both new and existing users based on their scores and 
-          time taken.
+       
   2)  **Quiz Management application**:
       - Create a web-based CRUD application (Create, Read, Update, Delete) to manage quiz sets and individual questions.
       - Through this panel, authorized admins can create quiz sets (e.g., 10 questions per set), update quiz sets or individual questions, and delete existing sets 
@@ -84,7 +79,7 @@ The task also includes building a CRUD (Create, Read, Update, Delete) applicatio
         panel with the questions displayed to users during quizzes.
 
 ### Bonus Features:
-1. Enhance the quiz management application by integrating Large Language Models (LLMs) (e.g., ChatGPT, Gemini, LLaMA) to automatically generate quiz question sets. This feature should allow admins or question setters to specify the number of questions needed (e.g., 10 questions per quiz), and the AI should generate that number of questions.The generated questions should be editable, allowing admins to review and modify any of the AI-generated questions before finalizing the quiz set.
+1. Enhance the quiz management application by integrating  Large Language Models (LLMs) through APIs like OpenAI (ChatGPT), Gemini, or LLaMA to generate quiz question sets. This feature allows admins or question setters to specify the number of questions needed (e.g., 10 questions per quiz), and the AI should generate that number of questions.The generated questions should be editable, allowing admins to review and modify any of the AI-generated questions before finalizing the quiz set.
 2. Deploy the Discord Quizbot on a cloud platform (e.g., Heroku, AWS, or Vercel) so it can run continuously and be accessible to users.
 
 ### Useful resources:
