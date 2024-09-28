@@ -69,7 +69,7 @@ The task also includes building a CRUD (Create, Read, Update, Delete) applicatio
          to answer each question
         - After the quiz, display a leaderboard ranking players.The leaderboard should display users ranked by their points (total number of correct answers). If 
           multiple users have the same points, the ranking should be decided based on time taken per question (faster users rank higher). 
-        - The leaderboard should show the top 10 players and the user’s rank, even if not in the top 10.
+        - The leaderboard should show the top 10 players and the user’s rank, even if they are not in the top 10.
        
   2)  **Quiz Management application**:
       - Create a web-based CRUD application (Create, Read, Update, Delete) to manage quiz sets and individual questions.
@@ -79,7 +79,7 @@ The task also includes building a CRUD (Create, Read, Update, Delete) applicatio
         panel with the questions displayed to users during quizzes.
 
 ### Bonus Features:
-1. Enhance the quiz management application by integrating  Large Language Models (LLMs) through APIs like OpenAI (ChatGPT), Gemini, or LLaMA to generate quiz question sets. This feature allows admins or question setters to specify the number of questions needed (e.g., 10 questions per quiz), and the AI should generate that number of questions.The generated questions should be editable, allowing admins to review and modify any of the AI-generated questions before finalizing the quiz set.
+1. Enhance the quiz management application by integrating  Large Language Models (LLMs) through APIs like OpenAI (ChatGPT) or Gemini to generate quiz question sets. This feature allows admins or question setters to specify the number of questions needed (e.g., 10 questions per quiz), and the AI should generate that number of questions.The generated questions should be editable, allowing admins to review and modify any of the AI-generated questions before finalizing the quiz set.
 2. Deploy the Discord Quizbot on a cloud platform (e.g., Heroku, AWS, or Vercel) so it can run continuously and be accessible to users.
 
 ### Useful resources:
