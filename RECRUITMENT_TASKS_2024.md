@@ -13,7 +13,7 @@
 | ----------------------------------------------------------- |------------|
 | [Example Task](#task-id-example-task)                    | Medium     |
 | [Emojify](#task-id-emojify)                            | Easy/Medium     |
-| [Hogwarts Q&A](#task-id-hogwarts)                  | Medium/Hard     | 
+| [Hogwarts Q&A](#task-id-hogwarts)                  | Hard     | 
 
 
 ## Task ID: Example Task
@@ -108,7 +108,7 @@ Output: "🐶 😃"
 
 Mentors: [Aryan Kashyap N](https://github.com/05kashyap) ([+91 8123279065](https://wa.me/918050030224)), [Fahim Ahmed](https://github.com/ahmedfahim21) ([+91 8861054452](https://wa.me/918861054452))
 
-**Difficulty**: `Medium\Hard`
+**Difficulty**: `Hard`
 
 ---
 
@@ -152,7 +152,13 @@ Process the query through your RAG pipeline.
 Return a `JSON` response with the answer, relevant quotes, and metadata
    
 8. **Develop an Interface**:  
-   - Build a responsive web interface using a frontend framework like React. It should have a chat-like interface for asking questions and receiving answers. Also, create a "Time-Turner" feature that allows users to view the conversation history and jump back to previous points in the chat.
+   - Build a responsive web interface using a frontend framework like React. It should have a chat-like interface for asking questions and receiving answers. 
+
+Bonus Feature ( Optional ):
+
+1. **Time-Turner**:  
+   - Create a "Time-Turner" feature that allows users to view the conversation history and jump back to previous points in the chat.
+   - You can store the previous conversations in the local storage.
 
 ### **Useful Resources**:
 - **[Harry Potter and the Prisoner of Azkaban PDF](https://ia902903.us.archive.org/12/items/FantasyFictionebookcollection/Harry%20Potter/3%20-%20Harry%20Potter%20and%20the%20Prisoner%20of%20Azkaban.pdf)**  
