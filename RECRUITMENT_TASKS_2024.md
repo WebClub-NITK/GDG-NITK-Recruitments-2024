@@ -62,14 +62,37 @@ Discord is a popular communication platform used for communities, and Discord bo
 
 The task also includes building a CRUD (Create, Read, Update, Delete) application for managing quiz sets and individual questions.
 
+**Key Features to Implement**:
+  1) **Discord Quiz Bot** :
+        - The bot should display 10-20 available quizzes for users to choose from, with each quiz consisting of multiple-choice questions.
+        - Once a quiz is selected, the bot presents each question one by one, with a set timer (e.g., 30 seconds per question). The bot will track the time users take 
+         to answer each question
+        - After the quiz, display a leaderboard ranking players.The leaderboard should display users ranked by their points (total number of correct answers). If 
+          multiple users have the same points, the ranking should be decided based on time taken per question (faster users rank higher). 
+        - The leaderboard should show the top 10 players and the user’s rank, even if not in the top 10.
+        - The leaderboard should be persistent. This means it should not display ranks based solely on users who gave the quiz at the same time. Instead, the 
+         leaderboard should reflect all users who have completed that quiz at any time. If a user takes the quiz at a later date, they should be shown their rank 
+          relative to all 
+           users who have ever taken the same quiz, not just the current batch of users.
+        - The leaderboard should automatically update when a new user completes the quiz, adjusting the ranks of both new and existing users based on their scores and 
+          time taken.
+  2)  **Quiz Management application**:
+      - Create a web-based CRUD application (Create, Read, Update, Delete) to manage quiz sets and individual questions.
+      - Through this panel, authorized admins can create quiz sets (e.g., 10 questions per set), update quiz sets or individual questions, and delete existing sets 
+         or questions. Admins can also view all quiz sets and questions.
+      - The CRUD application will be connected to the same database that the Discord quiz bot uses, ensuring real-time synchronization of changes made in the admin 
+        panel with the questions displayed to users during quizzes.
+
 ### Bonus Features:
 1. Enhance the quiz management application by integrating Large Language Models (LLMs) (e.g., ChatGPT, Gemini, LLaMA) to automatically generate quiz question sets. This feature should allow admins or question setters to specify the number of questions needed (e.g., 10 questions per quiz), and the AI should generate that number of questions.The generated questions should be editable, allowing admins to review and modify any of the AI-generated questions before finalizing the quiz set.
-2. Deploy the QuizMaster bot on a cloud platform (e.g., Heroku, AWS, or Vercel) so it can run continuously and be accessible to users.
+2. Deploy the Discord Quizbot on a cloud platform (e.g., Heroku, AWS, or Vercel) so it can run continuously and be accessible to users.
 
 ### Useful resources:
 - [Build a Discord Bot With Python](https://betterprogramming.pub/coding-a-discord-bot-with-python-64da9d6cade7)
 - [Build a Discord Quiz Bot](https://python.plainenglish.io/build-discord-quizbot-with-python-and-deploy-1-44dec1250a37)
 - [Gemini API](https://ai.google.dev/)
+- [Supabase](https://supabase.com/)
+- [Building a CRUD App with Supabase and Express](https://medium.com/@heshramsis/building-a-crud-app-with-supabase-and-express-a-step-by-step-guide-for-junior-developers-81456b850910)
 - [MongoDB](https://www.mongodb.com/) or [PostgreSQL](https://www.postgresql.org/)
   
 ### Tips
