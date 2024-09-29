@@ -21,6 +21,7 @@
 | [Discord QuizBot](#task-id-discord-quizbot)            | Medium     |
 | [Club Recruitment Portal](#task-id-club-recruitment-portal)            | Hard     |
 | [Landing Page](#task-id-landing-page)            | Easy     |
+| [Student UIMS](#task-id-student-profile-portal)            | Easy     |
 
 
 | InterSIG Tasks                                                      | Difficulty  |
@@ -596,3 +597,36 @@ Follow the steps below to complete this challenge:
 4. Use CSS custom properties (variables) to manage colors and repeated values efficiently.
 5. Don't worry about implementing complex backend functionality; focus on the frontend appearance and basic interactions of the landing page.
 6. Test your clone on different devices and browsers to ensure consistency.
+
+---
+
+## Task ID: Student Profile Portal
+
+#### `UI/UX`, `No Code`, `Prototyping`
+
+Mentor: [Fahim Ahmed](https://github.com/ahmedfahim21) ([+91 8861054452](https://wa.me/8861054452)), [Sanjeev Holla S](https://github.com/sanjeevholla26) ([+91 7676977619](https://wa.me/7676977619))
+
+Difficulty: `Easy`
+
+### Description
+
+Design a Student Profile Portal to manage and showcase student information at NITK. The platform will serve as a centralized hub for students to manage details about their academics, clubs, achievements, research work, internships, skills, projects, etc. Students can selectively choose which details to make public for others to view on their profiles. The platform will also be useful for institution to maintain a comprehensive student database.
+
+Your task is to create a **high-fidelity user interface (UI) and user flow using Figma with prototyping** to demonstrate how the portal will function.
+
+Follow the steps below to complete this challenge:
+
+- Ideate Features: Brainstorm and design features that would benefit both students and the institution for managing and displaying their profiles.
+- High-Fidelity UI in Figma: Create a high-fidelity user interface in Figma with user flow prototyping. Design clean and intuitive screens.
+
+
+### Useful resources:
+
+- [Figma](https://www.figma.com/)
+- [Figma Guide](https://creativemarket.com/blog/figma-guide)
+- [Figma Prototyping](https://help.figma.com/hc/en-us/articles/360040314193-Guide-to-prototyping-in-Figma)
+
+### Tips
+
+1. Think of creative ideas and present them well in your designs.
+
