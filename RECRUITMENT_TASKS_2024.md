@@ -125,7 +125,7 @@ Follow the steps below to complete this challenge:
 5. Allow the user to filter contest information by platform.
 6. Use appropriate APIs to fetch up-to-date contest information.
 7. Implement error handling for API failures or data unavailability.
-8. Implement a backend service to handle API requests and data processing.
+8. You can choose to implement a backend service to handle API requests and data processing.
 9. Allow the user to add upcoming contests to his calendar.
 10. Feel free to add any extra information from these platforms (heatmap, recent problem submissions, number of solved questions, difficulty of questions solved etc). Adding extra information would add bonus points.
     
@@ -134,8 +134,8 @@ Follow the steps below to complete this challenge:
 - [Codeforces API](https://codeforces.com/apiHelp)
 - [AtCoder API](https://atcoder-api-python.readthedocs.io/en/latest)
 - [Unoffical Leetcode API](https://github.com/alfaarghya/alfa-leetcode-api)
-- [ReactJS](https://react.dev/)
 - [NodeJS](https://nodejs.org/en)
+- [Flask](https://flask.palletsprojects.com/en/3.0.x/)
 - [Flutter](https://flutter.dev/)
 - [React Native](https://reactnative.dev/)
 
