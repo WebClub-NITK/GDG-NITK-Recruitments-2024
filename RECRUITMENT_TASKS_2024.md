@@ -11,40 +11,10 @@
 
 | Task                                                                | Difficulty  |
 | ------------------------------------------------------------------- | ----------- |
-| [Example Task](#task-id-example-task)                               | Medium      |
 | [Emojify](#task-id-emojify)                                         | Easy/Medium |
 | [Web-Based Diagram Generator](#task-id-web-based-diagram-generator) | Medium      |
 | [Fast-Type](#task-id-fast-type)                                     | Medium      |
 
-## Task ID: Example Task
-
-#### `Natural Language Processing`, `Machine Learning`
-
-Mentors: [John Doe](https://github.com/johndoe) ([+91 1234567890](https://wa.me/911234567890)), [Jane Smith](https://github.com/janesmith) ([+91 9876543210](https://wa.me/919876543210))
-
-Difficulty: `Medium`
-
-### Description
-
-Build an AI-powered virtual assistant that can understand and respond to user queries in natural language. The assistant should be able to perform tasks such as answering questions, setting reminders, and providing recommendations.
-
-Follow the steps below to complete this challenge:
-
-1. Implement natural language processing to understand user input
-2. Develop a knowledge base for the assistant to draw information from
-3. Create a user-friendly interface for interacting with the assistant
-
-### Useful resources:
-
-- [Natural Language Processing with Python](https://www.nltk.org/book/)
-- [Building AI Assistants with TensorFlow](https://www.tensorflow.org/tutorials)
-- [Rasa: Open Source Conversational AI](https://rasa.com/)
-
-### Tips
-
-1. Start by focusing on a specific domain or set of tasks for your assistant
-2. Use pre-trained models and APIs to accelerate development
-3. Pay attention to the user experience and make interactions feel natural
 
 ## Task ID: Emojify
 
@@ -101,24 +71,26 @@ Output: "🐶 😃"
 3. Consider using libraries or frameworks like React, Vue.js, or plain HTML/CSS/JavaScript for building the interface.
 4. Allow flexibility in how emojis are displayed and edited, making the user experience more enjoyable.
 
+---
+
 ## Task ID: Web-Based Diagram Generator
 
 #### Full-Stack Development, Diagram Generation, Graphviz
 
-Mentors: [Shubham Subodh Rasal](https://github.com/Shubham-Rasal) ([+91 7349784770](https://wa.me/917349784770)), [Udit Jain](https://github.com/UditJain2622004) ([+91 8708596606](https://wa.me/918708596606))
+Mentors: [Udit Jain](https://github.com/UditJain2622004) ([+91 8708596606](https://wa.me/918708596606)), [Shubham Subodh Rasal](https://github.com/Shubham-Rasal) ([+91 7349784770](https://wa.me/917349784770))
 
 Difficulty: `Medium`
 
 ### Description
 
-Develop a web application inspired by Mermaid.js that enables users to generate various types of diagrams based on user input. Users can enter data or upload relevant files, and the system will produce the desired diagram. Focus on letting users generate diagrams with minimal input. The application should also provide the option to export the generated diagram in popular formats like PNG and PDF.
+Develop a web application inspired by `Mermaid.js` that enables users to generate various types of diagrams based on user input. Users can enter data or upload relevant files, and the system will produce the desired diagram. Focus on letting users generate diagrams with minimal input. The application should also provide the option to export the generated diagram in popular formats like PNG and PDF.
 
-Some Popular Diagram Types your application _May_ support:
+Some Popular Diagram Types your application _may_ support:
 
 - Flowcharts
 - ER Diagrams
 - Class Diagrams
-- Dependency Diagrams (for Node.js and React projects)
+- Dependency Diagrams (for Node.js/React projects)
 
 **Note :** The type and number of diagram(s) your application support is not fixed. You are free to implement support for any type and number of diagram(s). The diagrams given above are just some examples.
 
@@ -143,7 +115,8 @@ Some Popular Diagram Types your application _May_ support:
 2. Use project analysis tools like npm, yarn, or Webpack to generate dependency graphs for Node.js and React projects. These tools can help map out the project structure automatically.
 3. Leverage libraries like Graphviz or D3.js for creating clean and user-friendly visualizations. These libraries are flexible and can handle a wide range of diagram types.
 4. Focus on the user experience by ensuring that users can generate diagrams with the least amount of manual effort. Implement features like pre-filled options where possible.
-<!-- add more here -->
+
+---
 
 ### Task ID: Fast-Type
 
