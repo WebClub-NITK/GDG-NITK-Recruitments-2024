@@ -24,7 +24,9 @@
 
 | InterSIG Tasks                                                      | Difficulty  |
 | ------------------------------------------------------------------- | ----------- |
-| [AgriVerify](#task-id-agriverify)                                   | Medium/Hard |
+| [AgriVerify (GDGxSystems)](#task-id-agriverify)                                   | Medium/Hard |
+| [Hogwarts Q&A (GDGxIntel)](#task-id-hogwarts-qa)                  | Hard     | 
+
 
 
 
@@ -310,63 +312,6 @@ Follow the steps below to complete this challenge:
 3. In case you find platforms that don't provide API endpoints for contests, display other information available.
 4. You can also use Unofficial Platform APIs, if official alternatives don't exist.
 
---- 
-
-## Task ID: AgriVerify
-
-#### `Web Application`, `Blockchain`, `Smart Contracts`
-
-Mentors: [Krishna Tulsyan](https://github.com/krishna) ([+91 9506221135](https://wa.me/9506221135)), [Apoorva Agrawal](https://github.com/imApoorva36) ([+91 8197404580](https://wa.me/8197404580)), [Mardav Gandhi](https://github.com/marcdhi) ([+91 9033398366](https://wa.me/9033398366))
-
-Difficulty: `Medium/Hard`
-
-### Description
-
-**AgriVerify**, where you'll blend blockchain technology with organic farming to bring trust and transparency to every crop grown! In this task, you’ll be creating a decentralized platform that empowers farmers to easily certify their organic produce and generate QR codes that consumers can scan for instant verification.
-
-Imagine walking through a market, scanning a QR code on an apple, and instantly seeing its certification, the farm it came from, and the people behind it—all with the power of blockchain!
-
----
-
-### Steps to Complete the Challenge:
-
-1. **Farmer Onboarding:**  
-   Build a welcoming system where farmers can easily sign up using wallet authentication and request certification for their crops. The process should be seamless, ensuring the user experience is as simple as organic farming itself.
-
-2. **Certification Process:**  
-   Dive into smart contracts! Implement a contract where farmers submit their crops for certification. For simplicity, assume the certifications are auto-approved. The goal is transparency and accessibility.
-
-3. **QR Code Generation:**  
-   Generate QR codes for certified crops. These codes should link to a beautifully simple page showing the certification details stored on the blockchain, enabling consumers to instantly trust their food.
-
----
-
-### Bonus Task:
-
-_Implementing the bonus features will make the task count as `Hard`, otherwise it will be `Medium`_
-
-**Push Notifications:**  
-Add an extra touch by integrating **[Push Protocol](https://push.org/)** to notify farmers in real-time when their crops are certified. Keep them excited and informed with instant updates!
-
----
-
-### Useful Resources:
-- [Hardhat Documentation](https://hardhat.org/getting-started/)
-- [QR Code Generation with JavaScript](https://www.npmjs.com/package/qrcode)
-- [Push Protocol Guide](https://push.org/docs/notifications/)
-- [Push Protocol Tutorials](https://push.org/docs/notifications/tutorials/)
-- [OpenZeppelin Contracts Wizard](https://wizard.openzeppelin.com/#) - Easily create custom ERC20 and ERC721 contracts
-- [Solidity by Example](https://solidity-by-example.org/) - Learn Solidity with simple, practical examples
-- [Web3.js Tutorial for Beginners](https://www.dappuniversity.com/articles/web3-js-intro) - Interact with smart contracts from the frontend
-- [How to Build a Blockchain App with Ethereum](https://www.dappuniversity.com/articles/blockchain-app-tutorial) - Step-by-step tutorial on creating a dApp
-
----
-
-### Tips:
-- Focus on creating an easy-to-use platform where farmers feel confident certifying their crops.
-- Use smart contract libraries like **OpenZeppelin** to ensure security and accelerate development.
-- Keep the frontend user-friendly, ensuring a fun and smooth experience for both farmers and consumers.
-
 ---
 
 ## Task ID: TravelTribe
@@ -422,6 +367,7 @@ _Implementing the bonus features will make the task count as `Hard`, otherwise i
 8. Then after things are decided by the group members update the itinerary to the google calendars of all group members.
 9. Work on the expense management feature in case of the groups.
 
+---
 
 ## Task ID: Club Recruitment Portal
 
@@ -477,3 +423,125 @@ In other cases, Club Conveners can create a SIG preference form.
 
 4. Implement proper role-based access control (RBAC):
    Ensure that the platform remains secure by implementing proper role-based access. Define roles like NITK Admin, Club Convenor, and Student, ensuring that each role has the necessary permissions to perform actions on the platform.
+
+---
+
+## Task ID: AgriVerify
+
+#### `Web Application`, `Blockchain`, `Smart Contracts`
+
+Mentors: [Krishna Tulsyan](https://github.com/krishna) ([+91 9506221135](https://wa.me/9506221135)), [Apoorva Agrawal](https://github.com/imApoorva36) ([+91 8197404580](https://wa.me/8197404580)), [Mardav Gandhi](https://github.com/marcdhi) ([+91 9033398366](https://wa.me/9033398366))
+
+Difficulty: `Medium/Hard`
+
+### Description
+
+**AgriVerify**, where you'll blend blockchain technology with organic farming to bring trust and transparency to every crop grown! In this task, you’ll be creating a decentralized platform that empowers farmers to easily certify their organic produce and generate QR codes that consumers can scan for instant verification.
+
+Imagine walking through a market, scanning a QR code on an apple, and instantly seeing its certification, the farm it came from, and the people behind it—all with the power of blockchain!
+
+
+### Steps to Complete the Challenge:
+
+1. **Farmer Onboarding:**  
+   Build a welcoming system where farmers can easily sign up using wallet authentication and request certification for their crops. The process should be seamless, ensuring the user experience is as simple as organic farming itself.
+
+2. **Certification Process:**  
+   Dive into smart contracts! Implement a contract where farmers submit their crops for certification. For simplicity, assume the certifications are auto-approved. The goal is transparency and accessibility.
+
+3. **QR Code Generation:**  
+   Generate QR codes for certified crops. These codes should link to a beautifully simple page showing the certification details stored on the blockchain, enabling consumers to instantly trust their food.
+
+
+### Bonus Task:
+
+_Implementing the bonus features will make the task count as `Hard`, otherwise it will be `Medium`_
+
+**Push Notifications:**  
+Add an extra touch by integrating **[Push Protocol](https://push.org/)** to notify farmers in real-time when their crops are certified. Keep them excited and informed with instant updates!
+
+
+### Useful Resources:
+- [Hardhat Documentation](https://hardhat.org/getting-started/)
+- [QR Code Generation with JavaScript](https://www.npmjs.com/package/qrcode)
+- [Push Protocol Guide](https://push.org/docs/notifications/)
+- [Push Protocol Tutorials](https://push.org/docs/notifications/tutorials/)
+- [OpenZeppelin Contracts Wizard](https://wizard.openzeppelin.com/#) - Easily create custom ERC20 and ERC721 contracts
+- [Solidity by Example](https://solidity-by-example.org/) - Learn Solidity with simple, practical examples
+- [Web3.js Tutorial for Beginners](https://www.dappuniversity.com/articles/web3-js-intro) - Interact with smart contracts from the frontend
+- [How to Build a Blockchain App with Ethereum](https://www.dappuniversity.com/articles/blockchain-app-tutorial) - Step-by-step tutorial on creating a dApp
+
+### Tips:
+- Focus on creating an easy-to-use platform where farmers feel confident certifying their crops.
+- Use smart contract libraries like **OpenZeppelin** to ensure security and accelerate development.
+- Keep the frontend user-friendly, ensuring a fun and smooth experience for both farmers and consumers.
+
+---
+
+## Task ID: Hogwarts Q&A  
+#### `NLP`, `Generative AI`, `RAG`, `ChatBot`
+
+Mentors: [Aryan Kashyap N](https://github.com/05kashyap) ([+91 8123279065](https://wa.me/918050030224)), [Fahim Ahmed](https://github.com/ahmedfahim21) ([+91 8861054452](https://wa.me/918861054452))
+
+**Difficulty**: `Hard`
+
+### Description  
+Create a **RAG (Retrieval-Augmented Generation)** system that answers questions using the book **"Harry Potter and the Prisoner of Azkaban"** as the primary knowledge base. This system should be able to handle queries related to characters, spells, locations, and magical events, retrieving contextually accurate information and generating lore-true responses.
+
+Participants will leverage this text to build a structured index for retrieval, generate embeddings, and deploy a Harry Potter-themed Q&A system. For added fun, include context references and quotes in the generated answers.
+
+You can access the full text of the book from the following link:  
+**[Harry Potter and the Prisoner of Azkaban PDF](https://ia902903.us.archive.org/12/items/FantasyFictionebookcollection/Harry%20Potter/3%20-%20Harry%20Potter%20and%20the%20Prisoner%20of%20Azkaban.pdf)**.
+
+### **Steps to Complete the Challenge**:
+
+1. **Data Collection & Ingestion**:  
+   Download the book from the provided link and parse it into a machine-readable format. Make sure to structure the data, preserving the chapters and significant sections. You may want to split the text based on chapters, events, or specific scenes.
+
+2. **Data Chunking & Preprocessing**:  
+   Break down large paragraphs into smaller chunks of 100-150 words. Ensure that each chunk contains coherent, self-contained information.
+
+3. **Embedding Generation**:  
+   - Use a pre-trained embedding model like ``all-MiniLM-L6-v2`` from Sentence Transformers to convert each text chunk into dense vector representations.
+   - The embeddings should capture semantic meaning, making it easy to retrieve the most contextually relevant text.
+
+4. **Vector Database Integration**:  
+   Store the embeddings in a vector database such as `ChromaDB`, `FAISS`, or `Milvus` for efficient similarity searches and quick lookups.
+
+5. **Query Handling & Retrieval**:  
+   - Implement a query pipeline using the embedding model to process user queries.
+   - Convert the query into an embedding and use the vector database to find the `top N` most relevant text chunks.
+
+6. **Contextual Response Generation**:  
+   - Use the retrieved chunks with a generative language model (like `Gemini` or `LLaMA`) to create a coherent response that incorporates quotes and references to specific parts of the book.
+   - Ensure that the generated output maintains the tone and style of the Harry Potter universe.
+
+7. **Serve via FastAPI**:  
+   - Expose your RAG system through **FastAPI** endpoints. 
+The /query endpoint should accept user queries like *“What is the significance of the Marauder’s Map?”* or *“How does Sirius Black escape from Hogwarts?”* and return a contextually accurate and engaging answer. 
+The endpoint should:
+Accept `POST` requests with a `JSON` body containing the user's question.
+Process the query through your RAG pipeline.
+Return a `JSON` response with the answer, relevant quotes, and metadata
+   
+8. **Develop an Interface**:  
+   - Build a basic web application. It should have a chat-like interface for asking questions and receiving answers. 
+
+Bonus Feature ( Optional ):
+
+1. **Time-Turner**:  
+   - Create a "Time-Turner" feature that allows users to view the conversation history and jump back to previous points in the chat.
+   - You can store the previous conversations in the local storage itself instead of a database.
+
+### **Useful Resources**:
+- [Harry Potter and the Prisoner of Azkaban PDF](https://ia902903.us.archive.org/12/items/FantasyFictionebookcollection/Harry%20Potter/3%20-%20Harry%20Potter%20and%20the%20Prisoner%20of%20Azkaban.pdf)
+- [LangChain Documentation](https://python.langchain.com/docs/introduction/)
+- [LlamaIndex Documentation](https://docs.llamaindex.ai/en/stable/)
+- [FastAPI Docs](https://fastapi.tiangolo.com/)
+- [Sentence Transformers for Embeddings](https://huggingface.co/sentence-transformers)
+- [ChromaDB GitHub](https://github.com/chroma-core/chroma)
+
+### Tips:
+1. When chunking the text, experiment with different chunk sizes and overlaps to find the optimal balance between context preservation and retrieval quality.
+2. Consider adding metadata tags (chapter names, etc.) to the chunks at the time of preprocessing, this can help with retrieval.
+
