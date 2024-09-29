@@ -82,6 +82,7 @@ Output: "🐶 😃"
 3. Consider using libraries or frameworks like React, Vue.js, or plain HTML/CSS/JavaScript for building the interface.
 4. Allow flexibility in how emojis are displayed and edited, making the user experience more enjoyable.
 
+---
 
 ## Task ID: Hogwarts Q&A  
 #### `Natural Language Processing`, `Generative AI`, `Retrieval-Augmented Generation`
@@ -89,8 +90,6 @@ Output: "🐶 😃"
 Mentors: [Aryan Kashyap N](https://github.com/05kashyap) ([+91 8123279065](https://wa.me/918050030224)), [Fahim Ahmed](https://github.com/ahmedfahim21) ([+91 8861054452](https://wa.me/918861054452))
 
 **Difficulty**: `Hard`
-
----
 
 ### Description  
 Create a **RAG (Retrieval-Augmented Generation)** system that answers questions using the book **"Harry Potter and the Prisoner of Azkaban"** as the primary knowledge base. This system should be able to handle queries related to characters, spells, locations, and magical events, retrieving contextually accurate information and generating lore-true responses.
