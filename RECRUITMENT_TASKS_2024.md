@@ -13,7 +13,7 @@
 | ----------------------------------------------------------- |------------|
 | [Example Task](#task-id-example-task)                    | Medium     |
 | [Emojify](#task-id-emojify)                            | Easy/Medium     |
-| [Fast-Type](#task-id-fast-type)                        | Medium          |  
+| [Fast-Type](#task-id-fast-type)                        | Medium          |
 
 
 ## Task ID: Example Task
@@ -136,3 +136,57 @@ Include the following features:
 1. Start with a basic typing test that records speed and accuracy.
 2. For leaderboards, use a simple database to store results and calculate rankings.
 3. For the graph, use Chart.js to visualize typing speed over time.
+
+## Task ID: Clubs Recruitment Portal
+
+#### `Full stack web development`, `Frontend`, `Backend`
+
+Mentors: [Sanjeev Holla S](https://github.com/sanjeevholla26) ([+91 7676977619](https://wa.me/7676977619)), [Fahim Ahmed](https://github.com/ahmedfahim21) ([+91 8861054452](https://wa.me/8861054452))
+
+Difficulty: `Hard`
+
+### Description
+
+Develop a web application that streamlines the entire clubs recruitment process, from announcing recruitment schedules to revealing the final selected candidates, ensuring a hassle-free experience for both clubs and participating students.
+
+## Features to Implement:
+
+1. **Club Convenors Registration**: Club convenors should be able to register their clubs on the platform.
+
+2. **Student Announcements**: Students should be able to view a list of clubs along with announcements regarding recruitment schedules.
+
+3. **Club Preference Form**: An admin-released club preference form should be available during exclusive club recruitment, allowing students to fill out their preferences.
+
+4. **Recruitment Details**: Clubs should be able to input details about their recruitment process, including the schedule and test links (if applicable).
+
+5. **Student Registration**: Students should be able to register for the recruitment process of multiple clubs.
+
+6. **Recruitment Rounds**: Clubs should be able to manage and track students across multiple rounds in the recruitment process.
+
+7. **Final Announcements**: Clubs should be able to announce their final selected candidates at the end of the recruitment process.
+
+## Bonus Feature (Optional):
+
+1. **Integrated Calendar**: To manage the hectic nature of club recruitment, integrate a calendar feature where students can view the recruitment schedules of all clubs.
+
+### Useful resources:
+
+- [Django](https://docs.djangoproject.com/en/4.0/intro/tutorial01/)
+- [ReactJS](https://react.dev/)
+- [NodeJS](https://nodejs.org/en)
+- [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+
+### Tips
+
+1. Start by deciding a subset of features:
+   Begin by selecting a subset of the features mentioned above that you want to implement first. This will help you build an MVP (Minimum Viable Product) and then gradually add more features.
+
+2. Design an efficient database schema:
+   Create a well-thought-out database schema that efficiently organizes data for clubs, students, recruitment rounds, announcements, and schedules.
+
+3. Choose suitable frameworks:
+   You can choose to use a full-stack framework like Django or Ruby on Rails to simplify the development of both the backend and frontend. Alternatively, you can use React/Next.js for the frontend and create APIs to connect to the backend services.
+
+4. Implement proper role-based access control (RBAC):
+   Ensure that the platform remains secure by implementing proper role-based access. Define roles like Admin, Club Convenor, and Student, ensuring that each role has the necessary permissions to perform actions on the platform.
+
