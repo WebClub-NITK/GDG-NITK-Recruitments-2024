@@ -152,7 +152,11 @@ Include the following features:
 1. Start with a basic typing test that records speed and accuracy.
 2. For leaderboards, use a simple database to store results and calculate rankings.
 3. For the graph, use Chart.js to visualize typing speed over time.
+
+---
+
 ## Task ID: Competitive Programming Portal
+
 #### `Mobile Application, APIs`
 
 Mentors: [Abhishek Satpathy](https://github.com/AbhishekSatpathy4848) ([+91 7619503901](https://wa.me/917619503901)), [Aman Sheoran](https://github.com/amansheoran15) ([+91 8930460660](https://wa.me/918930460660))
