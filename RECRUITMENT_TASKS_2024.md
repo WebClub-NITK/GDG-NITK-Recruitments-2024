@@ -23,7 +23,7 @@
 | InterSIG Tasks                                                      | Difficulty  |
 | ------------------------------------------------------------------- | ----------- |
 | [AgriVerify (GDGxSystems)](#task-id-agriverify)                                   | Medium/Hard |
-| [Hogwarts Q&A (GDGxIntel)](#task-id-hogwarts-q&a)                  | Hard     | 
+| [Hogwarts Q&A (GDGxIntel)](#task-id-hogwarts-qa)                  | Hard     | 
 
 
 
