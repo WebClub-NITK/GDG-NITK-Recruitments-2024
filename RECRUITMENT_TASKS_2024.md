@@ -21,7 +21,7 @@
 | [Discord QuizBot](#task-id-discord-quizbot)            | Medium     |
 | [Club Recruitment Portal](#task-id-club-recruitment-portal)            | Hard     |
 | [Landing Page](#task-id-landing-page)            | Easy     |
-| [Student UIMS](#task-id-student-profile-portal)            | Easy     |
+| [Student Profile Portal](#task-id-student-profile-portal)            | Easy     |
 
 
 | InterSIG Tasks                                                      | Difficulty  |
@@ -628,5 +628,6 @@ Follow the steps below to complete this challenge:
 
 ### Tips
 
-1. Think of creative ideas and present them well in your designs.
+1. Think of creative ideas and present them properly in your designs.
 
+---
