@@ -9,7 +9,6 @@
 
 ### Table of contents
 
-
 | Tasks                                                               | Difficulty  |
 | ------------------------------------------------------------------- | ----------- |
 | [Emojify](#task-id-emojify)                                         | Easy/Medium |
@@ -17,6 +16,7 @@
 | [Fast-Type](#task-id-fast-type)                                     | Medium      |
 | [Competitive Programming Portal](#task-id-competitive-programming-portal) | Medium     |
 | [TravelTribe](#task-id-traveltribe) | Medium/Hard     |
+| [LinkHub](#task-id-linkhub)                                 | Easy/Medium      |
 
 | InterSIG Tasks                                                      | Difficulty  |
 | ------------------------------------------------------------------- | ----------- |
@@ -77,6 +77,56 @@ Output: "🐶 😃"
 2. Make the UI fun and interactive with features like live emoji preview as the user types.
 3. Consider using libraries or frameworks like React, Vue.js, or plain HTML/CSS/JavaScript for building the interface.
 4. Allow flexibility in how emojis are displayed and edited, making the user experience more enjoyable.
+
+---
+
+## Task ID: LinkHub
+
+#### `Web Application`, `CRUD`, `UI/UX`, `Frontend Development`
+
+Mentors: [Apoorva Agrawal](https://github.com/imApoorva36) ([+91 8197404580](https://wa.me/8197404580)), [Mardav Gandhi](https://github.com/marcdhi) ([+91 9033398366](https://wa.me/9033398366))
+
+Difficulty: `Easy/Medium`
+
+### Description
+
+Develop a web application called `LinkHub` that helps NITK students create personalized landing pages to organize and share important academic, club, and social links. This tool can be used for various purposes like sharing links for group projects, showcasing club activities, organizing research work, or preparing for placements. Each student will have their own _customizable_ landing page where they can organize their links efficiently.
+
+Follow the steps below to complete this challenge:
+
+1. Build a clean, minimal user interface where users can add, edit, and delete links.
+3. Allow students to customize the appearance of their landing page, including themes and NITK-branded backgrounds (e.g., college colors, logos)
+4. Enable students to categorize their links (e.g., Projects, Clubs, Research, Social Media) and assign custom titles to each link
+5. Ensure that the links open in a new tab when clicked
+
+Bonus Feature:
+
+_Implementing all the bonus features will make the task count as `Medium`, otherwise it will be `Easy`_
+
+1. Each student's page should have a custom shareable URL, for example, `<your_domain>.vercel.app/username` or `<your_domain>.netlify.app/username`, making it easy to share with others
+2. Drag-and-Drop: Add a drag-and-drop feature that allows students to reorder their links. This will make it easier for users to organize and prioritize their most important links by simply dragging them up or down the list.
+3. Searchable Links: Implement a search feature that allows students or visitors to quickly find specific links on the landing page.
+
+### Expected Input and Output Examples:
+
+`Input: User provides links (e.g., Instagram, LinkedIn, personal website) and customizes their page's appearance.`
+
+Output: "A personalized landing page with clickable links that can be shared with others."
+
+### Useful resources:
+
+- [HTML and CSS Basics](https://www.w3schools.com/html/)
+- [Drag & Drop - Interact.js](https://interactjs.io/)
+- [A modern drag-drop tool for React](https://dndkit.com/)
+- [Vercel documentation](https://vercel.com/docs)
+- [Netlify documentation](https://docs.netlify.com/)
+
+### Tips
+
+1. Focus on Usability: Since the app is for students, prioritize a simple and intuitive UI where adding and managing links is effortless.
+2. Responsive Design: Ensure that the page looks good on mobile, as many users will view it on their smartphones.
+3. Styling Libraries: Consider using CSS libraries like Bootstrap or Tailwind CSS to speed up development and make the UI more visually appealing.
+4. Custom Slugs: Use URL slugs (<your_domain>.vercel.app/username) to make the page unique and easy to share.
 
 ---
 
@@ -242,7 +292,7 @@ Imagine walking through a market, scanning a QR code on an apple, and instantly 
 
 ### Bonus Task:
 
-**Note**: Attempting this section will consider your submission as a `hard task`.
+_Implementing the bonus features will make the task count as `Hard`, otherwise it will be `Medium`_
 
 **Push Notifications:**  
 Add an extra touch by integrating **[Push Protocol](https://push.org/)** to notify farmers in real-time when their crops are certified. Keep them excited and informed with instant updates!
@@ -293,6 +343,7 @@ Follow the steps below to complete this challenge:
 Bonus Feature ( Optional ):
 
 _Implementing the bonus features will make the task count as `Hard`, otherwise it will be `Medium`_
+
 1. Allow for editing itinerary in realtime.
 2. Expense management feature which tracks expenses during the travel and calculates the debt/credit of each group member.
 
@@ -319,3 +370,4 @@ _Implementing the bonus features will make the task count as `Hard`, otherwise i
 7. Explore about the realtime editing feature.
 8. Then after things are decided by the group members update the itinerary to the google calendars of all group members.
 9. Work on the expense management feature in case of the groups.
+
