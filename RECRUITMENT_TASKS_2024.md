@@ -20,6 +20,7 @@
 | [LinkHub](#task-id-linkhub)                                 | Easy/Medium      |
 | [Discord QuizBot](#task-id-discord-quizbot)            | Medium     |
 | [Club Recruitment Portal](#task-id-club-recruitment-portal)            | Hard     |
+| [Landing Page](#task-id-landing-page)            | Easy     |
 
 
 | InterSIG Tasks                                                      | Difficulty  |
@@ -545,3 +546,53 @@ Bonus Feature ( Optional ):
 1. When chunking the text, experiment with different chunk sizes and overlaps to find the optimal balance between context preservation and retrieval quality.
 2. Consider adding metadata tags (chapter names, etc.) to the chunks at the time of preprocessing, this can help with retrieval.
 
+---
+
+## Task ID: Landing Page
+
+#### `UI/UX Design`, `Frontend Development`, `Web Development`
+
+Mentor: [Mardav Gandhi](https://github.com/marcdhi) ([+91 9033398366](https://wa.me/9033398366))
+
+Difficulty: `Easy`
+
+### Description
+
+In this task, you will create a pixel-perfect clone of the landing page of a well-designed website. The goal is to replicate the visual design and basic interactions of the chosen website, focusing on attention to detail and responsive design.
+
+Follow the steps below to complete this challenge:
+
+1. Choose one of the following websites to clone (only the landing page):
+   - [Dropbox](https://www.dropbox.com/)
+   - [Slack](https://slack.com/)
+   - [Asana](https://asana.com/)
+   - [Mailchimp](https://mailchimp.com/)
+
+2. Create a responsive clone of the chosen website's landing page, ensuring it looks good on both desktop and mobile devices.
+
+3. Implement basic interactions and animations present on the original site (e.g., hover effects, simple transitions).
+
+4. Pay close attention to typography, spacing, and color schemes to match the original design as closely as possible.
+
+5. Use modern CSS techniques like Flexbox and Grid for layout.
+
+6. Ensure the clone is accessible, following basic web accessibility guidelines.
+
+7. Feel free to use all the assets (images, icons, etc.) from the respective landing page you're cloning. If for any reason you can't access certain assets, you can use placeholder assets as a last resort.
+
+
+### Useful resources:
+
+- [Responsive Web Design Basics](https://web.dev/responsive-web-design-basics/)
+- [CSS Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [CSS Grid Guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+
+### Tips
+
+1. Start by analyzing the structure of the chosen website's landing page and breaking it down into components.
+2. Use browser developer tools to inspect the original site for exact colors, fonts, and spacing.
+3. Focus on making the design responsive from the beginning, rather than as an afterthought.
+4. Use CSS custom properties (variables) to manage colors and repeated values efficiently.
+5. Don't worry about implementing complex backend functionality; focus on the frontend appearance and basic interactions of the landing page.
+6. Test your clone on different devices and browsers to ensure consistency.
