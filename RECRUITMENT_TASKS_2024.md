@@ -9,12 +9,13 @@
 
 ### Table of contents
 
+
 | Tasks                                                               | Difficulty  |
 | ------------------------------------------------------------------- | ----------- |
 | [Emojify](#task-id-emojify)                                         | Easy/Medium |
 | [Web-Based Diagram Generator](#task-id-web-based-diagram-generator) | Medium      |
 | [Fast-Type](#task-id-fast-type)                                     | Medium      |
-
+| [Competitive Programming Portal](#task-id-competitive-programming-portal) | Medium     |
 
 | InterSIG Tasks                                                      | Difficulty  |
 | ------------------------------------------------------------------- | ----------- |
@@ -160,6 +161,55 @@ Include the following features:
 
 ---
 
+## Task ID: Competitive Programming Portal
+
+#### `Mobile Application, APIs`
+
+Mentors: [Abhishek Satpathy](https://github.com/AbhishekSatpathy4848) ([+91 7619503901](https://wa.me/917619503901)), [Aman Sheoran](https://github.com/amansheoran15) ([+91 8930460660](https://wa.me/918930460660))
+
+Difficulty: `Medium`
+
+### Description
+
+Develop a mobile application that displays a unified dashboard for Competitive Programming Platforms, aggregating user information, ratings, questions solved, contest data etc from at least three platforms (e.g., Codeforces, LeetCode, AtCoder). The app should offer users a comprehensive overview of their competitive programming profile across these platforms.
+
+
+Follow the steps below to complete this challenge:
+
+1. Integrate user information like username, rating and other relevant information from at least three platforms of your choice.
+2. If contests are available, show contest information for:
+   - Past Contests: Show recently concluded contests with relevant details.
+   - Ongoing Contests: Display currently active contests.
+   - Upcoming Contests: List future scheduled contests with dates and times.
+3. User's can tap on contests to view more information if available.
+4. Design and implement a clean, intuitive user interface for easy navigation between different pages. Great UI/UX will add bonus points.
+5. Allow the user to filter contest information by platform.
+6. Use appropriate APIs to fetch up-to-date contest information.
+7. Implement error handling for API failures or data unavailability.
+8. You can choose to implement a backend service to handle API requests and data processing.
+9. Allow the user to add upcoming contests to his calendar.
+10. Feel free to add any extra information from these platforms (heatmap, recent problem submissions, number of solved questions, difficulty of questions solved etc). Adding extra information would add bonus points.
+    
+### Useful resources:
+
+- [Codeforces API](https://codeforces.com/apiHelp)
+- [AtCoder API](https://atcoder-api-python.readthedocs.io/en/latest)
+- [Unoffical Leetcode API](https://github.com/alfaarghya/alfa-leetcode-api)
+- [NodeJS](https://nodejs.org/en)
+- [Flask](https://flask.palletsprojects.com/en/3.0.x/)
+- [Flutter](https://flutter.dev/)
+- [React Native](https://reactnative.dev/)
+
+### Tips
+
+1. Any Mobile App Developement Technology can be used, either Native or Cross-Platform.
+2. Start by exploring the different platform APIs and the information they deliver.
+3. Then look into ways you can process and surface available information throught clean UI/UX.
+3. In case you find platforms that don't provide API endpoints for contests, display other information available.
+4. You can also use Unofficial Platform APIs, if official alternatives don't exist.
+
+--- 
+
 ## Task ID: AgriVerify
 
 #### `Web Application`, `Blockchain`, `Smart Contracts`
@@ -218,3 +268,4 @@ Add an extra touch by integrating **[Push Protocol](https://push.org/)** to noti
 - Keep the frontend user-friendly, ensuring a fun and smooth experience for both farmers and consumers.
 
 ---
+
