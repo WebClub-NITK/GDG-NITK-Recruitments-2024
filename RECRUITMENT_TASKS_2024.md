@@ -636,7 +636,6 @@ Task requirements:
 - [keyBERT(Recommended)](https://github.com/MaartenGr/KeyBERT#keybert)
 - [React ](https://react.dev/learn)
 - [Postman for API testing](https://www.youtube.com/watch?v=VywxIQ2ZXw4)
-Cache
 -[Redis Cache](https://redis.io/)
 
 ### Tips
