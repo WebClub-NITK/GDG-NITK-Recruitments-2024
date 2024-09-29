@@ -641,5 +641,5 @@ Cache
 
 ### Tips
 
-1. Start off with a minimum viable solution. install keybert library and create a Backend Servce,ensuring it runs alongside the frontend.Think about how the backend can trigger the API to process articles when needed.
+1. Start off with a minimum viable solution. install keybert library and create a Backend Service,ensuring it runs alongside the frontend.Think about how the backend can trigger the API to process articles when needed.
 2. Start of with using a database to store user interests ( use FIFO with max size of list of keywords) to store keywords in a cache with the most suitable eviction policy for the keywords.
