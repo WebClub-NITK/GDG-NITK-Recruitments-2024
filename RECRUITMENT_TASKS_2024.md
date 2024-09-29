@@ -247,8 +247,6 @@ Imagine walking through a market, scanning a QR code on an apple, and instantly 
 Add an extra touch by integrating **[Push Protocol](https://push.org/)** to notify farmers in real-time when their crops are certified. Keep them excited and informed with instant updates!
 
 ---
-**Note**: You can team up with others to complete this task, but remember, the interview will be conducted individually.
-
 
 ### Useful Resources:
 - [Hardhat Documentation](https://hardhat.org/getting-started/)
