@@ -17,10 +17,13 @@
 | [Competitive Programming Portal](#task-id-competitive-programming-portal) | Medium     |
 | [TravelTribe](#task-id-traveltribe) | Medium/Hard     |
 | [LinkHub](#task-id-linkhub)                                 | Easy/Medium      |
+| [Discord QuizBot](#task-id-discord-quizbot)            | Medium     |
+
 
 | InterSIG Tasks                                                      | Difficulty  |
 | ------------------------------------------------------------------- | ----------- |
 | [AgriVerify](#task-id-agriverify)                                   | Medium/Hard |
+
 
 
 ## Task ID: Emojify
@@ -212,6 +215,53 @@ Include the following features:
 
 ---
 
+## Task ID: Discord QuizBot
+
+#### `Discord Bot`, `APIs`,`Full Stack Development`, `GenAI`, `CRUD`
+
+Mentors: [Anush Revankar ](https://github.com/anushrevankar24) ([+91 9482597386](https://wa.me/9482597386)), [Ayush Kumar Singh](https://github.com/Ayush4345) ([+91 9334352548](https://wa.me/9334352548))
+
+Discord is a popular communication platform used for communities, and Discord bots can automate tasks within these servers, enhancing server functionality. In this task, you are expected to build a Discord quiz bot that allows users to select from a set of 10-20 available quizzes, answer timed questions, and view their results on a leaderboard ranked by both points and time taken. In cases where multiple users have the same points, the ranking should be determined based on the time taken per question. After completing a quiz, users should be able to view the top 10 players and their overall rank.
+
+The task also includes building a CRUD (Create, Read, Update, Delete) application for managing quiz sets and individual questions.
+
+**Key Features to Implement**:
+  1) **Discord Quiz Bot** :
+        - The bot should display 10-20 available quizzes for users to choose from, with each quiz consisting of multiple-choice questions.
+        - Once a quiz is selected, the bot presents each question one by one, with a set timer (e.g., 30 seconds per question). The bot will track the time users take 
+         to answer each question
+        - After the quiz, display a leaderboard ranking players.The leaderboard should display users ranked by their points (total number of correct answers). If 
+          multiple users have the same points, the ranking should be decided based on time taken per question (faster users rank higher). 
+        - The leaderboard should show the top 10 players and the user’s rank, even if they are not in the top 10.
+       
+  2)  **Quiz Management application**:
+      - Create a web-based CRUD application (Create, Read, Update, Delete) to manage quiz sets and individual questions.
+      - Through this panel, authorized admins can create quiz sets (e.g., 10 questions per set), update quiz sets or individual questions, and delete existing sets 
+         or questions. Admins can also view all quiz sets and questions.
+      - The CRUD application will be connected to the same database that the Discord quiz bot uses, ensuring real-time synchronization of changes made in the admin 
+        panel with the questions displayed to users during quizzes.
+
+### Bonus Features:
+1. Enhance the quiz management application by integrating  Large Language Models (LLMs) through APIs like OpenAI (ChatGPT) or Gemini to generate quiz question sets. This feature allows admins or question setters to specify the number of questions needed (e.g., 10 questions per quiz), and the AI should generate that number of questions.The generated questions should be editable, allowing admins to review and modify any of the AI-generated questions before finalizing the quiz set.
+2. Deploy the Discord Quizbot on a cloud platform (e.g., Heroku, AWS, or Vercel) so it can run continuously and be accessible to users.
+
+### Useful resources:
+- [Build a Discord Bot With Python](https://betterprogramming.pub/coding-a-discord-bot-with-python-64da9d6cade7)
+- [Build a Discord Quiz Bot](https://python.plainenglish.io/build-discord-quizbot-with-python-and-deploy-1-44dec1250a37)
+- [Gemini API](https://ai.google.dev/)
+- [Supabase](https://supabase.com/)
+- [Building a CRUD App with Supabase and Express](https://medium.com/@heshramsis/building-a-crud-app-with-supabase-and-express-a-step-by-step-guide-for-junior-developers-81456b850910)
+- [MongoDB](https://www.mongodb.com/) or [PostgreSQL](https://www.postgresql.org/)
+  
+### Tips
+1. Use any language, technology, or framework of your choice to build the bot and backend.
+2. Start with quiz selection, timing, and leaderboard display before adding extra features.
+3. Use Gemini API for integrating LLMs for making questions ,as its API is free to use.
+4. Ensure intuitive commands, similar to MEE6, and add slash commands for easy interaction.
+5. Any useful additional/interesting feature will have bonus points.
+
+---
+
 ## Task ID: Competitive Programming Portal
 
 #### `Mobile Application, APIs`
@@ -370,4 +420,3 @@ _Implementing the bonus features will make the task count as `Hard`, otherwise i
 7. Explore about the realtime editing feature.
 8. Then after things are decided by the group members update the itinerary to the google calendars of all group members.
 9. Work on the expense management feature in case of the groups.
-
