@@ -171,7 +171,7 @@ Bonus Feature ( Optional ):
 
 ### Tips:
 1. When chunking the text, experiment with different chunk sizes and overlaps to find the optimal balance between context preservation and retrieval quality.
-2. Consider adding metadata tags (chapter names, etc.) to the chunks at the time of preprocessing. this can help with retrieval.
+2. Consider adding metadata tags (chapter names, etc.) to the chunks at the time of preprocessing, this can help with retrieval.
 
 
 <!-- add more here -->
