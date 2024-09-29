@@ -9,11 +9,16 @@
 
 ### Table of contents
 
-| Task                                                                | Difficulty  |
+| Tasks                                                               | Difficulty  |
 | ------------------------------------------------------------------- | ----------- |
 | [Emojify](#task-id-emojify)                                         | Easy/Medium |
 | [Web-Based Diagram Generator](#task-id-web-based-diagram-generator) | Medium      |
 | [Fast-Type](#task-id-fast-type)                                     | Medium      |
+
+
+| InterSIG Tasks                                                      | Difficulty  |
+| ------------------------------------------------------------------- | ----------- |
+| [AgriVerify](#task-id-agriverify)                                   | Medium/Hard |
 
 
 ## Task ID: Emojify
@@ -152,3 +157,64 @@ Include the following features:
 1. Start with a basic typing test that records speed and accuracy.
 2. For leaderboards, use a simple database to store results and calculate rankings.
 3. For the graph, use Chart.js to visualize typing speed over time.
+
+---
+
+## Task ID: AgriVerify
+
+#### `Web Application`, `Blockchain`, `Smart Contracts`
+
+Mentors: [Krishna Tulsyan](https://github.com/krishna) ([+91 9506221135](https://wa.me/9506221135)), [Apoorva Agrawal](https://github.com/imApoorva36) ([+91 8197404580](https://wa.me/8197404580)), [Mardav Gandhi](https://github.com/marcdhi) ([+91 9033398366](https://wa.me/9033398366))
+
+Difficulty: `Medium/Hard`
+
+### Description
+
+**AgriVerify**, where you'll blend blockchain technology with organic farming to bring trust and transparency to every crop grown! In this task, you’ll be creating a decentralized platform that empowers farmers to easily certify their organic produce and generate QR codes that consumers can scan for instant verification.
+
+Imagine walking through a market, scanning a QR code on an apple, and instantly seeing its certification, the farm it came from, and the people behind it—all with the power of blockchain!
+
+---
+
+### Steps to Complete the Challenge:
+
+1. **Farmer Onboarding:**  
+   Build a welcoming system where farmers can easily sign up using wallet authentication and request certification for their crops. The process should be seamless, ensuring the user experience is as simple as organic farming itself.
+
+2. **Certification Process:**  
+   Dive into smart contracts! Implement a contract where farmers submit their crops for certification. For simplicity, assume the certifications are auto-approved. The goal is transparency and accessibility.
+
+3. **QR Code Generation:**  
+   Generate QR codes for certified crops. These codes should link to a beautifully simple page showing the certification details stored on the blockchain, enabling consumers to instantly trust their food.
+
+---
+
+### Bonus Task:
+
+**Note**: Attempting this section will consider your submission as a `hard task`.
+
+**Push Notifications:**  
+Add an extra touch by integrating **[Push Protocol](https://push.org/)** to notify farmers in real-time when their crops are certified. Keep them excited and informed with instant updates!
+
+---
+**Note**: You can team up with others to complete this task, but remember, the interview will be conducted individually.
+
+
+### Useful Resources:
+- [Hardhat Documentation](https://hardhat.org/getting-started/)
+- [QR Code Generation with JavaScript](https://www.npmjs.com/package/qrcode)
+- [Push Protocol Guide](https://push.org/docs/notifications/)
+- [Push Protocol Tutorials](https://push.org/docs/notifications/tutorials/)
+- [OpenZeppelin Contracts Wizard](https://wizard.openzeppelin.com/#) - Easily create custom ERC20 and ERC721 contracts
+- [Solidity by Example](https://solidity-by-example.org/) - Learn Solidity with simple, practical examples
+- [Web3.js Tutorial for Beginners](https://www.dappuniversity.com/articles/web3-js-intro) - Interact with smart contracts from the frontend
+- [How to Build a Blockchain App with Ethereum](https://www.dappuniversity.com/articles/blockchain-app-tutorial) - Step-by-step tutorial on creating a dApp
+
+---
+
+### Tips:
+- Focus on creating an easy-to-use platform where farmers feel confident certifying their crops.
+- Use smart contract libraries like **OpenZeppelin** to ensure security and accelerate development.
+- Keep the frontend user-friendly, ensuring a fun and smooth experience for both farmers and consumers.
+
+---
