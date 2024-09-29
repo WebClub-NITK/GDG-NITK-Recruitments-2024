@@ -11,41 +11,10 @@
 
 | Task                                                        | Difficulty |
 | ----------------------------------------------------------- |------------|
-| [Example Task](#task-id-example-task)                    | Medium     |
 | [Emojify](#task-id-emojify)                            | Easy/Medium     |
+| [Web-Based Diagram Generator](#task-id-web-based-diagram-generator) | Medium      |
+| [Fast-Type](#task-id-fast-type)                                     | Medium      |
 | [Competitive Programming Portal](#task-id-competitive-programming-portal) | Medium     |
-
-
-## Task ID: Example Task
-
-#### `Natural Language Processing`, `Machine Learning`
-
-Mentors: [John Doe](https://github.com/johndoe) ([+91 1234567890](https://wa.me/911234567890)), [Jane Smith](https://github.com/janesmith) ([+91 9876543210](https://wa.me/919876543210))
-
-Difficulty: `Medium`
-
-### Description
-
-Build an AI-powered virtual assistant that can understand and respond to user queries in natural language. The assistant should be able to perform tasks such as answering questions, setting reminders, and providing recommendations.
-
-Follow the steps below to complete this challenge:
-
-1. Implement natural language processing to understand user input
-2. Develop a knowledge base for the assistant to draw information from
-3. Create a user-friendly interface for interacting with the assistant
-
-### Useful resources:
-
-- [Natural Language Processing with Python](https://www.nltk.org/book/)
-- [Building AI Assistants with TensorFlow](https://www.tensorflow.org/tutorials)
-- [Rasa: Open Source Conversational AI](https://rasa.com/)
-
-### Tips
-
-1. Start by focusing on a specific domain or set of tasks for your assistant
-2. Use pre-trained models and APIs to accelerate development
-3. Pay attention to the user experience and make interactions feel natural
-
 
 ## Task ID: Emojify
 
@@ -72,6 +41,7 @@ Follow the steps below to complete this challenge:
 Bonus Feature ( Optional ):
 
 _Implementing the bonus feature will make the task count as `Medium`, otherwise it will be `Easy`_
+
 1. Emoji Sentiment Analysis having an implementation of sentiment analysis using simple NLP models (like VADER or TextBlob) to adjust emoji suggestions based on the emotional tone of the text. This can help ensure the emoji translation better reflects the mood of the original message
 
 ### Expected Input and Output Examples:
@@ -101,6 +71,87 @@ Output: "🐶 😃"
 3. Consider using libraries or frameworks like React, Vue.js, or plain HTML/CSS/JavaScript for building the interface.
 4. Allow flexibility in how emojis are displayed and edited, making the user experience more enjoyable.
 
+---
+
+## Task ID: Web-Based Diagram Generator
+
+#### Full-Stack Development, Diagram Generation, Graphviz
+
+Mentors: [Udit Jain](https://github.com/UditJain2622004) ([+91 8708596606](https://wa.me/918708596606)), [Shubham Subodh Rasal](https://github.com/Shubham-Rasal) ([+91 7349784770](https://wa.me/917349784770))
+
+Difficulty: `Medium`
+
+### Description
+
+Develop a web application inspired by `Mermaid.js` that enables users to generate various types of diagrams based on user input. Users can enter data or upload relevant files, and the system will produce the desired diagram. Focus on letting users generate diagrams with minimal input. The application should also provide the option to export the generated diagram in popular formats like PNG and PDF.
+
+Some Popular Diagram Types your application _may_ support:
+
+- Flowcharts
+- ER Diagrams
+- Class Diagrams
+- Dependency Diagrams (for Node.js/React projects)
+
+**Note :** The type and number of diagram(s) your application support is not fixed. You are free to implement support for any type and number of diagram(s). The diagrams given above are just some examples.
+
+#### Steps:
+
+1. **Input Mechanism**: Design a simple input system that is intuitive and allows for diagram creation, whether through form-based inputs or file uploads.
+2. **Diagram Generation**:
+   - Implement support for creating diagram using **Graphviz** or **D3.js**.
+   - For Dependency Diagrams for Node.js/React projects, allow users to upload a zip file of the project. The tool should parse the project’s dependencies and visualize the relationship between files and external packages.
+3. **Export Functionality**: Provide an option for users to export their diagrams in popular formats like PNG or PDF.
+
+### Useful Resources:
+
+- [Graphviz](https://graphviz.org)
+- [D3.js](https://d3js.org/)
+- [Mermaid.js Documentation](https://mermaid.js.org/)
+- [Dependency Graphs in Software Projects](https://docs.npmjs.com/cli/v6/commands/npm-ls)
+
+### Tips
+
+1. Build support for different types of diagrams one by one.
+2. Use project analysis tools like npm, yarn, or Webpack to generate dependency graphs for Node.js and React projects. These tools can help map out the project structure automatically.
+3. Leverage libraries like Graphviz or D3.js for creating clean and user-friendly visualizations. These libraries are flexible and can handle a wide range of diagram types.
+4. Focus on the user experience by ensuring that users can generate diagrams with the least amount of manual effort. Implement features like pre-filled options where possible.
+
+---
+
+### Task ID: Fast-Type
+
+#### `Web Development`,`Frontend`,`Backend`,`WebSockets`
+
+Mentors: [Aahil Rafiq](https://github.com/AahilRafiq) ([+91 7975657621](https://wa.me/917975657621)), [Shree Harsha Bhat](https://github.com/mshreeharsha) ([+91 9739835034](https://wa.me/919739835034))
+
+Difficulty: `Medium`
+
+### Description
+
+Build a typing speed test app like [Monkeytype](https://monkeytype.com/). The app should let users take a typing test based on either time (e.g., 60 seconds) or a fixed number of words (e.g., 50 words).
+
+Include the following features:
+
+1. Show the typing speed (words per minute) and accuracy after the test.
+2. Provide analytics on the user's typing:
+   - Speed and accuracy stats
+   - A graph showing how typing speed changes over time during the test
+3. Create a daily leaderboard and an all-time leaderboard to display the top typers.
+4. See that frontend provides a good user experience, including real-time updating of letters typed , correct marking of letters and good looking UI.
+5. **Bonus:** Show how a user's typing speed improves over time.
+6. **Bonus:** Add a multiplayer mode where users can race with 5 random people online.
+
+### Useful resources:
+
+- [Chart.js](https://www.chartjs.org/)
+- [SpeedTypingOnline (How to calculate WPM and accuracy)](https://www.speedtypingonline.com/typing-equations)
+- [Socket.io](https://socket.io/)
+
+### Tips
+
+1. Start with a basic typing test that records speed and accuracy.
+2. For leaderboards, use a simple database to store results and calculate rankings.
+3. For the graph, use Chart.js to visualize typing speed over time.
 ## Task ID: Competitive Programming Portal
 #### `Mobile Application, APIs`
 
