@@ -9,43 +9,29 @@
 
 ### Table of contents
 
-| Task                                                        | Difficulty |
-| ----------------------------------------------------------- |------------|
-| [Example Task](#task-id-example-task)                    | Medium     |
-| [Emojify](#task-id-emojify)                            | Easy/Medium     |
-| [Fast-Type](#task-id-fast-type)                        | Medium          | 
-| [News Feed Generation](#task-id-News-Feed-Generation)  | Medium          | 
+
+| Tasks                                                               | Difficulty  |
+| ------------------------------------------------------------------- | ----------- |
+| [Emojify](#task-id-emojify)                                         | Easy/Medium |
+| [Web-Based Diagram Generator](#task-id-web-based-diagram-generator) | Medium      |
+| [Fast-Type](#task-id-fast-type)                                     | Medium      |
+| [Competitive Programming Portal](#task-id-competitive-programming-portal) | Medium     |
+| [TravelTribe](#task-id-traveltribe) | Medium/Hard     |
+| [LinkHub](#task-id-linkhub)                                 | Easy/Medium      |
+| [Discord QuizBot](#task-id-discord-quizbot)            | Medium     |
+| [Club Recruitment Portal](#task-id-club-recruitment-portal)            | Hard     |
+| [Landing Page](#task-id-landing-page)            | Easy     |
+| [News Feed Generation](#task-id-News-Feed-Generation)                                     | Medium      |
 
 
-## Task ID: Example Task
 
-#### `Natural Language Processing`, `Machine Learning`
 
-Mentors: [John Doe](https://github.com/johndoe) ([+91 1234567890](https://wa.me/911234567890)), [Jane Smith](https://github.com/janesmith) ([+91 9876543210](https://wa.me/919876543210))
+| InterSIG Tasks                                                      | Difficulty  |
+| ------------------------------------------------------------------- | ----------- |
+| [AgriVerify (GDGxSystems)](#task-id-agriverify)                                   | Medium/Hard |
+| [Hogwarts Q&A (GDGxIntel)](#task-id-hogwarts-qa)                  | Hard     | 
 
-Difficulty: `Medium`
 
-### Description
-
-Build an AI-powered virtual assistant that can understand and respond to user queries in natural language. The assistant should be able to perform tasks such as answering questions, setting reminders, and providing recommendations.
-
-Follow the steps below to complete this challenge:
-
-1. Implement natural language processing to understand user input
-2. Develop a knowledge base for the assistant to draw information from
-3. Create a user-friendly interface for interacting with the assistant
-
-### Useful resources:
-
-- [Natural Language Processing with Python](https://www.nltk.org/book/)
-- [Building AI Assistants with TensorFlow](https://www.tensorflow.org/tutorials)
-- [Rasa: Open Source Conversational AI](https://rasa.com/)
-
-### Tips
-
-1. Start by focusing on a specific domain or set of tasks for your assistant
-2. Use pre-trained models and APIs to accelerate development
-3. Pay attention to the user experience and make interactions feel natural
 
 
 ## Task ID: Emojify
@@ -73,6 +59,7 @@ Follow the steps below to complete this challenge:
 Bonus Feature ( Optional ):
 
 _Implementing the bonus feature will make the task count as `Medium`, otherwise it will be `Easy`_
+
 1. Emoji Sentiment Analysis having an implementation of sentiment analysis using simple NLP models (like VADER or TextBlob) to adjust emoji suggestions based on the emotional tone of the text. This can help ensure the emoji translation better reflects the mood of the original message
 
 ### Expected Input and Output Examples:
@@ -102,7 +89,103 @@ Output: "🐶 😃"
 3. Consider using libraries or frameworks like React, Vue.js, or plain HTML/CSS/JavaScript for building the interface.
 4. Allow flexibility in how emojis are displayed and edited, making the user experience more enjoyable.
 
-<!-- add more here -->
+---
+
+## Task ID: LinkHub
+
+#### `Web Application`, `CRUD`, `UI/UX`, `Frontend Development`
+
+Mentors: [Apoorva Agrawal](https://github.com/imApoorva36) ([+91 8197404580](https://wa.me/8197404580)), [Mardav Gandhi](https://github.com/marcdhi) ([+91 9033398366](https://wa.me/9033398366))
+
+Difficulty: `Easy/Medium`
+
+### Description
+
+Develop a web application called `LinkHub` that helps NITK students create personalized landing pages to organize and share important academic, club, and social links. This tool can be used for various purposes like sharing links for group projects, showcasing club activities, organizing research work, or preparing for placements. Each student will have their own _customizable_ landing page where they can organize their links efficiently.
+
+Follow the steps below to complete this challenge:
+
+1. Build a clean, minimal user interface where users can add, edit, and delete links.
+3. Allow students to customize the appearance of their landing page, including themes and NITK-branded backgrounds (e.g., college colors, logos)
+4. Enable students to categorize their links (e.g., Projects, Clubs, Research, Social Media) and assign custom titles to each link
+5. Ensure that the links open in a new tab when clicked
+
+Bonus Feature:
+
+_Implementing all the bonus features will make the task count as `Medium`, otherwise it will be `Easy`_
+
+1. Each student's page should have a custom shareable URL, for example, `<your_domain>.vercel.app/username` or `<your_domain>.netlify.app/username`, making it easy to share with others
+2. Drag-and-Drop: Add a drag-and-drop feature that allows students to reorder their links. This will make it easier for users to organize and prioritize their most important links by simply dragging them up or down the list.
+3. Searchable Links: Implement a search feature that allows students or visitors to quickly find specific links on the landing page.
+
+### Expected Input and Output Examples:
+
+`Input: User provides links (e.g., Instagram, LinkedIn, personal website) and customizes their page's appearance.`
+
+Output: "A personalized landing page with clickable links that can be shared with others."
+
+### Useful resources:
+
+- [HTML and CSS Basics](https://www.w3schools.com/html/)
+- [Drag & Drop - Interact.js](https://interactjs.io/)
+- [A modern drag-drop tool for React](https://dndkit.com/)
+- [Vercel documentation](https://vercel.com/docs)
+- [Netlify documentation](https://docs.netlify.com/)
+
+### Tips
+
+1. Focus on Usability: Since the app is for students, prioritize a simple and intuitive UI where adding and managing links is effortless.
+2. Responsive Design: Ensure that the page looks good on mobile, as many users will view it on their smartphones.
+3. Styling Libraries: Consider using CSS libraries like Bootstrap or Tailwind CSS to speed up development and make the UI more visually appealing.
+4. Custom Slugs: Use URL slugs (<your_domain>.vercel.app/username) to make the page unique and easy to share.
+
+---
+
+## Task ID: Web-Based Diagram Generator
+
+#### Full-Stack Development, Diagram Generation, Graphviz
+
+Mentors: [Udit Jain](https://github.com/UditJain2622004) ([+91 8708596606](https://wa.me/918708596606)), [Shubham Subodh Rasal](https://github.com/Shubham-Rasal) ([+91 7349784770](https://wa.me/917349784770))
+
+Difficulty: `Medium`
+
+### Description
+
+Develop a web application inspired by `Mermaid.js` that enables users to generate various types of diagrams based on user input. Users can enter data or upload relevant files, and the system will produce the desired diagram. Focus on letting users generate diagrams with minimal input. The application should also provide the option to export the generated diagram in popular formats like PNG and PDF.
+
+Some Popular Diagram Types your application _may_ support:
+
+- Flowcharts
+- ER Diagrams
+- Class Diagrams
+- Dependency Diagrams (for Node.js/React projects)
+
+**Note :** The type and number of diagram(s) your application support is not fixed. You are free to implement support for any type and number of diagram(s). The diagrams given above are just some examples.
+
+#### Steps:
+
+1. **Input Mechanism**: Design a simple input system that is intuitive and allows for diagram creation, whether through form-based inputs or file uploads.
+2. **Diagram Generation**:
+   - Implement support for creating diagram using **Graphviz** or **D3.js**.
+   - For Dependency Diagrams for Node.js/React projects, allow users to upload a zip file of the project. The tool should parse the project’s dependencies and visualize the relationship between files and external packages.
+3. **Export Functionality**: Provide an option for users to export their diagrams in popular formats like PNG or PDF.
+
+### Useful Resources:
+
+- [Graphviz](https://graphviz.org)
+- [D3.js](https://d3js.org/)
+- [Mermaid.js Documentation](https://mermaid.js.org/)
+- [Dependency Graphs in Software Projects](https://docs.npmjs.com/cli/v6/commands/npm-ls)
+
+### Tips
+
+1. Build support for different types of diagrams one by one.
+2. Use project analysis tools like npm, yarn, or Webpack to generate dependency graphs for Node.js and React projects. These tools can help map out the project structure automatically.
+3. Leverage libraries like Graphviz or D3.js for creating clean and user-friendly visualizations. These libraries are flexible and can handle a wide range of diagram types.
+4. Focus on the user experience by ensuring that users can generate diagrams with the least amount of manual effort. Implement features like pre-filled options where possible.
+
+---
+
 ### Task ID: Fast-Type
 
 #### `Web Development`,`Frontend`,`Backend`,`WebSockets`
@@ -139,6 +222,384 @@ Include the following features:
 3. For the graph, use Chart.js to visualize typing speed over time.
 
 
+## Task ID: Discord QuizBot
+
+#### `Discord Bot`, `APIs`,`Full Stack Development`, `GenAI`, `CRUD`
+
+Mentors: [Anush Revankar ](https://github.com/anushrevankar24) ([+91 9482597386](https://wa.me/9482597386)), [Ayush Kumar Singh](https://github.com/Ayush4345) ([+91 9334352548](https://wa.me/9334352548))
+
+Discord is a popular communication platform used for communities, and Discord bots can automate tasks within these servers, enhancing server functionality. In this task, you are expected to build a Discord quiz bot that allows users to select from a set of 10-20 available quizzes, answer timed questions, and view their results on a leaderboard ranked by both points and time taken. In cases where multiple users have the same points, the ranking should be determined based on the time taken per question. After completing a quiz, users should be able to view the top 10 players and their overall rank.
+
+The task also includes building a CRUD (Create, Read, Update, Delete) application for managing quiz sets and individual questions.
+
+**Key Features to Implement**:
+  1) **Discord Quiz Bot** :
+        - The bot should display 10-20 available quizzes for users to choose from, with each quiz consisting of multiple-choice questions.
+        - Once a quiz is selected, the bot presents each question one by one, with a set timer (e.g., 30 seconds per question). The bot will track the time users take 
+         to answer each question
+        - After the quiz, display a leaderboard ranking players.The leaderboard should display users ranked by their points (total number of correct answers). If 
+          multiple users have the same points, the ranking should be decided based on time taken per question (faster users rank higher). 
+        - The leaderboard should show the top 10 players and the user’s rank, even if they are not in the top 10.
+       
+  2)  **Quiz Management application**:
+      - Create a web-based CRUD application (Create, Read, Update, Delete) to manage quiz sets and individual questions.
+      - Through this panel, authorized admins can create quiz sets (e.g., 10 questions per set), update quiz sets or individual questions, and delete existing sets 
+         or questions. Admins can also view all quiz sets and questions.
+      - The CRUD application will be connected to the same database that the Discord quiz bot uses, ensuring real-time synchronization of changes made in the admin 
+        panel with the questions displayed to users during quizzes.
+
+### Bonus Features:
+1. Enhance the quiz management application by integrating  Large Language Models (LLMs) through APIs like OpenAI (ChatGPT) or Gemini to generate quiz question sets. This feature allows admins or question setters to specify the number of questions needed (e.g., 10 questions per quiz), and the AI should generate that number of questions.The generated questions should be editable, allowing admins to review and modify any of the AI-generated questions before finalizing the quiz set.
+2. Deploy the Discord Quizbot on a cloud platform (e.g., Heroku, AWS, or Vercel) so it can run continuously and be accessible to users.
+
+### Useful resources:
+- [Build a Discord Bot With Python](https://betterprogramming.pub/coding-a-discord-bot-with-python-64da9d6cade7)
+- [Build a Discord Quiz Bot](https://python.plainenglish.io/build-discord-quizbot-with-python-and-deploy-1-44dec1250a37)
+- [Gemini API](https://ai.google.dev/)
+- [Supabase](https://supabase.com/)
+- [Building a CRUD App with Supabase and Express](https://medium.com/@heshramsis/building-a-crud-app-with-supabase-and-express-a-step-by-step-guide-for-junior-developers-81456b850910)
+- [MongoDB](https://www.mongodb.com/) or [PostgreSQL](https://www.postgresql.org/)
+  
+### Tips
+1. Use any language, technology, or framework of your choice to build the bot and backend.
+2. Start with quiz selection, timing, and leaderboard display before adding extra features.
+3. Use Gemini API for integrating LLMs for making questions ,as its API is free to use.
+4. Ensure intuitive commands, similar to MEE6, and add slash commands for easy interaction.
+5. Any useful additional/interesting feature will have bonus points.
+
+---
+
+## Task ID: Competitive Programming Portal
+
+#### `Mobile Application, APIs`
+
+Mentors: [Abhishek Satpathy](https://github.com/AbhishekSatpathy4848) ([+91 7619503901](https://wa.me/917619503901)), [Aman Sheoran](https://github.com/amansheoran15) ([+91 8930460660](https://wa.me/918930460660))
+
+Difficulty: `Medium`
+
+### Description
+
+Develop a mobile application that displays a unified dashboard for Competitive Programming Platforms, aggregating user information, ratings, questions solved, contest data etc from at least three platforms (e.g., Codeforces, LeetCode, AtCoder). The app should offer users a comprehensive overview of their competitive programming profile across these platforms.
+
+
+Follow the steps below to complete this challenge:
+
+1. Integrate user information like username, rating and other relevant information from at least three platforms of your choice.
+2. If contests are available, show contest information for:
+   - Past Contests: Show recently concluded contests with relevant details.
+   - Ongoing Contests: Display currently active contests.
+   - Upcoming Contests: List future scheduled contests with dates and times.
+3. User's can tap on contests to view more information if available.
+4. Design and implement a clean, intuitive user interface for easy navigation between different pages. Great UI/UX will add bonus points.
+5. Allow the user to filter contest information by platform.
+6. Use appropriate APIs to fetch up-to-date contest information.
+7. Implement error handling for API failures or data unavailability.
+8. You can choose to implement a backend service to handle API requests and data processing.
+9. Allow the user to add upcoming contests to his calendar.
+10. Feel free to add any extra information from these platforms (heatmap, recent problem submissions, number of solved questions, difficulty of questions solved etc). Adding extra information would add bonus points.
+    
+### Useful resources:
+
+- [Codeforces API](https://codeforces.com/apiHelp)
+- [AtCoder API](https://atcoder-api-python.readthedocs.io/en/latest)
+- [Unoffical Leetcode API](https://github.com/alfaarghya/alfa-leetcode-api)
+- [NodeJS](https://nodejs.org/en)
+- [Flask](https://flask.palletsprojects.com/en/3.0.x/)
+- [Flutter](https://flutter.dev/)
+- [React Native](https://reactnative.dev/)
+
+### Tips
+
+1. Any Mobile App Developement Technology can be used, either Native or Cross-Platform.
+2. Start by exploring the different platform APIs and the information they deliver.
+3. Then look into ways you can process and surface available information throught clean UI/UX.
+3. In case you find platforms that don't provide API endpoints for contests, display other information available.
+4. You can also use Unofficial Platform APIs, if official alternatives don't exist.
+
+---
+
+## Task ID: TravelTribe
+
+#### `Mobile/Desktop Application`, `Google Cloud Platform`
+
+Mentors: [Shreesha M](https://github.com/ShreeshaM07) ([+91 8310992995](https://wa.me/8310992995)), [Abhishek Satpathy](https://github.com/AbhishekSatpathy4848) ([+91 7619503901](https://wa.me/7619503901))
+
+Difficulty: `Medium/Hard`
+
+### Description
+
+Develop a comprehensive mobile application that enables users to create travel groups with friends, where the group owner selects a destination city or country. The app will utilize Gen AI APIs (such as the Gemini free tier) to generate customized travel itineraries based on user inputs, including travel dates and preferences(assume necessary details). It will allow group members to collaboratively modify the generated itinerary, and once finalized, it will sync with all group members' Google Calendars.
+
+_Connect, Plan, and Go!_
+
+Follow the steps below to complete this challenge:
+
+1. Creation of an app with Authentication and Login of users.
+2. Allow users to form groups.
+3. Use any Gen AI API preferably Gemini to generate an itinerary based on the inputs like destination and dates of travel.
+4. Allow the group members to Edit the Itinerary.
+5. Update the Itinerary to the Google Calendars of the members.
+
+Bonus Feature ( Optional ):
+
+_Implementing the bonus features will make the task count as `Hard`, otherwise it will be `Medium`_
+
+1. Allow for editing itinerary in realtime.
+2. Expense management feature which tracks expenses during the travel and calculates the debt/credit of each group member.
+
+
+### Useful resources:
+
+- [Flutter](https://docs.flutter.dev/)
+- [Firebase](https://firebase.google.com/)
+- [Flask](https://python-adv-web-apps.readthedocs.io/en/latest/flask.html)
+- [Firebase Auth](https://www.freecodecamp.org/news/use-firebase-authentication-in-a-react-app/)
+- [Google Calendar in Python](https://medium.com/@ayushbhatnagarmit/supercharge-your-scheduling-automating-google-calendar-with-python-87f752010375)
+- [Gemini in Flutter](https://medium.com/@blshashank59/integrating-the-gemini-api-in-your-flutter-application-9e767d578a5e)
+- [Groups on Flutter](https://www.cometchat.com/docs/ui-kit/flutter/groups)
+- [Google AI Studio](https://ai.google.dev/aistudio)
+
+### Tips
+
+1. Feel free to use any mobile app development technology, either Native or Cross-Platform.
+2. You can implement a backend service using Flask or Node.js or use backend-as-a-service platforms like Firebase or Supabase.
+3. Build the basic app with the sign up/in functionality.
+4. Have a neat UI where the owner can input details like start location, destination, dates of travel, duration and any other relevant details.
+5. Integrate the Gemini API/any other Gen AI to create itinerary.
+6. Add feature that allows users to make groups and allow members to edit the itinerary.
+7. Explore about the realtime editing feature.
+8. Then after things are decided by the group members update the itinerary to the google calendars of all group members.
+9. Work on the expense management feature in case of the groups.
+
+---
+
+## Task ID: Club Recruitment Portal
+
+#### `Full stack web development`, `Frontend`, `Backend`, `RBAC`
+
+Mentors: [Sanjeev Holla S](https://github.com/sanjeevholla26) ([+91 7676977619](https://wa.me/7676977619)), [Fahim Ahmed](https://github.com/ahmedfahim21) ([+91 8861054452](https://wa.me/8861054452))
+
+Difficulty: `Hard`
+
+### Description
+
+Develop a web application that streamlines the entire NITK clubs recruitment process, from announcing recruitment schedules to revealing the final selected candidates, ensuring a hassle-free experience for both clubs and participating students.
+
+## Features to Implement:
+
+1. **Club Registration**: Club convenors should be able to register their clubs on the platform and add necessary details.
+
+2. **Student Announcements**: Students should be able to view a list of clubs along with announcements regarding recruitment schedules.
+
+3. **Club/SIG Preference Form**: NITK Admin can release a club preference form during exclusive club recruitment, allowing students to fill out their preferences. 
+In other cases, Club Conveners can create a SIG preference form.
+
+4. **Recruitment Details**: Clubs should be able to input details about their recruitment process, including the schedule and test links (if applicable).
+
+5. **Student Registration**: Students should be able to register for the recruitment process of multiple clubs.
+
+6. **Recruitment Rounds**: Clubs should be able to manage and track students across multiple rounds in the recruitment process.
+
+7. **Final Announcements**: Clubs should be able to announce their final selected candidates at the end of the recruitment process and export as Excel/PDF.
+
+## Bonus Feature (Optional):
+
+1. **Integrated Calendar**: To manage the hectic nature of club recruitment, integrate a calendar feature where students can view the recruitment schedules of all clubs.
+2. **Club Core Members**: Give view access of your club details and registration list to other core members of the club, these members can only be added by Club Conveners.
+
+### Useful resources:
+
+- [Fullstack roadmap](https://www.guvi.in/blog/full-stack-developer-roadmap/)
+- [Django](https://docs.djangoproject.com/en/4.0/intro/tutorial01/)
+- [NodeJS](https://nodejs.org/en)
+- [Intro to RBAC](https://medium.com/@atarax/a-comprehensive-guide-on-role-based-access-control-rbac-introduction-part-1-a3a654b0e1c8)
+
+### Tips
+
+1. Start by deciding a subset of features:
+   Begin by selecting a subset of the features mentioned above that you want to implement first. This will help you build an MVP (Minimum Viable Product) and then gradually add more features.
+
+2. Design an efficient database schema:
+   Create a well-thought-out database schema that efficiently organizes data for clubs, students, recruitment rounds, announcements, and schedules.
+
+3. Choose suitable frameworks:
+   You can choose to use a full-stack framework like Django or Ruby on Rails to simplify the development of both the backend and frontend. Alternatively, you can use React/Next.js for the frontend and create APIs to connect to the backend services.
+
+4. Implement proper role-based access control (RBAC):
+   Ensure that the platform remains secure by implementing proper role-based access. Define roles like NITK Admin, Club Convenor, and Student, ensuring that each role has the necessary permissions to perform actions on the platform.
+
+---
+
+## Task ID: AgriVerify
+
+#### `Web Application`, `Blockchain`, `Smart Contracts`
+
+Mentors: [Krishna Tulsyan](https://github.com/krishna) ([+91 9506221135](https://wa.me/9506221135)), [Apoorva Agrawal](https://github.com/imApoorva36) ([+91 8197404580](https://wa.me/8197404580)), [Mardav Gandhi](https://github.com/marcdhi) ([+91 9033398366](https://wa.me/9033398366))
+
+Difficulty: `Medium/Hard`
+
+### Description
+
+**AgriVerify**, where you'll blend blockchain technology with organic farming to bring trust and transparency to every crop grown! In this task, you’ll be creating a decentralized platform that empowers farmers to easily certify their organic produce and generate QR codes that consumers can scan for instant verification.
+
+Imagine walking through a market, scanning a QR code on an apple, and instantly seeing its certification, the farm it came from, and the people behind it—all with the power of blockchain!
+
+
+### Steps to Complete the Challenge:
+
+1. **Farmer Onboarding:**  
+   Build a welcoming system where farmers can easily sign up using wallet authentication and request certification for their crops. The process should be seamless, ensuring the user experience is as simple as organic farming itself.
+
+2. **Certification Process:**  
+   Dive into smart contracts! Implement a contract where farmers submit their crops for certification. For simplicity, assume the certifications are auto-approved. The goal is transparency and accessibility.
+
+3. **QR Code Generation:**  
+   Generate QR codes for certified crops. These codes should link to a beautifully simple page showing the certification details stored on the blockchain, enabling consumers to instantly trust their food.
+
+
+### Bonus Task:
+
+_Implementing the bonus features will make the task count as `Hard`, otherwise it will be `Medium`_
+
+**Push Notifications:**  
+Add an extra touch by integrating **[Push Protocol](https://push.org/)** to notify farmers in real-time when their crops are certified. Keep them excited and informed with instant updates!
+
+
+### Useful Resources:
+- [Hardhat Documentation](https://hardhat.org/getting-started/)
+- [QR Code Generation with JavaScript](https://www.npmjs.com/package/qrcode)
+- [Push Protocol Guide](https://push.org/docs/notifications/)
+- [Push Protocol Tutorials](https://push.org/docs/notifications/tutorials/)
+- [OpenZeppelin Contracts Wizard](https://wizard.openzeppelin.com/#) - Easily create custom ERC20 and ERC721 contracts
+- [Solidity by Example](https://solidity-by-example.org/) - Learn Solidity with simple, practical examples
+- [Web3.js Tutorial for Beginners](https://www.dappuniversity.com/articles/web3-js-intro) - Interact with smart contracts from the frontend
+- [How to Build a Blockchain App with Ethereum](https://www.dappuniversity.com/articles/blockchain-app-tutorial) - Step-by-step tutorial on creating a dApp
+
+### Tips:
+- Focus on creating an easy-to-use platform where farmers feel confident certifying their crops.
+- Use smart contract libraries like **OpenZeppelin** to ensure security and accelerate development.
+- Keep the frontend user-friendly, ensuring a fun and smooth experience for both farmers and consumers.
+
+---
+
+## Task ID: Hogwarts Q&A  
+#### `NLP`, `Generative AI`, `RAG`, `ChatBot`
+
+Mentors: [Aryan Kashyap N](https://github.com/05kashyap) ([+91 8123279065](https://wa.me/918050030224)), [Fahim Ahmed](https://github.com/ahmedfahim21) ([+91 8861054452](https://wa.me/918861054452))
+
+**Difficulty**: `Hard`
+
+### Description  
+Create a **RAG (Retrieval-Augmented Generation)** system that answers questions using the book **"Harry Potter and the Prisoner of Azkaban"** as the primary knowledge base. This system should be able to handle queries related to characters, spells, locations, and magical events, retrieving contextually accurate information and generating lore-true responses.
+
+Participants will leverage this text to build a structured index for retrieval, generate embeddings, and deploy a Harry Potter-themed Q&A system. For added fun, include context references and quotes in the generated answers.
+
+You can access the full text of the book from the following link:  
+**[Harry Potter and the Prisoner of Azkaban PDF](https://ia902903.us.archive.org/12/items/FantasyFictionebookcollection/Harry%20Potter/3%20-%20Harry%20Potter%20and%20the%20Prisoner%20of%20Azkaban.pdf)**.
+
+### **Steps to Complete the Challenge**:
+
+1. **Data Collection & Ingestion**:  
+   Download the book from the provided link and parse it into a machine-readable format. Make sure to structure the data, preserving the chapters and significant sections. You may want to split the text based on chapters, events, or specific scenes.
+
+2. **Data Chunking & Preprocessing**:  
+   Break down large paragraphs into smaller chunks of 100-150 words. Ensure that each chunk contains coherent, self-contained information.
+
+3. **Embedding Generation**:  
+   - Use a pre-trained embedding model like ``all-MiniLM-L6-v2`` from Sentence Transformers to convert each text chunk into dense vector representations.
+   - The embeddings should capture semantic meaning, making it easy to retrieve the most contextually relevant text.
+
+4. **Vector Database Integration**:  
+   Store the embeddings in a vector database such as `ChromaDB`, `FAISS`, or `Milvus` for efficient similarity searches and quick lookups.
+
+5. **Query Handling & Retrieval**:  
+   - Implement a query pipeline using the embedding model to process user queries.
+   - Convert the query into an embedding and use the vector database to find the `top N` most relevant text chunks.
+
+6. **Contextual Response Generation**:  
+   - Use the retrieved chunks with a generative language model (like `Gemini` or `LLaMA`) to create a coherent response that incorporates quotes and references to specific parts of the book.
+   - Ensure that the generated output maintains the tone and style of the Harry Potter universe.
+
+7. **Serve via FastAPI**:  
+   - Expose your RAG system through **FastAPI** endpoints. 
+The /query endpoint should accept user queries like *“What is the significance of the Marauder’s Map?”* or *“How does Sirius Black escape from Hogwarts?”* and return a contextually accurate and engaging answer. 
+The endpoint should:
+Accept `POST` requests with a `JSON` body containing the user's question.
+Process the query through your RAG pipeline.
+Return a `JSON` response with the answer, relevant quotes, and metadata
+   
+8. **Develop an Interface**:  
+   - Build a basic web application. It should have a chat-like interface for asking questions and receiving answers. 
+
+Bonus Feature ( Optional ):
+
+1. **Time-Turner**:  
+   - Create a "Time-Turner" feature that allows users to view the conversation history and jump back to previous points in the chat.
+   - You can store the previous conversations in the local storage itself instead of a database.
+
+### **Useful Resources**:
+- [Harry Potter and the Prisoner of Azkaban PDF](https://ia902903.us.archive.org/12/items/FantasyFictionebookcollection/Harry%20Potter/3%20-%20Harry%20Potter%20and%20the%20Prisoner%20of%20Azkaban.pdf)
+- [LangChain Documentation](https://python.langchain.com/docs/introduction/)
+- [LlamaIndex Documentation](https://docs.llamaindex.ai/en/stable/)
+- [FastAPI Docs](https://fastapi.tiangolo.com/)
+- [Sentence Transformers for Embeddings](https://huggingface.co/sentence-transformers)
+- [ChromaDB GitHub](https://github.com/chroma-core/chroma)
+
+### Tips:
+1. When chunking the text, experiment with different chunk sizes and overlaps to find the optimal balance between context preservation and retrieval quality.
+2. Consider adding metadata tags (chapter names, etc.) to the chunks at the time of preprocessing, this can help with retrieval.
+
+---
+
+## Task ID: Landing Page
+
+#### `UI/UX Design`, `Frontend Development`, `Web Development`
+
+Mentor: [Mardav Gandhi](https://github.com/marcdhi) ([+91 9033398366](https://wa.me/9033398366))
+
+Difficulty: `Easy`
+
+### Description
+
+In this task, you will create a pixel-perfect clone of the landing page of a well-designed website. The goal is to replicate the visual design and basic interactions of the chosen website, focusing on attention to detail and responsive design.
+
+Follow the steps below to complete this challenge:
+
+1. Choose one of the following websites to clone (only the landing page):
+   - [Dropbox](https://www.dropbox.com/)
+   - [Slack](https://slack.com/)
+   - [Asana](https://asana.com/)
+   - [Mailchimp](https://mailchimp.com/)
+
+2. Create a responsive clone of the chosen website's landing page, ensuring it looks good on both desktop and mobile devices.
+
+3. Implement basic interactions and animations present on the original site (e.g., hover effects, simple transitions).
+
+4. Pay close attention to typography, spacing, and color schemes to match the original design as closely as possible.
+
+5. Use modern CSS techniques like Flexbox and Grid for layout.
+
+6. Ensure the clone is accessible, following basic web accessibility guidelines.
+
+7. Feel free to use all the assets (images, icons, etc.) from the respective landing page you're cloning. If for any reason you can't access certain assets, you can use placeholder assets as a last resort.
+
+
+### Useful resources:
+
+- [Responsive Web Design Basics](https://web.dev/responsive-web-design-basics/)
+- [CSS Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [CSS Grid Guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+
+### Tips
+
+1. Start by analyzing the structure of the chosen website's landing page and breaking it down into components.
+2. Use browser developer tools to inspect the original site for exact colors, fonts, and spacing.
+3. Focus on making the design responsive from the beginning, rather than as an afterthought.
+4. Use CSS custom properties (variables) to manage colors and repeated values efficiently.
+5. Don't worry about implementing complex backend functionality; focus on the frontend appearance and basic interactions of the landing page.
+6. Test your clone on different devices and browsers to ensure consistency.
+
 
 ## Task ID: News Feed Generation
 
@@ -163,7 +624,7 @@ Task requirements:
 2. Maintain personalization details like list of keywords.
 3. Provide a search functionality for the articles. ( Not required to provide support for phrase search. Key word search is sufficient). (Eg: science, Elon musk, crypto, technology, business etc) 
 4. Track when a user clicks to view the full news article, indicating interest in that article. 
-5. Apply NLP techniques (e.g., TF-IDF, BERT) to extract key words that represent the article’s information.
+5. Apply NLP techniques such as [keyBERT](https://github.com/MaartenGr/KeyBERT#keybert) for text Extraction.
 6. Store the extracted keywords in a datastore or cache (e.g., Redis), associated with the user's profile.
 7. Continuously update the user's interest profile based on their click history.
 8. Use the stored keywords to filter or rank future news articles that align with the user's interests.
@@ -172,16 +633,13 @@ Task requirements:
 ### Useful resources:
 
 - [API (Mandatory Use) ](https://newsapi.org/docs/get-started)
+- [keyBERT(Recommended)](https://github.com/MaartenGr/KeyBERT#keybert)
 - [React ](https://react.dev/learn)
 - [Postman for API testing](https://www.youtube.com/watch?v=VywxIQ2ZXw4)
-NLP techniques
-- [NLTK](ttps://www.nltk.org/)
-- [Spacy](https://spacy.io/4)
-- [Youtube Tutoria](https://www.youtube.com/playlist?list=PLeo1K3hjS3uuvuAXhYjV2lMEShq2UYSwX)
 Cache
 -[Redis Cache](https://redis.io/)
 
 ### Tips
 
-1. Start off with a minimum viable solution. You could submit a solution using the most basic NLP technique ( TF - IDF) and the most basic parameter like title or author to understand user interest to optimal techniques for keyword extraction and higher content coverage.
+1. Start off with a minimum viable solution. install keybert library and create a Backend Servce,ensuring it runs alongside the frontend.Think about how the backend can trigger the API to process articles when needed.
 2. Start of with using a database to store user interests ( use FIFO with max size of list of keywords) to store keywords in a cache with the most suitable eviction policy for the keywords.
