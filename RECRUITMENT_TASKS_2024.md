@@ -9,6 +9,7 @@
 
 ### Table of contents
 
+
 | Tasks                                                               | Difficulty  |
 | ------------------------------------------------------------------- | ----------- |
 | [Emojify](#task-id-emojify)                                         | Easy/Medium |
@@ -18,12 +19,14 @@
 | [TravelTribe](#task-id-traveltribe) | Medium/Hard     |
 | [LinkHub](#task-id-linkhub)                                 | Easy/Medium      |
 | [Discord QuizBot](#task-id-discord-quizbot)            | Medium     |
+| [Club Recruitment Portal](#task-id-club-recruitment-portal)            | Hard     |
 
 
 | InterSIG Tasks                                                      | Difficulty  |
 | ------------------------------------------------------------------- | ----------- |
 | [AgriVerify (GDGxSystems)](#task-id-agriverify)                                   | Medium/Hard |
 | [Hogwarts Q&A (GDGxIntel)](#task-id-hogwarts-qa)                  | Hard     | 
+
 
 
 
@@ -82,7 +85,7 @@ Output: "🐶 😃"
 3. Consider using libraries or frameworks like React, Vue.js, or plain HTML/CSS/JavaScript for building the interface.
 4. Allow flexibility in how emojis are displayed and edited, making the user experience more enjoyable.
 
-
+---
 
 ## Task ID: LinkHub
 
@@ -214,7 +217,6 @@ Include the following features:
 2. For leaderboards, use a simple database to store results and calculate rankings.
 3. For the graph, use Chart.js to visualize typing speed over time.
 
----
 
 ## Task ID: Discord QuizBot
 
@@ -367,6 +369,63 @@ _Implementing the bonus features will make the task count as `Hard`, otherwise i
 
 ---
 
+## Task ID: Club Recruitment Portal
+
+#### `Full stack web development`, `Frontend`, `Backend`, `RBAC`
+
+Mentors: [Sanjeev Holla S](https://github.com/sanjeevholla26) ([+91 7676977619](https://wa.me/7676977619)), [Fahim Ahmed](https://github.com/ahmedfahim21) ([+91 8861054452](https://wa.me/8861054452))
+
+Difficulty: `Hard`
+
+### Description
+
+Develop a web application that streamlines the entire NITK clubs recruitment process, from announcing recruitment schedules to revealing the final selected candidates, ensuring a hassle-free experience for both clubs and participating students.
+
+## Features to Implement:
+
+1. **Club Registration**: Club convenors should be able to register their clubs on the platform and add necessary details.
+
+2. **Student Announcements**: Students should be able to view a list of clubs along with announcements regarding recruitment schedules.
+
+3. **Club/SIG Preference Form**: NITK Admin can release a club preference form during exclusive club recruitment, allowing students to fill out their preferences. 
+In other cases, Club Conveners can create a SIG preference form.
+
+4. **Recruitment Details**: Clubs should be able to input details about their recruitment process, including the schedule and test links (if applicable).
+
+5. **Student Registration**: Students should be able to register for the recruitment process of multiple clubs.
+
+6. **Recruitment Rounds**: Clubs should be able to manage and track students across multiple rounds in the recruitment process.
+
+7. **Final Announcements**: Clubs should be able to announce their final selected candidates at the end of the recruitment process and export as Excel/PDF.
+
+## Bonus Feature (Optional):
+
+1. **Integrated Calendar**: To manage the hectic nature of club recruitment, integrate a calendar feature where students can view the recruitment schedules of all clubs.
+2. **Club Core Members**: Give view access of your club details and registration list to other core members of the club, these members can only be added by Club Conveners.
+
+### Useful resources:
+
+- [Fullstack roadmap](https://www.guvi.in/blog/full-stack-developer-roadmap/)
+- [Django](https://docs.djangoproject.com/en/4.0/intro/tutorial01/)
+- [NodeJS](https://nodejs.org/en)
+- [Intro to RBAC](https://medium.com/@atarax/a-comprehensive-guide-on-role-based-access-control-rbac-introduction-part-1-a3a654b0e1c8)
+
+### Tips
+
+1. Start by deciding a subset of features:
+   Begin by selecting a subset of the features mentioned above that you want to implement first. This will help you build an MVP (Minimum Viable Product) and then gradually add more features.
+
+2. Design an efficient database schema:
+   Create a well-thought-out database schema that efficiently organizes data for clubs, students, recruitment rounds, announcements, and schedules.
+
+3. Choose suitable frameworks:
+   You can choose to use a full-stack framework like Django or Ruby on Rails to simplify the development of both the backend and frontend. Alternatively, you can use React/Next.js for the frontend and create APIs to connect to the backend services.
+
+4. Implement proper role-based access control (RBAC):
+   Ensure that the platform remains secure by implementing proper role-based access. Define roles like NITK Admin, Club Convenor, and Student, ensuring that each role has the necessary permissions to perform actions on the platform.
+
+---
+
 ## Task ID: AgriVerify
 
 #### `Web Application`, `Blockchain`, `Smart Contracts`
@@ -485,3 +544,4 @@ Bonus Feature ( Optional ):
 ### Tips:
 1. When chunking the text, experiment with different chunk sizes and overlaps to find the optimal balance between context preservation and retrieval quality.
 2. Consider adding metadata tags (chapter names, etc.) to the chunks at the time of preprocessing, this can help with retrieval.
+
