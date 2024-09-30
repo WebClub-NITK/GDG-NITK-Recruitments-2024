@@ -12,26 +12,156 @@
 
 | Tasks                                                               | Difficulty  |
 | ------------------------------------------------------------------- | ----------- |
+| [ColorQuest](#task-id-colorquest)                                     | Easy      |
+| [Landing Page](#task-id-landing-page)            | Easy     |
+| [Student Profile Portal](#task-id-student-profile-portal)            | Easy     |
+| [Shrinker](#task-id-shrinker)                                     | Easy      |
 | [Emojify](#task-id-emojify)                                         | Easy/Medium |
+| [LinkHub](#task-id-linkhub)                                 | Easy/Medium      |
+| [Discord QuizBot](#task-id-discord-quizbot)            | Medium     |
 | [Web-Based Diagram Generator](#task-id-web-based-diagram-generator) | Medium      |
 | [Fast-Type](#task-id-fast-type)                                     | Medium      |
 | [Competitive Programming Portal](#task-id-competitive-programming-portal) | Medium     |
-| [TravelTribe](#task-id-traveltribe) | Medium/Hard     |
-| [LinkHub](#task-id-linkhub)                                 | Easy/Medium      |
-| [Discord QuizBot](#task-id-discord-quizbot)            | Medium     |
-| [Club Recruitment Portal](#task-id-club-recruitment-portal)            | Hard     |
-| [Landing Page](#task-id-landing-page)            | Easy     |
-| [Student Profile Portal](#task-id-student-profile-portal)            | Easy     |
 | [News Feed Generation](#task-id-news-feed-generation)                                     | Medium      |
-| [Shrinker](#task-id-shrinker)                                     | Easy      |
 | [Chessly](#task-id-chessly)                                     | Medium/Hard      |
-
+| [TravelTribe](#task-id-traveltribe) | Medium/Hard     |
+| [Club Recruitment Portal](#task-id-club-recruitment-portal)            | Hard     |
 
 | InterSIG Tasks                                                      | Difficulty  |
 | ------------------------------------------------------------------- | ----------- |
 | [AgriVerify (GDG x Systems)](#task-id-agriverify)                                   | Medium/Hard |
 | [Hogwarts Q&A (GDG x Intel)](#task-id-hogwarts-qa)                  | Hard     | 
 
+
+---
+## Task ID: ColorQuest
+
+#### `Front-end Web Development`, `Svelte`
+
+Mentors: [J Hariharan](https://github.com/j-hariharan/) ([+91 8050030224](https://wa.me/8050030224)), [Harshit Gupta](https://github.com/hgupta12/) ([+91 8583905686](https://wa.me/8583905686))
+
+Difficulty: `Easy`
+
+### Description
+
+Build a HSV-based color picker application similar to [Google Color Picker](https://www.google.com/search?q=color+picker), using [Svelte](https://svelte.dev/). The picker should allow all three degrees of freedom (as in the Google Picker - hue with bottom slider, saturation on horizontal axis, value on vertical axis); any layout can be used to achieve this. It should also support 5 color formats (HEX, RGB, CMYK, HSL, HSV), allowing the user to input a value in any of these formats to change the selected color. Clicking and dragging the mouse on the slider or picker should also change all 5 values in real time.
+
+### Useful resources:
+
+- [Introduction to Svelte](https://learn.svelte.dev/tutorial/welcome-to-svelte)
+- [HTML Canvas](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas)
+- [Understanding Color Models](https://medium.com/@info4mationmafia/understanding-color-models-hsv-vs-rgb-277aaec6d653)
+
+---
+
+## Task ID: Landing Page
+
+#### `UI/UX Design`, `Frontend Development`, `Web Development`
+
+Mentor: [Mardav Gandhi](https://github.com/marcdhi) ([+91 9033398366](https://wa.me/9033398366)), [Apoorva Agrawal](https://github.com/imApoorva36) ([+91 8197404580](https://wa.me/8197404580))
+
+Difficulty: `Easy`
+
+### Description
+
+In this task, you will create a pixel-perfect clone of the landing page of a well-designed website. The goal is to replicate the visual design and basic interactions of the chosen website, focusing on attention to detail and responsive design.
+
+Follow the steps below to complete this challenge:
+
+1. Choose one of the following websites to clone (only the landing page):
+   - [Dropbox](https://www.dropbox.com/)
+   - [Slack](https://slack.com/)
+   - [Asana](https://asana.com/)
+   - [Mailchimp](https://mailchimp.com/)
+2. Create a responsive clone of the chosen website's landing page, ensuring it looks good on both desktop and mobile devices.
+3. Implement basic interactions and animations present on the original site (e.g., hover effects, simple transitions).
+4. Pay close attention to typography, spacing, and color schemes to match the original design as closely as possible.
+5. Use modern CSS techniques like Flexbox and Grid for layout.
+6. Ensure the clone is accessible, following basic web accessibility guidelines.
+7. Feel free to use all the assets (images, icons, etc.) from the respective landing page you're cloning. If for any reason you can't access certain assets, you can use placeholder assets as a last resort.
+
+
+### Useful resources:
+
+- [Responsive Web Design Basics](https://web.dev/responsive-web-design-basics/)
+- [CSS Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [CSS Grid Guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [Framer Animations](https://www.framer.com/motion/)
+
+### Tips
+
+1. Start by analyzing the structure of the chosen website's landing page and breaking it down into components.
+2. Use browser developer tools to inspect the original site for exact colors, fonts, and spacing.
+3. Focus on making the design responsive from the beginning, rather than as an afterthought.
+4. Use CSS custom properties (variables) to manage colors and repeated values efficiently.
+5. Don't worry about implementing complex backend functionality; focus on the frontend appearance and basic interactions of the landing page.
+6. Test your clone on different devices and browsers to ensure consistency.
+
+---
+
+## Task ID: Student Profile Portal
+
+#### `UI/UX`, `No Code`, `Prototyping`
+
+Mentor: [Fahim Ahmed](https://github.com/ahmedfahim21) ([+91 8861054452](https://wa.me/8861054452)), [Sanjeev Holla S](https://github.com/sanjeevholla26) ([+91 7676977619](https://wa.me/7676977619))
+
+Difficulty: `Easy`
+
+### Description
+
+Design a Student Profile Portal to manage and showcase student information at NITK. The platform will serve as a centralized hub for students to manage details about their academics, clubs, achievements, research work, internships, skills, projects, etc. Students can selectively choose which details to make public for others to view on their profiles. The platform will also be useful for institution to maintain a comprehensive student database.
+
+Your task is to create a **high-fidelity user interface (UI) and user flow using Figma with prototyping** to demonstrate how the portal will function.
+
+Follow the steps below to complete this challenge:
+
+- Ideate Features: Brainstorm and design features that would benefit both students and the institution for managing and displaying their profiles.
+- High-Fidelity UI in Figma: Create a high-fidelity user interface in Figma with user flow prototyping. Design clean and intuitive screens.
+
+
+### Useful resources:
+
+- [Figma](https://www.figma.com/)
+- [Figma Guide](https://creativemarket.com/blog/figma-guide)
+- [Figma Prototyping](https://help.figma.com/hc/en-us/articles/360040314193-Guide-to-prototyping-in-Figma)
+
+### Tips
+
+1. Think of creative ideas and present them properly in your designs.
+
+---
+
+## Task ID: Shrinker
+
+#### `Full-Stack Web Development`, `Databases`
+
+Mentors: [J Hariharan](https://github.com/j-hariharan/) ([+91 8050030224](https://wa.me/8050030224)), [Harshit Gupta](https://github.com/hgupta12/) ([+91 8583905686](https://wa.me/8583905686))
+
+Difficulty: `Easy`
+
+### Description
+
+Create a URL shortner web application which allows people to login, create and manage short URLs, and track statistics on their links. The app also allows users to choose custom short URLs if they are available.
+
+The following features should be included in the web app:
+
+1. User login through email-password or Google Authentication.
+2. User can paste the URL to shorten, and are given a randomly generated short URL.
+3. The user is given the option to enter a custom short URL, which is accepted if it is available (not used previously).
+4. The user can view their previously created short URLs, along with statistics on the number of people who have visited each of them.
+
+
+### Useful resources:
+
+- Full Stack Web Application Framework: [NextJS](https://nextjs.org/)
+- MVC/MVT frameworks: [ExpressJS](http://expressjs.com/) &nbsp; [Django](https://www.djangoproject.com/)
+- Databases: [MongoDB](https://www.mongodb.com/) &nbsp; [Firestore](https://firebase.google.com/docs/firestore/)
+
+### Tips
+1. You can use any technologies to build the application. The ones mentioned above are just for reference.
+
+---
 
 
 ## Task ID: Emojify
@@ -141,6 +271,53 @@ Output: "A personalized landing page with clickable links that can be shared wit
 
 ---
 
+## Task ID: Discord QuizBot
+
+#### `Discord Bot`, `APIs`,`Full Stack Development`, `GenAI`, `CRUD`
+
+Mentors: [Anush Revankar ](https://github.com/anushrevankar24) ([+91 9482597386](https://wa.me/9482597386)), [Ayush Kumar Singh](https://github.com/Ayush4345) ([+91 9334352548](https://wa.me/9334352548))
+
+Discord is a popular communication platform used for communities, and Discord bots can automate tasks within these servers, enhancing server functionality. In this task, you are expected to build a Discord quiz bot that allows users to select from a set of 10-20 available quizzes, answer timed questions, and view their results on a leaderboard ranked by both points and time taken. In cases where multiple users have the same points, the ranking should be determined based on the time taken per question. After completing a quiz, users should be able to view the top 10 players and their overall rank.
+
+The task also includes building a CRUD (Create, Read, Update, Delete) application for managing quiz sets and individual questions.
+
+**Key Features to Implement**:
+  1) **Discord Quiz Bot** :
+        - The bot should display 10-20 available quizzes for users to choose from, with each quiz consisting of multiple-choice questions.
+        - Once a quiz is selected, the bot presents each question one by one, with a set timer (e.g., 30 seconds per question). The bot will track the time users take 
+         to answer each question
+        - After the quiz, display a leaderboard ranking players.The leaderboard should display users ranked by their points (total number of correct answers). If 
+          multiple users have the same points, the ranking should be decided based on time taken per question (faster users rank higher). 
+        - The leaderboard should show the top 10 players and the user’s rank, even if they are not in the top 10.
+       
+  2)  **Quiz Management application**:
+      - Create a web-based CRUD application (Create, Read, Update, Delete) to manage quiz sets and individual questions.
+      - Through this panel, authorized admins can create quiz sets (e.g., 10 questions per set), update quiz sets or individual questions, and delete existing sets 
+         or questions. Admins can also view all quiz sets and questions.
+      - The CRUD application will be connected to the same database that the Discord quiz bot uses, ensuring real-time synchronization of changes made in the admin 
+        panel with the questions displayed to users during quizzes.
+
+### Bonus Features:
+1. Enhance the quiz management application by integrating  Large Language Models (LLMs) through APIs like OpenAI (ChatGPT) or Gemini to generate quiz question sets. This feature allows admins or question setters to specify the number of questions needed (e.g., 10 questions per quiz), and the AI should generate that number of questions.The generated questions should be editable, allowing admins to review and modify any of the AI-generated questions before finalizing the quiz set.
+2. Deploy the Discord Quizbot on a cloud platform (e.g., Heroku, AWS, or Vercel) so it can run continuously and be accessible to users.
+
+### Useful resources:
+- [Build a Discord Bot With Python](https://betterprogramming.pub/coding-a-discord-bot-with-python-64da9d6cade7)
+- [Build a Discord Quiz Bot](https://python.plainenglish.io/build-discord-quizbot-with-python-and-deploy-1-44dec1250a37)
+- [Gemini API](https://ai.google.dev/)
+- [Supabase](https://supabase.com/)
+- [Building a CRUD App with Supabase and Express](https://medium.com/@heshramsis/building-a-crud-app-with-supabase-and-express-a-step-by-step-guide-for-junior-developers-81456b850910)
+- [MongoDB](https://www.mongodb.com/) or [PostgreSQL](https://www.postgresql.org/)
+  
+### Tips
+1. Use any language, technology, or framework of your choice to build the bot and backend.
+2. Start with quiz selection, timing, and leaderboard display before adding extra features.
+3. Use Gemini API for integrating LLMs for making questions ,as its API is free to use.
+4. Ensure intuitive commands, similar to MEE6, and add slash commands for easy interaction.
+5. Any useful additional/interesting feature will have bonus points.
+
+---
+
 ## Task ID: Web-Based Diagram Generator
 
 #### Full-Stack Development, Diagram Generation, Graphviz
@@ -221,53 +398,8 @@ Include the following features:
 2. For leaderboards, use a simple database to store results and calculate rankings.
 3. For the graph, use Chart.js to visualize typing speed over time.
 
-
-## Task ID: Discord QuizBot
-
-#### `Discord Bot`, `APIs`,`Full Stack Development`, `GenAI`, `CRUD`
-
-Mentors: [Anush Revankar ](https://github.com/anushrevankar24) ([+91 9482597386](https://wa.me/9482597386)), [Ayush Kumar Singh](https://github.com/Ayush4345) ([+91 9334352548](https://wa.me/9334352548))
-
-Discord is a popular communication platform used for communities, and Discord bots can automate tasks within these servers, enhancing server functionality. In this task, you are expected to build a Discord quiz bot that allows users to select from a set of 10-20 available quizzes, answer timed questions, and view their results on a leaderboard ranked by both points and time taken. In cases where multiple users have the same points, the ranking should be determined based on the time taken per question. After completing a quiz, users should be able to view the top 10 players and their overall rank.
-
-The task also includes building a CRUD (Create, Read, Update, Delete) application for managing quiz sets and individual questions.
-
-**Key Features to Implement**:
-  1) **Discord Quiz Bot** :
-        - The bot should display 10-20 available quizzes for users to choose from, with each quiz consisting of multiple-choice questions.
-        - Once a quiz is selected, the bot presents each question one by one, with a set timer (e.g., 30 seconds per question). The bot will track the time users take 
-         to answer each question
-        - After the quiz, display a leaderboard ranking players.The leaderboard should display users ranked by their points (total number of correct answers). If 
-          multiple users have the same points, the ranking should be decided based on time taken per question (faster users rank higher). 
-        - The leaderboard should show the top 10 players and the user’s rank, even if they are not in the top 10.
-       
-  2)  **Quiz Management application**:
-      - Create a web-based CRUD application (Create, Read, Update, Delete) to manage quiz sets and individual questions.
-      - Through this panel, authorized admins can create quiz sets (e.g., 10 questions per set), update quiz sets or individual questions, and delete existing sets 
-         or questions. Admins can also view all quiz sets and questions.
-      - The CRUD application will be connected to the same database that the Discord quiz bot uses, ensuring real-time synchronization of changes made in the admin 
-        panel with the questions displayed to users during quizzes.
-
-### Bonus Features:
-1. Enhance the quiz management application by integrating  Large Language Models (LLMs) through APIs like OpenAI (ChatGPT) or Gemini to generate quiz question sets. This feature allows admins or question setters to specify the number of questions needed (e.g., 10 questions per quiz), and the AI should generate that number of questions.The generated questions should be editable, allowing admins to review and modify any of the AI-generated questions before finalizing the quiz set.
-2. Deploy the Discord Quizbot on a cloud platform (e.g., Heroku, AWS, or Vercel) so it can run continuously and be accessible to users.
-
-### Useful resources:
-- [Build a Discord Bot With Python](https://betterprogramming.pub/coding-a-discord-bot-with-python-64da9d6cade7)
-- [Build a Discord Quiz Bot](https://python.plainenglish.io/build-discord-quizbot-with-python-and-deploy-1-44dec1250a37)
-- [Gemini API](https://ai.google.dev/)
-- [Supabase](https://supabase.com/)
-- [Building a CRUD App with Supabase and Express](https://medium.com/@heshramsis/building-a-crud-app-with-supabase-and-express-a-step-by-step-guide-for-junior-developers-81456b850910)
-- [MongoDB](https://www.mongodb.com/) or [PostgreSQL](https://www.postgresql.org/)
-  
-### Tips
-1. Use any language, technology, or framework of your choice to build the bot and backend.
-2. Start with quiz selection, timing, and leaderboard display before adding extra features.
-3. Use Gemini API for integrating LLMs for making questions ,as its API is free to use.
-4. Ensure intuitive commands, similar to MEE6, and add slash commands for easy interaction.
-5. Any useful additional/interesting feature will have bonus points.
-
 ---
+
 
 ## Task ID: Competitive Programming Portal
 
@@ -315,6 +447,90 @@ Follow the steps below to complete this challenge:
 3. Then look into ways you can process and surface available information throught clean UI/UX.
 3. In case you find platforms that don't provide API endpoints for contests, display other information available.
 4. You can also use Unofficial Platform APIs, if official alternatives don't exist.
+
+---
+
+## Task ID: News Feed Generation
+
+#### `Full Stack`, `API`,`Cache`
+
+Mentors: [G Vishwas](https://github.com/Vishwas1687) ([+91 9606278892](https://wa.me/9606278892)), [Anshuman Upadhyay](https://github.com/anshumanNitk) ([+91 9175954118](https://wa.me/9175954118))
+
+Difficulty: `Medium`
+
+### Description
+
+Your task is to build a news feed application that focuses on understanding users' reading preferences without relying on pre-built filters. The website should allow users to search for news using simple keywords and track which full articles they choose to read.
+
+You will use the [NewsAPI](https://newsapi.org/docs/get-started) to fetch and display articles on your website. It’s recommended to design a single-page layout, showing news articles in a card format (with the title, description, image, author/source, etc.). When a user clicks on a card, it should take them to the full article via the URL provided by the API.
+
+The NewsAPI includes an advanced search endpoint, allowing you to search for articles (in the title, content, or description fields) based on a keyword.
+
+Task Requirements:
+
+1. Implement login and signup functionality.
+2. Maintain personalization details, such as a list of keywords associated with each user.
+3. Provide a search feature for articles. (Phrase search is not required; simple keyword search is sufficient, e.g., "science," "Elon Musk," "crypto," "technology," "business," etc.)
+4. Track when a user clicks to view the full news article, marking it as an indication of their interest.
+5. Use a python library [keyBERT](https://github.com/MaartenGr/KeyBERT#keybert), to extract keywords from articles.
+6. Store the extracted keywords in a database or cache (e.g., Redis) and associate them with the user's profile.
+7. Continuously update the user's interest profile based on their article click history.
+8. Use the stored keywords to filter or rank future news articles based on the user's interests.
+
+### Useful resources:
+
+- [API (Mandatory Use) ](https://newsapi.org/docs/get-started)
+- [keyBERT(Recommended)](https://github.com/MaartenGr/KeyBERT#keybert)
+- [Postman for API testing](https://www.youtube.com/watch?v=VywxIQ2ZXw4)
+- [Redis Cache](https://redis.io/)
+
+### Tips
+
+1. Set up login/signup and implement simple article search using the NewsAPI first.
+2. Use Postman to test API responses before coding to understand how data is returned.
+3. Start off with a minimum viable solution. install keyBert library and create a Backend Service, ensuring it runs alongside the frontend. Think of how to utilize the keyBERT library to extract the most relevant words of the articles the user reads.
+4. Start off with using a database to store user interests ( use FIFO with max size of list of keywords) in the form of keywords and then navigate towards using a cache with the most suitable eviction policy for the keywords.
+
+---
+
+## Task ID: Chessly
+
+#### `Web Application`, `PWA`
+
+Mentors: [J Hariharan](https://github.com/j-hariharan/) ([+91 8050030224](https://wa.me/8050030224)), [Harshit Gupta](https://github.com/hgupta12/) ([+91 8583905686](https://wa.me/8583905686))
+
+Difficulty: `Medium/Hard`
+
+### Description
+
+Develop a Chess PWA from scratch - allow two players to play on a single, offline, fully-featured chessboard! The game can be played on the same device, and should provide valid move indicators, winner detection, takebacks (undos), reset board, and saving the same on the local device. The user should be able to install the app as a [Progressive Web App](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) (for bonus feature only).
+
+Follow the steps below to complete this challenge:
+
+1. Build a simple board, with 64 alternating black and white squares. Try to insert pieces into these squares.
+2. Use any of your favourite frontend framework to manage states and make a working board.
+3. Add the [chess.js](https://github.com/jhlywa/chess.js/) engine to manage board state, find valid moves, detect checks and checkmates, piece positions, etc.
+4. Add a column for users to see the moves they have made, and undo/takeback the last move.
+5. Satisfy the necessary conditions to make the app a PWA, so that the user can add it as an app on their phone or computer.
+
+Bonus Feature ( Optional ):
+
+_Implementing both the bonus features will make the task count as `Hard`, otherwise it will be `Medium`_
+
+1. Animate the pieces when they move from one square to another.
+2. Store the board state to [local storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) so that the user can continue the game later on.
+
+### Note:
+- No chess libraries other than **chess.js** should be used to create this platform. 
+- You are free to use any generic frontend framework and libraries to achieve state management and animations.
+- There is no need to add online multiplayer capability to the platform. Both players will play from the same device turn-wise.
+
+
+### Useful resources:
+
+- [Progressive Web Apps](https://youtu.be/sFsRylCQblw?si=MEm9xAFhiy1jMWen)
+- [chess.js](https://github.com/jhlywa/chess.js/)
+- [Add Animations](https://www.framer.com/motion/)
 
 ---
 
@@ -429,6 +645,8 @@ In other cases, Club Conveners can create a SIG preference form.
    Ensure that the platform remains secure by implementing proper role-based access. Define roles like NITK Admin, Club Convenor, and Student, ensuring that each role has the necessary permissions to perform actions on the platform.
 
 ---
+
+# InterSIG Tasks
 
 ## Task ID: AgriVerify
 
@@ -551,194 +769,5 @@ Bonus Feature ( Optional ):
 
 ---
 
-## Task ID: Landing Page
 
-#### `UI/UX Design`, `Frontend Development`, `Web Development`
-
-Mentor: [Mardav Gandhi](https://github.com/marcdhi) ([+91 9033398366](https://wa.me/9033398366)), [Apoorva Agrawal](https://github.com/imApoorva36) ([+91 8197404580](https://wa.me/8197404580))
-
-Difficulty: `Easy`
-
-### Description
-
-In this task, you will create a pixel-perfect clone of the landing page of a well-designed website. The goal is to replicate the visual design and basic interactions of the chosen website, focusing on attention to detail and responsive design.
-
-Follow the steps below to complete this challenge:
-
-1. Choose one of the following websites to clone (only the landing page):
-   - [Dropbox](https://www.dropbox.com/)
-   - [Slack](https://slack.com/)
-   - [Asana](https://asana.com/)
-   - [Mailchimp](https://mailchimp.com/)
-2. Create a responsive clone of the chosen website's landing page, ensuring it looks good on both desktop and mobile devices.
-3. Implement basic interactions and animations present on the original site (e.g., hover effects, simple transitions).
-4. Pay close attention to typography, spacing, and color schemes to match the original design as closely as possible.
-5. Use modern CSS techniques like Flexbox and Grid for layout.
-6. Ensure the clone is accessible, following basic web accessibility guidelines.
-7. Feel free to use all the assets (images, icons, etc.) from the respective landing page you're cloning. If for any reason you can't access certain assets, you can use placeholder assets as a last resort.
-
-
-### Useful resources:
-
-- [Responsive Web Design Basics](https://web.dev/responsive-web-design-basics/)
-- [CSS Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- [CSS Grid Guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-
-### Tips
-
-1. Start by analyzing the structure of the chosen website's landing page and breaking it down into components.
-2. Use browser developer tools to inspect the original site for exact colors, fonts, and spacing.
-3. Focus on making the design responsive from the beginning, rather than as an afterthought.
-4. Use CSS custom properties (variables) to manage colors and repeated values efficiently.
-5. Don't worry about implementing complex backend functionality; focus on the frontend appearance and basic interactions of the landing page.
-6. Test your clone on different devices and browsers to ensure consistency.
-
----
-
-## Task ID: Student Profile Portal
-
-#### `UI/UX`, `No Code`, `Prototyping`
-
-Mentor: [Fahim Ahmed](https://github.com/ahmedfahim21) ([+91 8861054452](https://wa.me/8861054452)), [Sanjeev Holla S](https://github.com/sanjeevholla26) ([+91 7676977619](https://wa.me/7676977619))
-
-Difficulty: `Easy`
-
-### Description
-
-Design a Student Profile Portal to manage and showcase student information at NITK. The platform will serve as a centralized hub for students to manage details about their academics, clubs, achievements, research work, internships, skills, projects, etc. Students can selectively choose which details to make public for others to view on their profiles. The platform will also be useful for institution to maintain a comprehensive student database.
-
-Your task is to create a **high-fidelity user interface (UI) and user flow using Figma with prototyping** to demonstrate how the portal will function.
-
-Follow the steps below to complete this challenge:
-
-- Ideate Features: Brainstorm and design features that would benefit both students and the institution for managing and displaying their profiles.
-- High-Fidelity UI in Figma: Create a high-fidelity user interface in Figma with user flow prototyping. Design clean and intuitive screens.
-
-
-### Useful resources:
-
-- [Figma](https://www.figma.com/)
-- [Figma Guide](https://creativemarket.com/blog/figma-guide)
-- [Figma Prototyping](https://help.figma.com/hc/en-us/articles/360040314193-Guide-to-prototyping-in-Figma)
-
-### Tips
-
-1. Think of creative ideas and present them properly in your designs.
-
----
-
-## Task ID: News Feed Generation
-
-#### `Full Stack`, `API`,`Cache`
-
-Mentors: [G Vishwas](https://github.com/Vishwas1687) ([+91 9606278892](https://wa.me/9606278892)), [Anshuman Upadhyay](https://github.com/anshumanNitk) ([+91 9175954118](https://wa.me/9175954118))
-
-Difficulty: `Medium`
-
-### Description
-
-Your task is to build a news feed application that focuses on understanding users' reading preferences without relying on pre-built filters. The website should allow users to search for news using simple keywords and track which full articles they choose to read.
-
-You will use the [NewsAPI](https://newsapi.org/docs/get-started) to fetch and display articles on your website. It’s recommended to design a single-page layout, showing news articles in a card format (with the title, description, image, author/source, etc.). When a user clicks on a card, it should take them to the full article via the URL provided by the API.
-
-The NewsAPI includes an advanced search endpoint, allowing you to search for articles (in the title, content, or description fields) based on a keyword.
-
-Task Requirements:
-
-1. Implement login and signup functionality.
-2. Maintain personalization details, such as a list of keywords associated with each user.
-3. Provide a search feature for articles. (Phrase search is not required; simple keyword search is sufficient, e.g., "science," "Elon Musk," "crypto," "technology," "business," etc.)
-4. Track when a user clicks to view the full news article, marking it as an indication of their interest.
-5. Use a python library [keyBERT](https://github.com/MaartenGr/KeyBERT#keybert), to extract keywords from articles.
-6. Store the extracted keywords in a database or cache (e.g., Redis) and associate them with the user's profile.
-7. Continuously update the user's interest profile based on their article click history.
-8. Use the stored keywords to filter or rank future news articles based on the user's interests.
-
-### Useful resources:
-
-- [API (Mandatory Use) ](https://newsapi.org/docs/get-started)
-- [keyBERT(Recommended)](https://github.com/MaartenGr/KeyBERT#keybert)
-- [Postman for API testing](https://www.youtube.com/watch?v=VywxIQ2ZXw4)
-- [Redis Cache](https://redis.io/)
-
-### Tips
-
-1. Set up login/signup and implement simple article search using the NewsAPI first.
-2. Use Postman to test API responses before coding to understand how data is returned.
-3. Start off with a minimum viable solution. install keyBert library and create a Backend Service, ensuring it runs alongside the frontend. Think of how to utilize the keyBERT library to extract the most relevant words of the articles the user reads.
-4. Start off with using a database to store user interests ( use FIFO with max size of list of keywords) in the form of keywords and then navigate towards using a cache with the most suitable eviction policy for the keywords.
-
---- 
-
-## Task ID: Shrinker
-
-#### `Full-Stack Web Development`, `Databases`
-
-Mentors: [J Hariharan](https://github.com/j-hariharan/) ([+91 8050030224](https://wa.me/8050030224)), [Harshit Gupta](https://github.com/hgupta12/) ([+91 8583905686](https://wa.me/8583905686))
-
-Difficulty: `Easy`
-
-### Description
-
-Create a URL shortner web application which allows people to login, create and manage short URLs, and track statistics on their links. The app also allows users to choose custom short URLs if they are available.
-
-The following features should be included in the web app:
-
-1. User login through email-password or Google Authentication.
-2. User can paste the URL to shorten, and are given a randomly generated short URL.
-3. The user is given the option to enter a custom short URL, which is accepted if it is available (not used previously).
-4. The user can view their previously created short URLs, along with statistics on the number of people who have visited each of them.
-
-
-### Useful resources:
-
-- Full Stack Web Application Framework: [NextJS](https://nextjs.org/)
-- MVC/MVT frameworks: [ExpressJS](http://expressjs.com/) &nbsp; [Django](https://www.djangoproject.com/)
-- Databases: [MongoDB](https://www.mongodb.com/) &nbsp; [Firestore](https://firebase.google.com/docs/firestore/)
-
-### Tips
-1. You can use any technologies to build the application. The ones mentioned above are just for reference.
-
----
-
-## Task ID: Chessly
-
-#### `Web Application`, `PWA`
-
-Mentors: [J Hariharan](https://github.com/j-hariharan/) ([+91 8050030224](https://wa.me/8050030224)), [Harshit Gupta](https://github.com/hgupta12/) ([+91 8583905686](https://wa.me/8583905686))
-
-Difficulty: `Medium/Hard`
-
-### Description
-
-Develop a Chess PWA from scratch - allow two players to play on a single, offline, fully-featured chessboard! The game can be played on the same device, and should provide valid move indicators, winner detection, takebacks (undos), reset board, and saving the same on the local device. The user should be able to install the app as a [Progressive Web App](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) (for bonus feature only).
-
-Follow the steps below to complete this challenge:
-
-1. Build a simple board, with 64 alternating black and white squares. Try to insert pieces into these squares.
-2. Use any of your favourite frontend framework to manage states and make a working board.
-3. Add the [chess.js](https://github.com/jhlywa/chess.js/) engine to manage board state, find valid moves, detect checks and checkmates, piece positions, etc.
-4. Add a column for users to see the moves they have made, and undo/takeback the last move.
-5. Satisfy the necessary conditions to make the app a PWA, so that the user can add it as an app on their phone or computer.
-
-Bonus Feature ( Optional ):
-
-_Implementing both the bonus features will make the task count as `Hard`, otherwise it will be `Medium`_
-
-1. Animate the pieces when they move from one square to another.
-2. Store the board state to [local storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) so that the user can continue the game later on.
-
-### Note:
-- No chess libraries other than **chess.js** should be used to create this platform. 
-- You are free to use any generic frontend framework and libraries to achieve state management and animations.
-- There is no need to add online multiplayer capability to the platform. Both players will play from the same device turn-wise.
-
-
-### Useful resources:
-
-- [Progressive Web Apps](https://youtu.be/sFsRylCQblw?si=MEm9xAFhiy1jMWen)
-- [chess.js](https://github.com/jhlywa/chess.js/)
-- [Add Animations](https://www.framer.com/motion/)
-
----
+Good Luck!
