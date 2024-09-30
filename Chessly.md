@@ -12,8 +12,8 @@ Develop a Chess PWA from scratch - allow two players to play on a single, offlin
 
 Follow the steps below to complete this challenge:
 
-1. Build a simple board using HTML and CSS, with 64 alternating black and white squares. Try to insert pieces into these squares.
-2. Use ReactJS, Svelte, or any of your favourite frontend framework to manage states and make a working board.
+1. Build a simple board, with 64 alternating black and white squares. Try to insert pieces into these squares.
+2. Use any of your favourite frontend framework to manage states and make a working board.
 3. Add the [chess.js](https://github.com/jhlywa/chess.js/) engine to manage board state, find valid moves, detect checks and checkmates, piece positions, etc.
 4. Add a column for users to see the moves they have made, and undo/takeback the last move.
 5. Satisfy the necessary conditions to make the app a PWA, so that the user can add it as an app on their phone or computer.
