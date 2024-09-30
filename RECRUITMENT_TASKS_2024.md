@@ -7,7 +7,7 @@
 - Mention the Task ID attempted in the README of your private GitHub repository.
 - Read the instructions, evaluation criteria and submission details [here](./README.md)
 
-### Table of contents
+### Table of Tasks
 
 
 | Tasks                                                               | Difficulty  |
@@ -21,9 +21,9 @@
 | [Discord QuizBot](#task-id-discord-quizbot)            | Medium     |
 | [Club Recruitment Portal](#task-id-club-recruitment-portal)            | Hard     |
 | [Landing Page](#task-id-landing-page)            | Easy     |
+| [Student Profile Portal](#task-id-student-profile-portal)            | Easy     |
 | [News Feed Generation](#task-id-news-feed-generation)                                     | Medium      |
 | [Shrinker](#task-id-shrinker)                                     | Easy      |
-
 
 
 | InterSIG Tasks                                                      | Difficulty  |
@@ -595,6 +595,38 @@ Follow the steps below to complete this challenge:
 
 ---
 
+## Task ID: Student Profile Portal
+
+#### `UI/UX`, `No Code`, `Prototyping`
+
+Mentor: [Fahim Ahmed](https://github.com/ahmedfahim21) ([+91 8861054452](https://wa.me/8861054452)), [Sanjeev Holla S](https://github.com/sanjeevholla26) ([+91 7676977619](https://wa.me/7676977619))
+
+Difficulty: `Easy`
+
+### Description
+
+Design a Student Profile Portal to manage and showcase student information at NITK. The platform will serve as a centralized hub for students to manage details about their academics, clubs, achievements, research work, internships, skills, projects, etc. Students can selectively choose which details to make public for others to view on their profiles. The platform will also be useful for institution to maintain a comprehensive student database.
+
+Your task is to create a **high-fidelity user interface (UI) and user flow using Figma with prototyping** to demonstrate how the portal will function.
+
+Follow the steps below to complete this challenge:
+
+- Ideate Features: Brainstorm and design features that would benefit both students and the institution for managing and displaying their profiles.
+- High-Fidelity UI in Figma: Create a high-fidelity user interface in Figma with user flow prototyping. Design clean and intuitive screens.
+
+
+### Useful resources:
+
+- [Figma](https://www.figma.com/)
+- [Figma Guide](https://creativemarket.com/blog/figma-guide)
+- [Figma Prototyping](https://help.figma.com/hc/en-us/articles/360040314193-Guide-to-prototyping-in-Figma)
+
+### Tips
+
+1. Think of creative ideas and present them properly in your designs.
+
+---
+
 ## Task ID: News Feed Generation
 
 #### `Full Stack`, `NLP`,`API`,`Cache`
@@ -665,5 +697,4 @@ The following features should be included in the web app:
 - Databases: [MongoDB](https://www.mongodb.com/) &nbsp; [Firestore](https://firebase.google.com/docs/firestore/)
 
 **Note:** You can use any technologies to build the application. The ones mentioned above are just for reference.
-
 ---
