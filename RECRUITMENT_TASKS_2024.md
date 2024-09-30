@@ -604,34 +604,33 @@ Difficulty: `Medium`
 
 ### Description
 
-Task is to build a news feed application whose core focus is to better able to understand what the user likes to read without the help of pre built filters. The Website should let people search for news using simple keywords and keeps track of which full articles they choose to read.
+Your task is to build a news feed application that focuses on understanding users' reading preferences without relying on pre-built filters. The website should allow users to search for news using simple keywords and track which full articles they choose to read.
 
-You have to use this API https://newsapi.org/docs/get-started ( NewsAPI) to extract articles and display them on your website. It is recommended to be a one page website showing only news articles in a card ( title, description, image, author/ source etc) on clicking the card should take you to the actual article page. The API provides each article with a URL in the response.
+You will use the [NewsAPI](https://newsapi.org/docs/get-started) to fetch and display articles on your website. It’s recommended to design a single-page layout, showing news articles in a card format (with the title, description, image, author/source, etc.). When a user clicks on a card, it should take them to the full article via the URL provided by the API.
 
-The NewsAPI provides an endpoint for advanced search to search articles (title, content, description fields) based on a keyword.
+The NewsAPI includes an advanced search endpoint, allowing you to search for articles (in the title, content, or description fields) based on a keyword.
 
+Task Requirements:
 
-Task requirements:
-
-1. Login and Signup 
-2. Maintain personalization details like list of keywords.
-3. Provide a search functionality for the articles. ( Not required to provide support for phrase search. Key word search is sufficient). (Eg: science, Elon musk, crypto, technology, business etc) 
-4. Track when a user clicks to view the full news article, indicating interest in that article. 
-5. Apply NLP techniques such as [keyBERT](https://github.com/MaartenGr/KeyBERT#keybert) for text Extraction.
-6. Store the extracted keywords in a datastore or cache (e.g., Redis), associated with the user's profile.
-7. Continuously update the user's interest profile based on their click history.
-8. Use the stored keywords to filter or rank future news articles that align with the user's interests.
-
+1. Implement login and signup functionality.
+2. Maintain personalization details, such as a list of keywords associated with each user.
+3. Provide a search feature for articles. (Phrase search is not required; simple keyword search is sufficient, e.g., "science," "Elon Musk," "crypto," "technology," "business," etc.)
+4. Track when a user clicks to view the full news article, marking it as an indication of their interest.
+5. Use NLP techniques, such as [keyBERT](https://github.com/MaartenGr/KeyBERT#keybert), to extract keywords from articles.
+6. Store the extracted keywords in a datastore or cache (e.g., Redis) and associate them with the user's profile.
+7. Continuously update the user's interest profile based on their article click history.
+8. Use the stored keywords to filter or rank future news articles based on the user's interests.
 
 ### Useful resources:
 
 - [API (Mandatory Use) ](https://newsapi.org/docs/get-started)
 - [keyBERT(Recommended)](https://github.com/MaartenGr/KeyBERT#keybert)
-- [React ](https://react.dev/learn)
 - [Postman for API testing](https://www.youtube.com/watch?v=VywxIQ2ZXw4)
--[Redis Cache](https://redis.io/)
+- [Redis Cache](https://redis.io/)
 
 ### Tips
 
-1. Start off with a minimum viable solution. install keybert library and create a Backend Service,ensuring it runs alongside the frontend.Think about how the backend can trigger the API to process articles when needed.
-2. Start of with using a database to store user interests ( use FIFO with max size of list of keywords) to store keywords in a cache with the most suitable eviction policy for the keywords.
+1. Set up login/signup and implement simple article search using the NewsAPI first.
+2. Use Postman to test API responses before coding to understand how data is returned.
+3. Start off with a minimum viable solution. install keyBert library and create a Backend Service, ensuring it runs alongside the frontend.Think about how the backend can trigger the API to process articles when needed.
+4. Start off with using a database to store user interests ( use FIFO with max size of list of keywords) to store keywords in a cache with the most suitable eviction policy for the keywords.
