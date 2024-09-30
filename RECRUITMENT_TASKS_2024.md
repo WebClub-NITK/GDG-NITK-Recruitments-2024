@@ -25,12 +25,10 @@
 
 
 
-
 | InterSIG Tasks                                                      | Difficulty  |
 | ------------------------------------------------------------------- | ----------- |
 | [AgriVerify (GDGxSystems)](#task-id-agriverify)                                   | Medium/Hard |
 | [Hogwarts Q&A (GDGxIntel)](#task-id-hogwarts-qa)                  | Hard     | 
-
 
 
 
@@ -570,17 +568,11 @@ Follow the steps below to complete this challenge:
    - [Slack](https://slack.com/)
    - [Asana](https://asana.com/)
    - [Mailchimp](https://mailchimp.com/)
-
 2. Create a responsive clone of the chosen website's landing page, ensuring it looks good on both desktop and mobile devices.
-
 3. Implement basic interactions and animations present on the original site (e.g., hover effects, simple transitions).
-
 4. Pay close attention to typography, spacing, and color schemes to match the original design as closely as possible.
-
 5. Use modern CSS techniques like Flexbox and Grid for layout.
-
 6. Ensure the clone is accessible, following basic web accessibility guidelines.
-
 7. Feel free to use all the assets (images, icons, etc.) from the respective landing page you're cloning. If for any reason you can't access certain assets, you can use placeholder assets as a last resort.
 
 
@@ -600,6 +592,7 @@ Follow the steps below to complete this challenge:
 5. Don't worry about implementing complex backend functionality; focus on the frontend appearance and basic interactions of the landing page.
 6. Test your clone on different devices and browsers to ensure consistency.
 
+---
 
 ## Task ID: News Feed Generation
 
