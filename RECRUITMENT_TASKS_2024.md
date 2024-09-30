@@ -554,7 +554,7 @@ Bonus Feature ( Optional ):
 
 #### `UI/UX Design`, `Frontend Development`, `Web Development`
 
-Mentor: [Mardav Gandhi](https://github.com/marcdhi) ([+91 9033398366](https://wa.me/9033398366))
+Mentor: [Mardav Gandhi](https://github.com/marcdhi) ([+91 9033398366](https://wa.me/9033398366)), [Apoorva Agrawal](https://github.com/imApoorva36) ([+91 8197404580](https://wa.me/8197404580))
 
 Difficulty: `Easy`
 
