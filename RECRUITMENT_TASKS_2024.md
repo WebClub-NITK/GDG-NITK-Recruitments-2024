@@ -696,5 +696,7 @@ The following features should be included in the web app:
 - MVC/MVT frameworks: [ExpressJS](http://expressjs.com/) &nbsp; [Django](https://www.djangoproject.com/)
 - Databases: [MongoDB](https://www.mongodb.com/) &nbsp; [Firestore](https://firebase.google.com/docs/firestore/)
 
-**Note:** You can use any technologies to build the application. The ones mentioned above are just for reference.
+### Tips
+1. You can use any technologies to build the application. The ones mentioned above are just for reference.
+
 ---
