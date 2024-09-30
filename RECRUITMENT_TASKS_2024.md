@@ -89,7 +89,7 @@ Follow the steps below to complete this challenge:
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 - [Framer Animations](https://www.framer.com/motion/)
 
-### Tips
+### Tips:
 
 1. Start by analyzing the structure of the chosen website's landing page and breaking it down into components.
 2. Use browser developer tools to inspect the original site for exact colors, fonts, and spacing.
@@ -126,7 +126,7 @@ Follow the steps below to complete this challenge:
 - [Figma Guide](https://creativemarket.com/blog/figma-guide)
 - [Figma Prototyping](https://help.figma.com/hc/en-us/articles/360040314193-Guide-to-prototyping-in-Figma)
 
-### Tips
+### Tips:
 
 1. Think of creative ideas and present them properly in your designs.
 
@@ -158,7 +158,7 @@ The following features should be included in the web app:
 - MVC/MVT frameworks: [ExpressJS](http://expressjs.com/) &nbsp; [Django](https://www.djangoproject.com/)
 - Databases: [MongoDB](https://www.mongodb.com/) &nbsp; [Firestore](https://firebase.google.com/docs/firestore/)
 
-### Tips
+### Tips:
 1. You can use any technologies to build the application. The ones mentioned above are just for reference.
 
 ---
@@ -178,7 +178,7 @@ Develop a fun and interactive app where users input text, and it automatically t
 
 _Because sometimes, the right emoji speaks louder than words!_
 
-Follow the steps below to complete this challenge:
+### Follow the steps below to complete this challenge:
 
 1. Develop a simple user interface (UI) that allows users to input text (e.g., a sentence or phrase)
 2. Create a predefined dictionary that maps common words or phrases to emojis
@@ -212,7 +212,7 @@ Output: "🐶 😃"
 - [ReactJS](https://react.dev/)
 - [NodeJS](https://nodejs.org/en)
 
-### Tips
+### Tips:
 
 1. Start by focusing on a basic set of words for translation and expand the emoji dictionary over time.
 2. Make the UI fun and interactive with features like live emoji preview as the user types.
@@ -233,7 +233,7 @@ Difficulty: `Easy/Medium`
 
 Develop a web application called `LinkHub` that helps NITK students create personalized landing pages to organize and share important academic, club, and social links. This tool can be used for various purposes like sharing links for group projects, showcasing club activities, organizing research work, or preparing for placements. Each student will have their own _customizable_ landing page where they can organize their links efficiently.
 
-Follow the steps below to complete this challenge:
+### Follow the steps below to complete this challenge:
 
 1. Build a clean, minimal user interface where users can add, edit, and delete links.
 3. Allow students to customize the appearance of their landing page, including themes and NITK-branded backgrounds (e.g., college colors, logos)
@@ -262,7 +262,7 @@ Output: "A personalized landing page with clickable links that can be shared wit
 - [Vercel documentation](https://vercel.com/docs)
 - [Netlify documentation](https://docs.netlify.com/)
 
-### Tips
+### Tips:
 
 1. Focus on Usability: Since the app is for students, prioritize a simple and intuitive UI where adding and managing links is effortless.
 2. Responsive Design: Ensure that the page looks good on mobile, as many users will view it on their smartphones.
@@ -281,7 +281,7 @@ Discord is a popular communication platform used for communities, and Discord bo
 
 The task also includes building a CRUD (Create, Read, Update, Delete) application for managing quiz sets and individual questions.
 
-**Key Features to Implement**:
+### Key Features to Implement:
   1) **Discord Quiz Bot** :
         - The bot should display 10-20 available quizzes for users to choose from, with each quiz consisting of multiple-choice questions.
         - Once a quiz is selected, the bot presents each question one by one, with a set timer (e.g., 30 seconds per question). The bot will track the time users take 
@@ -309,7 +309,7 @@ The task also includes building a CRUD (Create, Read, Update, Delete) applicatio
 - [Building a CRUD App with Supabase and Express](https://medium.com/@heshramsis/building-a-crud-app-with-supabase-and-express-a-step-by-step-guide-for-junior-developers-81456b850910)
 - [MongoDB](https://www.mongodb.com/) or [PostgreSQL](https://www.postgresql.org/)
   
-### Tips
+### Tips:
 1. Use any language, technology, or framework of your choice to build the bot and backend.
 2. Start with quiz selection, timing, and leaderboard display before adding extra features.
 3. Use Gemini API for integrating LLMs for making questions ,as its API is free to use.
@@ -339,7 +339,7 @@ Some Popular Diagram Types your application _may_ support:
 
 **Note :** The type and number of diagram(s) your application support is not fixed. You are free to implement support for any type and number of diagram(s). The diagrams given above are just some examples.
 
-#### Steps:
+### Steps:
 
 1. **Input Mechanism**: Design a simple input system that is intuitive and allows for diagram creation, whether through form-based inputs or file uploads.
 2. **Diagram Generation**:
@@ -354,7 +354,7 @@ Some Popular Diagram Types your application _may_ support:
 - [Mermaid.js Documentation](https://mermaid.js.org/)
 - [Dependency Graphs in Software Projects](https://docs.npmjs.com/cli/v6/commands/npm-ls)
 
-### Tips
+### Tips:
 
 1. Build support for different types of diagrams one by one.
 2. Use project analysis tools like npm, yarn, or Webpack to generate dependency graphs for Node.js and React projects. These tools can help map out the project structure automatically.
@@ -375,7 +375,7 @@ Difficulty: `Medium`
 
 Build a typing speed test app like [Monkeytype](https://monkeytype.com/). The app should let users take a typing test based on either time (e.g., 60 seconds) or a fixed number of words (e.g., 50 words).
 
-Include the following features:
+### Include the following features:
 
 1. Show the typing speed (words per minute) and accuracy after the test.
 2. Provide analytics on the user's typing:
@@ -392,7 +392,7 @@ Include the following features:
 - [SpeedTypingOnline (How to calculate WPM and accuracy)](https://www.speedtypingonline.com/typing-equations)
 - [Socket.io](https://socket.io/)
 
-### Tips
+### Tips:
 
 1. Start with a basic typing test that records speed and accuracy.
 2. For leaderboards, use a simple database to store results and calculate rankings.
@@ -414,7 +414,7 @@ Difficulty: `Medium`
 Develop a mobile application that displays a unified dashboard for Competitive Programming Platforms, aggregating user information, ratings, questions solved, contest data etc from at least three platforms (e.g., Codeforces, LeetCode, AtCoder). The app should offer users a comprehensive overview of their competitive programming profile across these platforms.
 
 
-Follow the steps below to complete this challenge:
+### Follow the steps below to complete this challenge:
 
 1. Integrate user information like username, rating and other relevant information from at least three platforms of your choice.
 2. If contests are available, show contest information for:
@@ -440,7 +440,7 @@ Follow the steps below to complete this challenge:
 - [Flutter](https://flutter.dev/)
 - [React Native](https://reactnative.dev/)
 
-### Tips
+### Tips:
 
 1. Any Mobile App Developement Technology can be used, either Native or Cross-Platform.
 2. Start by exploring the different platform APIs and the information they deliver.
@@ -466,7 +466,7 @@ You will use the [NewsAPI](https://newsapi.org/docs/get-started) to fetch and di
 
 The NewsAPI includes an advanced search endpoint, allowing you to search for articles (in the title, content, or description fields) based on a keyword.
 
-Task Requirements:
+### Task Requirements:
 
 1. Implement login and signup functionality.
 2. Maintain personalization details, such as a list of keywords associated with each user.
@@ -484,7 +484,7 @@ Task Requirements:
 - [Postman for API testing](https://www.youtube.com/watch?v=VywxIQ2ZXw4)
 - [Redis Cache](https://redis.io/)
 
-### Tips
+### Tips:
 
 1. Set up login/signup and implement simple article search using the NewsAPI first.
 2. Use Postman to test API responses before coding to understand how data is returned.
@@ -505,7 +505,7 @@ Difficulty: `Medium/Hard`
 
 Develop a Chess PWA from scratch - allow two players to play on a single, offline, fully-featured chessboard! The game can be played on the same device, and should provide valid move indicators, winner detection, takebacks (undos), reset board, and saving the same on the local device. The user should be able to install the app as a [Progressive Web App](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) (for bonus feature only).
 
-Follow the steps below to complete this challenge:
+### Follow the steps below to complete this challenge:
 
 1. Build a simple board, with 64 alternating black and white squares. Try to insert pieces into these squares.
 2. Use any of your favourite frontend framework to manage states and make a working board.
@@ -548,7 +548,7 @@ Develop a comprehensive mobile application that enables users to create travel g
 
 _Connect, Plan, and Go!_
 
-Follow the steps below to complete this challenge:
+### Follow the steps below to complete this challenge:
 
 1. Creation of an app with Authentication and Login of users.
 2. Allow users to form groups.
@@ -575,7 +575,7 @@ _Implementing the bonus features will make the task count as `Hard`, otherwise i
 - [Groups on Flutter](https://www.cometchat.com/docs/ui-kit/flutter/groups)
 - [Google AI Studio](https://ai.google.dev/aistudio)
 
-### Tips
+### Tips:
 
 1. Feel free to use any mobile app development technology, either Native or Cross-Platform.
 2. You can implement a backend service using Flask or Node.js or use backend-as-a-service platforms like Firebase or Supabase.
@@ -601,7 +601,7 @@ Difficulty: `Hard`
 
 Develop a web application that streamlines the entire NITK clubs recruitment process, from announcing recruitment schedules to revealing the final selected candidates, ensuring a hassle-free experience for both clubs and participating students.
 
-## Features to Implement:
+### Features to Implement:
 
 1. **Club Registration**: Club convenors should be able to register their clubs on the platform and add necessary details.
 
@@ -630,7 +630,7 @@ In other cases, Club Conveners can create a SIG preference form.
 - [NodeJS](https://nodejs.org/en)
 - [Intro to RBAC](https://medium.com/@atarax/a-comprehensive-guide-on-role-based-access-control-rbac-introduction-part-1-a3a654b0e1c8)
 
-### Tips
+### Tips:
 
 1. Start by deciding a subset of features:
    Begin by selecting a subset of the features mentioned above that you want to implement first. This will help you build an MVP (Minimum Viable Product) and then gradually add more features.
@@ -715,7 +715,7 @@ Participants will leverage this text to build a structured index for retrieval, 
 You can access the full text of the book from the following link:  
 **[Harry Potter and the Prisoner of Azkaban PDF](https://ia902903.us.archive.org/12/items/FantasyFictionebookcollection/Harry%20Potter/3%20-%20Harry%20Potter%20and%20the%20Prisoner%20of%20Azkaban.pdf)**.
 
-### **Steps to Complete the Challenge**:
+### Steps to Complete the Challenge:
 
 1. **Data Collection & Ingestion**:  
    Download the book from the provided link and parse it into a machine-readable format. Make sure to structure the data, preserving the chapters and significant sections. You may want to split the text based on chapters, events, or specific scenes.
@@ -755,7 +755,7 @@ Bonus Feature ( Optional ):
    - Create a "Time-Turner" feature that allows users to view the conversation history and jump back to previous points in the chat.
    - You can store the previous conversations in the local storage itself instead of a database.
 
-### **Useful Resources**:
+### Useful Resources:
 - [Harry Potter and the Prisoner of Azkaban PDF](https://ia902903.us.archive.org/12/items/FantasyFictionebookcollection/Harry%20Potter/3%20-%20Harry%20Potter%20and%20the%20Prisoner%20of%20Azkaban.pdf)
 - [LangChain Documentation](https://python.langchain.com/docs/introduction/)
 - [LlamaIndex Documentation](https://docs.llamaindex.ai/en/stable/)
@@ -770,4 +770,4 @@ Bonus Feature ( Optional ):
 ---
 
 
-Good Luck!
+All the Best!
