@@ -7,7 +7,7 @@
 - Mention the Task ID attempted in the README of your private GitHub repository.
 - Read the instructions, evaluation criteria and submission details [here](./README.md)
 
-### Table of contents
+### Table of Tasks
 
 
 | Tasks                                                               | Difficulty  |
@@ -22,13 +22,14 @@
 | [Club Recruitment Portal](#task-id-club-recruitment-portal)            | Hard     |
 | [Landing Page](#task-id-landing-page)            | Easy     |
 | [Student Profile Portal](#task-id-student-profile-portal)            | Easy     |
+| [News Feed Generation](#task-id-news-feed-generation)                                     | Medium      |
+| [Shrinker](#task-id-shrinker)                                     | Easy      |
 
 
 | InterSIG Tasks                                                      | Difficulty  |
 | ------------------------------------------------------------------- | ----------- |
 | [AgriVerify (GDGxSystems)](#task-id-agriverify)                                   | Medium/Hard |
 | [Hogwarts Q&A (GDGxIntel)](#task-id-hogwarts-qa)                  | Hard     | 
-
 
 
 
@@ -568,17 +569,11 @@ Follow the steps below to complete this challenge:
    - [Slack](https://slack.com/)
    - [Asana](https://asana.com/)
    - [Mailchimp](https://mailchimp.com/)
-
 2. Create a responsive clone of the chosen website's landing page, ensuring it looks good on both desktop and mobile devices.
-
 3. Implement basic interactions and animations present on the original site (e.g., hover effects, simple transitions).
-
 4. Pay close attention to typography, spacing, and color schemes to match the original design as closely as possible.
-
 5. Use modern CSS techniques like Flexbox and Grid for layout.
-
 6. Ensure the clone is accessible, following basic web accessibility guidelines.
-
 7. Feel free to use all the assets (images, icons, etc.) from the respective landing page you're cloning. If for any reason you can't access certain assets, you can use placeholder assets as a last resort.
 
 
@@ -630,4 +625,76 @@ Follow the steps below to complete this challenge:
 
 1. Think of creative ideas and present them properly in your designs.
 
+---
+
+## Task ID: News Feed Generation
+
+#### `Full Stack`, `NLP`,`API`,`Cache`
+
+Mentors: [G Vishwas](https://github.com/Vishwas1687) ([+91 9606278892](https://wa.me/9606278892)), [Anshuman Upadhyay](https://github.com/anshumanNitk) ([+91 9175954118](https://wa.me/9175954118))
+
+Difficulty: `Medium`
+
+### Description
+
+Your task is to build a news feed application that focuses on understanding users' reading preferences without relying on pre-built filters. The website should allow users to search for news using simple keywords and track which full articles they choose to read.
+
+You will use the [NewsAPI](https://newsapi.org/docs/get-started) to fetch and display articles on your website. It’s recommended to design a single-page layout, showing news articles in a card format (with the title, description, image, author/source, etc.). When a user clicks on a card, it should take them to the full article via the URL provided by the API.
+
+The NewsAPI includes an advanced search endpoint, allowing you to search for articles (in the title, content, or description fields) based on a keyword.
+
+Task Requirements:
+
+1. Implement login and signup functionality.
+2. Maintain personalization details, such as a list of keywords associated with each user.
+3. Provide a search feature for articles. (Phrase search is not required; simple keyword search is sufficient, e.g., "science," "Elon Musk," "crypto," "technology," "business," etc.)
+4. Track when a user clicks to view the full news article, marking it as an indication of their interest.
+5. Use NLP techniques, such as [keyBERT](https://github.com/MaartenGr/KeyBERT#keybert), to extract keywords from articles.
+6. Store the extracted keywords in a datastore or cache (e.g., Redis) and associate them with the user's profile.
+7. Continuously update the user's interest profile based on their article click history.
+8. Use the stored keywords to filter or rank future news articles based on the user's interests.
+
+### Useful resources:
+
+- [API (Mandatory Use) ](https://newsapi.org/docs/get-started)
+- [keyBERT(Recommended)](https://github.com/MaartenGr/KeyBERT#keybert)
+- [Postman for API testing](https://www.youtube.com/watch?v=VywxIQ2ZXw4)
+- [Redis Cache](https://redis.io/)
+
+### Tips
+
+1. Set up login/signup and implement simple article search using the NewsAPI first.
+2. Use Postman to test API responses before coding to understand how data is returned.
+3. Start off with a minimum viable solution. install keyBert library and create a Backend Service, ensuring it runs alongside the frontend.Think about how the backend can trigger the API to process articles when needed.
+4. Start off with using a database to store user interests ( use FIFO with max size of list of keywords) to store keywords in a cache with the most suitable eviction policy for the keywords.
+
+--- 
+
+## Task ID: Shrinker
+
+#### `Full-Stack Web Development`, `Databases`
+
+Mentors: [J Hariharan](https://github.com/j-hariharan/) ([+91 8050030224](https://wa.me/8050030224)), [Harshit Gupta](https://github.com/hgupta12/) ([+91 8583905686](https://wa.me/8583905686))
+
+Difficulty: `Easy`
+
+### Description
+
+Create a URL shortner web application which allows people to login, create and manage short URLs, and track statistics on their links. The app also allows users to choose custom short URLs if they are available.
+
+The following features should be included in the web app:
+
+1. User login through email-password or Google Authentication.
+2. User can paste the URL to shorten, and are given a randomly generated short URL.
+3. The user is given the option to enter a custom short URL, which is accepted if it is available (not used previously).
+4. The user can view their previously created short URLs, along with statistics on the number of people who have visited each of them.
+
+
+### Useful resources:
+
+- Full Stack Web Application Framework: [NextJS](https://nextjs.org/)
+- MVC/MVT frameworks: [ExpressJS](http://expressjs.com/) &nbsp; [Django](https://www.djangoproject.com/)
+- Databases: [MongoDB](https://www.mongodb.com/) &nbsp; [Firestore](https://firebase.google.com/docs/firestore/)
+
+**Note:** You can use any technologies to build the application. The ones mentioned above are just for reference.
 ---
