@@ -652,7 +652,7 @@ In other cases, Club Conveners can create a SIG preference form.
 
 #### `Web Application`, `Blockchain`, `Smart Contracts`
 
-Mentors: [Krishna Tulsyan](https://github.com/krishna) ([+91 9506221135](https://wa.me/9506221135)), [Apoorva Agrawal](https://github.com/imApoorva36) ([+91 8197404580](https://wa.me/8197404580)), [Mardav Gandhi](https://github.com/marcdhi) ([+91 9033398366](https://wa.me/9033398366))
+Mentors: [Shubham Rasal](https://github.com/Shubham-Rasal) ([+91 7349784770](https://wa.me/7349784770)), [Ayush Kumar Singh](https://github.com/ayush4345) ([+91 9334352548](https://wa.me/9334352548)), [Krishna Tulsyan](https://github.com/krishna) ([+91 9506221135](https://wa.me/9506221135)), [Apoorva Agrawal](https://github.com/imApoorva36) ([+91 8197404580](https://wa.me/8197404580)), [Mardav Gandhi](https://github.com/marcdhi) ([+91 9033398366](https://wa.me/9033398366))
 
 Difficulty: `Medium/Hard`
 
